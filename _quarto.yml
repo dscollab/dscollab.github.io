@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "UCSB DSCOL"
+  navbar:
+    left:
+      - href: Pages/calendar.qmd
+        text: Calendar
+      - href: Pages/meetings.qmd
+        text: Past Meetings
+      - href: Pages/projects.qmd
+        text: Projects
+      - sidebar:about
+  sidebar:
+    - title: "Projects"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - Pages/projects.qmd
+        - Pages/projects2223.qmd
+    - id: about
+      title: "About"
+      contents:
+        - Pages/about.qmd
+        - Pages/officers.qmd
+
+  favicon: "Images/Logos_Icons/main_logo.png"
+  page-footer: "Site Originally Designed by Ethan Marzban using Quarto; ©2023"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

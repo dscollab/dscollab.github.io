@@ -1,0 +1,21 @@
+---
+title: "About"
+sidebar: false
+---
+
+<table>
+  <tr>
+    <td><img src = "../Images/Profiles/kris-photo.png"></td>
+    <td><img src = "../Images/Profiles/anya-photo.png"></td>
+  </tr>
+</table>
+
+Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:
+
+-   To make statistics **accessible** to all skill levels
+
+-   To build a **community** around data science at UCSB
+
+-   Ensure the success of our members by **guiding** them through their own **resume-building data science projects**
+
+
