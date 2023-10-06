@@ -8,12 +8,19 @@ website:
     left:
       - href: Pages/calendar.qmd
         text: Calendar
-      - href: Pages/meetings.qmd
-        text: Past Meetings
       - href: Pages/projects.qmd
         text: Projects
+      - href: Pages/meetings.qmd
+        text: Meetings
       - sidebar:about
   sidebar:
+    - title: "Meetings"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - Pages/meetings.qmd
+        - Pages/past.qmd
+        
     - title: "Projects"
       style: "docked"
       collapse-level: 2
