@@ -79,3 +79,9 @@ div.column {
   text-decoration: none;
   color: black;
 }
+
+.calendar{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
