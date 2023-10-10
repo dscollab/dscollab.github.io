@@ -25,6 +25,12 @@ css: "../styles.css"
 
 ## Website Committee 
 
+![](../Images/Profiles/Alaina.png){width=80%}
+
+![](../Images/Profiles/Sunny.png){width=80%}
+
+![](../Images/Profiles/Bowie.png){width=80%}
+
 - Alaina Liu (Chair)
 
 - Sunny Zhong
@@ -33,6 +39,18 @@ css: "../styles.css"
 
 
 ## Outreach Team 
+
+![](../Images/Profiles/Pramukh.png.png){width=80%}
+
+![](../Images/Profiles/Owen.png){width=80%}
+
+![](../Images/Profiles/Krystal.png){width=80%}
+
+![](../Images/Profiles/Cyrus.png){width=80%}
+
+![](../Images/Profiles/Momo.png){width=80%}
+
+![](../Images/Profiles/Alice.png){width=80%}
 
 - Pramukh Shankar (Chair)
 
