@@ -23,7 +23,7 @@ css: "../styles.css"
 
 ![](../Images/Profiles/Miranda2023.png){width=80%}
 
-## Website Committee 
+## Website Committee {.test}
 
 ![](../Images/Profiles/Alaina.png){width=80%}
 
@@ -40,7 +40,7 @@ css: "../styles.css"
 
 ## Outreach Team 
 
-![](../Images/Profiles/Pramukh.png.png){width=80%}
+![](../Images/Profiles/Pramukh.png){width=80%}
 
 ![](../Images/Profiles/Owen.png){width=80%}
 
