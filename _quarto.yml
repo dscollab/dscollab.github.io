@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "UCSB DSCOL"
   navbar:
+    logo: Images/Logos_Icons/main_logo2.png
     left:
       - href: Pages/calendar.qmd
         text: Calendar
