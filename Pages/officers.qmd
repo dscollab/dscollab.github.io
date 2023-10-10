@@ -7,7 +7,8 @@ css: "../styles.css"
 
 <br>
 
-## President and Vice President 
+## President and Vice President {.test}
+
 
 ![](../Images/Profiles/Kris2023.png){width=80%}
 
@@ -16,13 +17,13 @@ css: "../styles.css"
 ![](../Images/Profiles/Colton2023.png){width=80%}
 
 
-## Secretary and Treasurer
+## Secretary and Treasurer {.test}
 
 ![](../Images/Profiles/Mollie2023.png){width=80%}
 
 ![](../Images/Profiles/Miranda2023.png){width=80%}
 
-## Website Committee
+## Website Committee 
 
 - Alaina Liu (Chair)
 
@@ -31,7 +32,7 @@ css: "../styles.css"
 - Bowie Chuang
 
 
-## Outreach Team
+## Outreach Team 
 
 - Pramukh Shankar (Chair)
 
@@ -46,14 +47,14 @@ css: "../styles.css"
 - Alice Xu
 
 
-## Publicity Committee
+## Publicity Committee 
 
 - Jennifer Rink
 
 - Caroline Chen
 
 
-## Faculty and Graduate Advisors
+## Faculty and Graduate Advisors 
 
 - Dr. Uma Ravat (Faculty Advisor)
 

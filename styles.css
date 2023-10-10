@@ -85,3 +85,6 @@ div.column {
   left: 50%;
   transform: translate(-50%);
 }
+.test{
+  text-align: center;
+}
