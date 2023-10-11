@@ -31,14 +31,10 @@ css: "../styles.css"
 
 ![](../Images/Profiles/Bowie.png){width=80%}
 
-- Alaina Liu (Chair)
-
-- Sunny Zhong
-
-- Bowie Chuang
 
 
-## Outreach Team 
+
+## Outreach Team {.test}
 
 ![](../Images/Profiles/Pramukh.png){width=80%}
 
@@ -51,18 +47,6 @@ css: "../styles.css"
 ![](../Images/Profiles/Momo.png){width=80%}
 
 ![](../Images/Profiles/Alice.png){width=80%}
-
-- Pramukh Shankar (Chair)
-
-- Owen Feng
-
-- Krystal Wu
-
-- Cyrus Navasca
-
-- Momo Chiang
-
-- Alice Xu
 
 
 ## Publicity Committee 
