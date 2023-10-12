@@ -51,11 +51,10 @@ css: "../styles.css"
 ![](../Images/Profiles/Alice.png){width=80%}
 
 
-## Publicity Committee 
+## Graphic Designer {.test}
 
-- Jennifer Rink
+![](../Images/Profiles/Jennifer.png){width=80%}
 
-- Caroline Chen
 
 
 ## Faculty and Graduate Advisors 
