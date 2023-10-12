@@ -73,7 +73,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | General Meeting \#2 | Thurs, Oct. 12, 2023; 7-9pm | Broida 1610 |
-
+| General Meeting \#3 | Thurs, Oct. 19, 2023; 7-9pm | Broida 1610 |
+| Ice Cream Social! | Tuesday, Oct. 24, 2023; 3:30-5pm | Chemistry Lawn |
+| General Meeting \#4 | Thurs, Nov. 22, 2023; 7-9pm | TBD |
 
 : {.striped .hover}
 
