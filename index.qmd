@@ -41,13 +41,13 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="Images/Mainpage_Slideshow/Candid1.jpg" style="width:100%">
-  <div class="text">Hard At Work at Our 2023 Final Showcase!</div>
+  <div class="text">Hard Work at Our 2023 Final Showcase!</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="Images/Mainpage_Slideshow/Candid2.jpg" style="width:100%">
-  <div class="text">Hard At Work at Our 2023 Final Showcase!</div>
+  <div class="text">Hard Work at Our 2023 Final Showcase!</div>
 </div>
 
 </div>
