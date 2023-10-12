@@ -23,7 +23,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 :::
 <br>
 
-<a class="membership" href="https://forms.gle/oX6FWGFnAkhYRovQA" target="mytab">2023-24 Membership Form</a>
+<a class="membership" href="https://forms.gle/oX6FWGFnAkhYRovQA" target="mytab">2023-24 Membership Form</a> \ \ \ \ (Please fill out by Tuesday, October 24)
 
 <br>
 
@@ -65,7 +65,10 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <br>
 
 <p style = "text-align: center">
-  <a href = "https://www.instagram.com/ucsbdscollab/" target = "_blank"><img src = "Images/Logos_Icons/instagram.png" width = 40></a> \ \ \ \ \ \ \ \ <a href = "https://discord.gg/EJGYhShztV" target = "_blank"><img src = "Images/Logos_Icons/discord.png" width = 40></a> \ \ \ \ \ \ \ \ <a href = "https://mail.google.com/mail/?view=cm&source=mailto&to=ucsbdscollab@gmail.com" target = "_blank"><img src = "Images/Logos_Icons/email.png" width = 40></a>
+  <a href = "https://www.instagram.com/ucsbdscollab/" target = "_blank"><img src = "Images/Logos_Icons/instagram.png" width = 40></a> \ \ \ \ \ \ \ \ 
+  <a href = "https://discord.gg/EJGYhShztV" target = "_blank"><img src = "Images/Logos_Icons/discord.png" width = 40></a> \ \ \ \ \ \ \ \ 
+  <a href = "https://shoreline.ucsb.edu/DCOL/club_signup" target = "_blank"><img src = "Images/Logos_Icons/shoreline.png" width = 40></a> \ \ \ \ \ \ \ \ 
+  <a href = "https://mail.google.com/mail/?view=cm&source=mailto&to=ucsbdscollab@gmail.com" target = "_blank"><img src = "Images/Logos_Icons/email.png" width = 40></a> 
 </p>
 
 ## Upcoming Events
@@ -73,9 +76,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | General Meeting \#2 | Thurs, Oct. 12, 2023; 7-9pm | Broida 1610 |
-| General Meeting \#3 | Thurs, Oct. 19, 2023; 7-9pm | Broida 1610 |
+| General Meeting \#3 | Thurs, Oct. 19, 2023; 7-9pm | TBD |
 | Ice Cream Social! | Tues, Oct. 24, 2023; 3:30-5pm | Chemistry Lawn |
-| General Meeting \#4 | Thurs, Nov. 22, 2023; 7-9pm | TBD |
+| General Meeting \#4 | Thurs, Nov. 22, 2023; 7-9pm | Broida 1610 |
 
 : {.striped .hover}
 

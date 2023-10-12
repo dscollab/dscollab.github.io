@@ -27,16 +27,21 @@ title: "2022-2023 Meetings"
 
 
 ## Topic-Specific Meetings
+  
+<!--- Shiny Workshop --->
+<details>
+  <summary> <p> Shiny Apps, and Slides (4/28/23) </p> </summary>
+  - **Shiny Apps:**
+    - `palmerpenguins` scatterplot, with option to color by species: [<a href="../Files/Shiny_and_Slides/p_penguins.R" download="p_penguins.R">.R</a>] (Click to download) <br>
 
-### Shiny Apps, and Slides (4/28/23)
 
-- **Shiny Apps:**
-    - `palmerpenguins` scatterplot, with option to color by species: [<a href="../Files/Shiny_and_Slides/p_penguins.R" download="p_penguins.R">.R</a>] (Click to download)
-    
 - **Slides:**
-    - Basic `RSweave` (`.Rnw`) file: [<a href="../Files/Shiny_and_Slides/slides.Rnw" download="slides.Rnw">.Rnw</a>] (Click to download)
-    
-    
+  - Basic `RSweave` (`.Rnw`) file: [<a href="../Files/Shiny_and_Slides/slides.Rnw" download="slides.Rnw">.Rnw</a>] (Click to download) <br>
+
+  <img src="../Images/2223Workshops/Shiny/Photo1.jpeg" style="width: 40%">
+</details>
+  
+<!---  
 ### Markdown, GitHub, and LaTeX Workshop (3/3/23)
 
 - **Slides:** N/A
@@ -45,3 +50,4 @@ title: "2022-2023 Meetings"
 ### Data Visualization Workshop (2/24/23)
 
 - **Slides:** N/A
+--->
