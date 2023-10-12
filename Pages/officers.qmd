@@ -21,7 +21,10 @@ css: "../styles.css"
 
 ![](../Images/Profiles/Mollie2023.png){width=80%}
 
+<br>
+
 ![](../Images/Profiles/Miranda2023.png){width=80%}
+
 
 ## Website Committee {.test}
 
