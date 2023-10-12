@@ -4,7 +4,6 @@ title: "2023-2024 Meetings"
 
 ## General Meetings
 
-<!--- - **GM 1 - Fall Kickoff! (10/05/23) Slides:** --->
 
 <!--- GM #1 --->
 <details>

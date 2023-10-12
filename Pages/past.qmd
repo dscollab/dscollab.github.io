@@ -5,11 +5,25 @@ title: "2022-2023 Meetings"
 
 ## General Meetings
 
-- **GM 1 - Introductory Workshop (1/27/23) Slides:** <a href="../Files/GM_22_23/1_27.pdf" target="_blank">[.pdf]</a> (Click to download)
+<!--- GM #3 --->
+<details>
+  <summary> <p> GM 3 - Manage Files and Repositories (3/3/23) </p> </summary>
+  - Slides: <a href="../Files/GM_22_23/3_3.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+  <img src="../Images/2223Workshops/GM3/Photo1.jpeg" style="width: 40%">
+</details>
 
-- **GM 2 - Create Project Proposal (2/3/23) Slides:** <a href="../Files/GM_22_23/2_3.pdf" target="_blank">[.pdf]</a> (Click to download)
+<!--- GM #2 --->
+<details>
+  <summary> <p> GM 2 - Create Project Proposal (2/3/23) </p> </summary>
+  - Slides: <a href="../Files/GM_22_23/2_3.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+  <img src="../Images/2223Workshops/GM2/Photo1.JPG" style="width: 40%"> <img src="../Images/2223Workshops/GM2/Photo2.JPG" style="width: 40%">
+</details>
 
-- **GM 3 - Manage Files and Repositories (3/3/23) Slides:** <a href="../Files/GM_22_23/3_3.pdf" target="_blank">[.pdf]</a> (Click to download)
+<!--- GM #1 --->
+<details>
+  <summary> <p> GM 1 - Introductory Workshop (1/27/23) </p> </summary>
+  - Slides: <a href="../Files/GM_22_23/1_27.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+</details>
 
 
 ## Topic-Specific Meetings
