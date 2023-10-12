@@ -2,13 +2,19 @@
 title: "About"
 sidebar: false
 ---
-
+<!---
 <table>
   <tr>
     <td><img src = "../Images/Profiles/kris-photo.png"></td>
     <td><img src = "../Images/Profiles/anya-photo.png"></td>
   </tr>
 </table>
+--->
+::: {layout-nrow=2}
+![](../Images/Profiles/kris-photo.png)
+![](../Images/Profiles/anya-photo.png)
+:::
+
 
 Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:
 
