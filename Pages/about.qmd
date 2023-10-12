@@ -5,7 +5,7 @@ sidebar: false
 <!---
 <table>
   <tr>
-    <td><img src = "../Images/Profiles/kris-photo.png"></td>
+    <td><img src = "../Images/Profiles/kris-photo.png" style="width=50%"></td>
     <td><img src = "../Images/Profiles/anya-photo.png"></td>
   </tr>
 </table>
