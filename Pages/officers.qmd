@@ -36,7 +36,6 @@ css: "../styles.css"
 
 
 
-
 ## Outreach Team {.test}
 
 ![](../Images/Profiles/Pramukh.png){width=80%}
