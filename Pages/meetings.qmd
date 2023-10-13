@@ -9,7 +9,9 @@ title: "2023-2024 Meetings"
 <details>
   <summary> <p> GM 1 - Fall Kickoff! (10/05/23) </p> </summary>
   - Slides: <a href="../Files/GM_23_24/GM1.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+  <!---
   <img src="../Images/2324Workshops/GM1/Photo1.png" style="width: 40%"> <img src="../Images/2324Workshops/GM1/Photo3.png" style="width: 40%">
+  --->
 </details>
 
 <!--- GM #2 --->
