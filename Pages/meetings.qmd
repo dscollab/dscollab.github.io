@@ -14,8 +14,9 @@ title: "2023-2024 Meetings"
 <!--- GM #2 --->
 <details>
   <summary> <p> GM 2 - Descriptive Statistics & Project Proposal (10/12/23) </p> </summary>
-  - Slides: <a href="https://epm027.github.io/Hidden/Slides/Wk2_Descrip_Stat/descrip_stats.html#/title-slide" target="_blank">[quarto slides]</a> (Click to View) 
-- Project Proposal Template : <a href="https://docs.google.com/document/d/1GAZ1xvda_7I6gnCZRq0XCifZ_UKCRu3YEAsWLljNKhM/edit#heading=h.lp48ycuhi5wa" target="_blank"> [doc](Click to View) 
+  - Slides: <a href="../Images/2324Workshops/GM2/GM2.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+  <a href="https://epm027.github.io/Hidden/Slides/Wk2_Descrip_Stat/descrip_stats.html#/title-slide" target="_blank">Descriptive Statistics</a> (Click to View)
+- Project Proposal Template : <a href="https://docs.google.com/document/d/1GAZ1xvda_7I6gnCZRq0XCifZ_UKCRu3YEAsWLljNKhM/edit#heading=h.lp48ycuhi5wa" target="_blank"> [.doc](Click to View) 
   <br>
 </details>
 
