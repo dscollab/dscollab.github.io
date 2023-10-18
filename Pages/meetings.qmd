@@ -2,6 +2,14 @@
 title: "2023-2024 Meetings"
 ---
 
+## `R` Labs
+
+- <a href="../Files/R_Labs/L01_Basics/R_l01.qmd" target="_blank">Part 1: Fundamentals</a> (Opens in a New Tab)
+
+- <a href="../Files/R_Labs/L02_DT_DS/R_l02.qmd" target="_blank">Part 2: Data Types and Data Structures</a> (Opens in a New Tab)
+
+- <a href="../Files/R_Labs/L03_Fnts/R_l03.qmd" target="_blank">Part 3: Functions</a> (Opens in a New Tab)
+
 ## General Meetings
 
 <!--- GM #3 --->
