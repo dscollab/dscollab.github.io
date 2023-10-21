@@ -17,7 +17,18 @@ title: "2023-2024 Meetings"
   <summary> <p> GM 3 - Data Visualization (10/19/23) </p> </summary>
   - Download R  and R Studio <br>
   <img src="../Images/2324Workshops/GM3/download.png" style="width: 80%">
+  
+  - **Steps to Access the Interactive Demo/Tutorial:**
+  
+      1) Download the file located at <a href="https://bit.ly/dsc-gm3" target="_blank">https://bit.ly/dsc-gm3</a>
+      
+      2) Open the file in `RStudio` and follow any prompts to download any necessary packages
+      
+      3) Click the `Run Document` button: <img src="../Files/GM_22_23/run_doc.png" style="width: 20%">
+      
 </details>
+
+
 
 <!--- GM #2 --->
 <details>
