@@ -1,6 +1,9 @@
 /* css styles */
-/* hex code: #61d5ff */
-/* rgba(97,213,255,255) */
+/* hex code: #eec799 */
+/* rgba(238, 199, 153, 255) */
+body {
+  background-color: #bfe2fb;
+}
 
 table {
   table-layout: fixed;
@@ -73,7 +76,7 @@ div.column {
 
 .membership {
   border-radius: 20px;
-  background-color: #61d5ff;
+  background-color: #eec799;
   font-size: 100%;
   padding: 15px;
   text-decoration: none;

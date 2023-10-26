@@ -5,7 +5,7 @@ project:
 website:
   title: ""
   navbar:
-    logo: Images/Logos_Icons/main_logo2.png
+    logo: Images/Logos_Icons/main_logo3.png
     left:
       - href: Pages/calendar.qmd
         text: Calendar
