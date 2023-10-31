@@ -13,6 +13,8 @@ website:
         text: Projects
       - href: Pages/meetings.qmd
         text: Meetings
+      - href: Pages/blog.qmd
+        text: Blog
       - sidebar:about
   sidebar:
     - title: "Meetings"

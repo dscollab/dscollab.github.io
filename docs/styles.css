@@ -1,8 +1,12 @@
 /* css styles */
 /* hex code: #eec799 */
 /* rgba(238, 199, 153, 255) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
 body {
   background-color: #bfe2fb;
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 16px;
 }
 
 table {

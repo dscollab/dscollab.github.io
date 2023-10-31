@@ -1,7 +1,8 @@
 /* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Shantell+Sans:wght@300&display=swap');
 
 * {box-sizing: border-box;}
-body {font-family: Helvetica, sans-serif;}
+body {font-family: 'Poppins', sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
