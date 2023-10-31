@@ -23,7 +23,7 @@ css: "../styles.css"
 
 <br>
 
-![](../Images/Profiles/Miranda2023.png){width=80%}
+![](../Images/Profiles/Annabelle.png){width=80%}
 
 
 ## Website Committee {.test}
