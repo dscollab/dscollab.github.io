@@ -75,8 +75,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Ice Cream Social! | Tues, Oct. 24, 2023; 4-5pm | Storke Lawn |
 | General Meeting \#4 | Thurs, Nov. 2, 2023; 7-9pm | Broida 1610 |
+| General Meeting \#5 | Thurs, Nov. 9, 2023; 7-9pm | Chem 1171 |
 
 : {.striped .hover}
 
