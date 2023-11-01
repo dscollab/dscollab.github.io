@@ -5,7 +5,7 @@ css: "CSS/index_slideshow.css"
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="Images/Logos_Icons/main_logo3.png" type="image/x-icon">
+  <!--- <link rel="icon" href="Images/Logos_Icons/main_logo3.png" type="image/x-icon">--->
 </head>
 
 :::{.column-page}
