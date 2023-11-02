@@ -5,11 +5,12 @@ css: "CSS/index_slideshow.css"
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Science Collaborative</title>
   <!--- <link rel="icon" href="Images/Logos_Icons/main_logo3.png" type="image/x-icon">--->
 </head>
 
 :::{.column-page}
-![](Images/Logos_Icons/banner4.png)
+![](Images/Logos_Icons/banner5.png)
 :::
 
 
@@ -80,8 +81,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| General Meeting \#4 | Thurs, Nov. 2, 2023; 7-9pm | Broida 1610 |
-| General Meeting \#5 | Thurs, Nov. 9, 2023; 7-9pm | Chem 1171 |
+| GM\#4 (Data Cleaning + Github) | Thurs, Nov. 2, 2023; 7-9pm | Broida 1610 |
+| GM\#5 (Office Hours + Group Formation) | Thurs, Nov. 9, 2023; 7-9pm | Chem 1171 |
 | Bake Sale! | Thurs, Nov. 16, 2023; 10-3pm | Pardall Tunnel |
 | Frontier Communications | Mon, Nov. 20, 2023; 4-5pm | Zoom |
 
