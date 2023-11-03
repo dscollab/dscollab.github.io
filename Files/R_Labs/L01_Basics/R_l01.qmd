@@ -14,7 +14,7 @@ css: styles.scss
 
 .quarto-title-block .quarto-title-banner {
   background-image: url(logo.png);
-  background-size: 15vw;
+  background-size: 11.2vw;
   background-position: left;
   background-repeat: no-repeat;
   padding-left: 10vw;
