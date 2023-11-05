@@ -15,7 +15,8 @@ title: "2023-2024 Meetings"
 <!--- GM #4 --->
 <details>
   <summary> <p> GM 4 - Data Cleaning + Github (11/02/23) </p> </summary>
-  - Slides: <a href="../Files/GM_23_24/Data Cleaning and Preprocessing.pdf" target="_blank">[.pdf]</a> (Click to download) <br>
+  - Slides: <a href="../Files/GM_23_24/Data Cleaning and Preprocessing.pdf" target="_blank">[.pdf]</a> (Click to download) 
+- Data Cleaning Code Demo <a href="../Files/GM_23_24/starwars data cleaning tutorial.R" target="_blank">[.R]</a> (Click to download)
 
   <!---
   <img src="../Images/2324Workshops/GM1/Photo1.png" style="width: 40%"> <img src="../Images/2324Workshops/GM1/Photo3.png" style="width: 40%">
@@ -58,6 +59,10 @@ title: "2023-2024 Meetings"
   <img src="../Images/2324Workshops/GM1/Photo1.png" style="width: 40%"> <img src="../Images/2324Workshops/GM1/Photo3.png" style="width: 40%">
   --->
 </details>
+
+## Other resources
+
+- <a href="../Files/PSTAT_resume_template.docx" target="_blank">PSTAT Department Resume Template </a> (Click to Download)
 
 
 <!--- 

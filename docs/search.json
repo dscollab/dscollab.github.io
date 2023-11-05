@@ -11,7 +11,7 @@
     "href": "index.html#upcoming-events",
     "title": "",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nGM#4 (Data Cleaning + Github)\nThurs, Nov. 2, 2023; 7-9pm\nBroida 1610\n\n\nBake Sale!\nThurs, Nov. 9, 2023; 10-3pm\nPardall Tunnel\n\n\nGM#5 (Office Hours + Group Formation)\nThurs, Nov. 9, 2023; 7-9pm\nChem 1171\n\n\nFrontier Communications\nMon, Nov. 20, 2023; 4-5pm\nZoom"
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nBake Sale!\nThurs, Nov. 9, 2023; 10-3pm\nPardall Tunnel\n\n\nGM#5 (Office Hours + Group Formation)\nThurs, Nov. 9, 2023; 7-9pm\nChem 1171\n\n\nFrontier Communications\nMon, Nov. 20, 2023; 4-5pm\nZoom"
   },
   {
     "objectID": "Files/R_Labs/L01_Basics/R_l01.html",
@@ -221,7 +221,7 @@
     "href": "Pages/meetings.html#general-meetings",
     "title": "2023-2024 Meetings",
     "section": "General Meetings",
-    "text": "General Meetings\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download) \n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View)\nProject Proposal Template :  .doc \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+    "text": "General Meetings\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View)\nProject Proposal Template :  .doc \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)"
   },
   {
     "objectID": "Pages/past.html",
@@ -264,5 +264,12 @@
     "title": "Blog",
     "section": "",
     "text": "Check back soon!"
+  },
+  {
+    "objectID": "Pages/meetings.html#other-resources",
+    "href": "Pages/meetings.html#other-resources",
+    "title": "2023-2024 Meetings",
+    "section": "Other resources",
+    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)"
   }
 ]
