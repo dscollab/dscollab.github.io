@@ -10,7 +10,7 @@ css: "CSS/index_slideshow.css"
 </head>
 
 :::{.column-page}
-![](Images/Logos_Icons/banner5.png)
+![](Images/Logos_Icons/banner6.png)
 :::
 
 
