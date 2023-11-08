@@ -90,9 +90,30 @@ div.column {
 
 .calendar{
   position: absolute;
+  width: 80%;
   left: 50%;
   transform: translate(-50%);
 }
 .test{
   text-align: center;
+}
+
+.blogheader{
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.post{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post img{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*padding: 10px;*/
 }

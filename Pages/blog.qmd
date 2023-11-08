@@ -1,5 +1,22 @@
 ---
-title: "Blog"
+title: ""
+format: html
 ---
 
-Check back soon!
+
+<div class="blogheader">
+  <h1>Blog</h1>
+</div>
+
+<div class="post">
+
+<h3>Ice Cream Social</h3>
+<h5>October 24, 2023 @ Storke Lawn</h5>
+<img src="../Images/Blog/IceCreamSocial/Photo5.png">
+<p>
+On the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had the delightful opportunity to host an Ice Cream Social for our Data Science Collaborative members at Storke Lawn, UCSB. This event aimed to foster connections among students, providing a platform for them to socialize, meet potential project collaborators, and connect with mentors or mentees. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.
+</p>
+  
+</div>
+
+
