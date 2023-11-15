@@ -25,8 +25,9 @@ Welcome to the official website of the Statistics and Data Science Workshop, hos
 At the Data Science Collaborative (DS Collab for short), our goal is to make data science accessible for everyone. We are dedicated to providing accessible resources and services through one-on-one mentorships, career check-ins, study halls, foundational project workshops, and most importantly, a community full of like-minded people. We promise a deliverable that will be presented at our year-end showcase featuring guest lecturers and industry employers. Join us today to develop your passion in the world of statistics!
 
 <br>
-
+<!---
 <a class="membership" href="https://forms.gle/oX6FWGFnAkhYRovQA" target="mytab">2023-24 Membership Form</a>
+--->
 
 <br>
 </body>
@@ -82,8 +83,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Bake Sale! | Thurs, Nov. 9, 2023; 10-3pm | Pardall Tunnel |
-| GM\#5 (Office Hours + Group Formation) | Thurs, Nov. 9, 2023; 7-9pm | Chem 1171 |
 | Frontier Communications | Mon, Nov. 20, 2023; 4-5pm | Zoom |
 
 : {.striped .hover}
