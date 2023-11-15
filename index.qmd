@@ -84,9 +84,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | Potluck! | Sat, Nov.18, 2023; 3-5pm | Goleta Beach |
-| Resume Feedback Submission | Tues, Nov. 21, 2023; 11:59pm | Google Form |
 | Frontier Communications | Mon, Nov. 20, 2023; 4-5pm | Zoom |
-| Resume Workshop | Tues, Nov. 21, 2023; 4-5pm | Zoom |
+| Resume Feedback Submission | Tues, Nov. 21, 2023; 11:59pm | Google Form |
+| Resume Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
 
 : {.striped .hover}
 
