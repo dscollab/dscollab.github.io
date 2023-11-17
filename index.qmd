@@ -26,7 +26,16 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 <br>
 
-<a class="button" href="https://docs.google.com/forms/u/0/d/168oZ9f2Clgse3Lw_4O4Xz7Oy1zCQ4UgKasR7ws8ddik/viewform?usp=sharing_eil_m&ts=6556afc9&urp=gmail_link&edit_requested=true" target="mytab">Resume Submission Form</a>
+<a class="button" href="https://docs.google.com/forms/u/0/d/168oZ9f2Clgse3Lw_4O4Xz7Oy1zCQ4UgKasR7ws8ddik/viewform?usp=sharing_eil_m&ts=6556afc9&urp=gmail_link&edit_requested=true" target="mytab">Resume Submission Form (Due Tuesday 11/21)</a>
+
+<br>
+
+<h3><b>Stickers (coming soon!)</b></h3>
+<img class="stickers" src="Images/Stickers/dscollab1.png" alt="sticker1"> \ \ \ \ \ \ \ 
+<img class="stickers" src="Images/Stickers/dscollab2.png" alt="sticker2"> \ \ \ \ \ \ \ 
+<img class="stickers" src="Images/Stickers/dscollab3.png" alt="sticker3"> 
+<br><br>
+<h6>Stay tuned for after Thanksgiving Break!</h6>
 
 <br>
 </body>
@@ -82,7 +91,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Potluck! | Sat, Nov.18, 2023; 3-5pm | Goleta Beach |
+| Picnic! | Sat, Nov.18, 2023; 3-5pm | Goleta Beach |
 | Frontier Communications - Guest Speaker | Mon, Nov. 20, 2023; 4-5pm | Zoom |
 | Resume Feedback Submission | Tues, Nov. 21, 2023; 11:59pm | Google Form |
 | Resume Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
