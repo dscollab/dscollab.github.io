@@ -91,10 +91,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Picnic! | Sun, Nov. 19, 2023; 3-5pm | Check Insta for Location! |
-| Frontier Communications - Guest Speaker | Mon, Nov. 20, 2023; 4-5pm | Zoom |
-| Resume Feedback Submission | Tues, Nov. 21, 2023; 11:59pm | Google Form |
-| Resume Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
+| Résumé Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
+| GM | Thurs, Nov. 30, 2023; 7-9pm | TBD |
 
 : {.striped .hover}
 
