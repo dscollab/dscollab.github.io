@@ -92,7 +92,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | Résumé Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
-| GM | Thurs, Nov. 30, 2023; 7-9pm | TBD |
+| GM #6 | Thurs, Nov. 30, 2023; 7-9pm | <a href="https://classrooms.ucsb.edu/classroom-inventory/hfh-1104" target="_blank">HFH 1104</a> |
 
 : {.striped .hover}
 
