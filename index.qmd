@@ -26,7 +26,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 <br>
 
-<a class="button" href="https://docs.google.com/forms/u/0/d/168oZ9f2Clgse3Lw_4O4Xz7Oy1zCQ4UgKasR7ws8ddik/viewform?usp=sharing_eil_m&ts=6556afc9&urp=gmail_link&edit_requested=true" target="mytab">Resume Submission Form (Due Friday 11/24)</a>
+<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc9WI9_tO4FgmZaEtTgW5WTmzwHziy5q7EFp6uyLd3xF1dDEw/viewform" target="mytab">Project Group Submission Form (Due Sunday 12/3)</a>
 
 <br>
 
