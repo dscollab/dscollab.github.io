@@ -91,7 +91,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Résumé Workshop | Tues, Nov. 28, 2023; 4-5pm | Zoom |
+| Résumé Workshop | Tues, Nov. 28, 2023; 4-5pm | <a href="https://ucsb.zoom.us/meeting/register/tZEude-orDwtH9HxZKIrOiJ8I99Qfj3uv3iT" target="_blank">Zoom</a> |
 | GM #6 | Thurs, Nov. 30, 2023; 7-9pm | <a href="https://classrooms.ucsb.edu/classroom-inventory/hfh-1104" target="_blank">HFH 1104</a> |
 | Project Proposal Template Due | Fri, Jan. 19, 2023 |  |
 
