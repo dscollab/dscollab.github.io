@@ -26,7 +26,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 <br>
 
-<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc9WI9_tO4FgmZaEtTgW5WTmzwHziy5q7EFp6uyLd3xF1dDEw/viewform" target="mytab">Project Group Submission Form (Due Sunday 12/3)</a>
+<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc9WI9_tO4FgmZaEtTgW5WTmzwHziy5q7EFp6uyLd3xF1dDEw/viewform" target="mytab">Project Group Submission Form</a>
 
 <br>
 
@@ -35,7 +35,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <img class="stickers" src="Images/Stickers/dscollab2.png" alt="sticker2"> \ \ \ \ \ \ \ 
 <img class="stickers" src="Images/Stickers/dscollab3.png" alt="sticker3"> 
 <br><br>
-<h6>Stay tuned for after Thanksgiving Break!</h6>
+<h6>Stay tuned for winter quarter!</h6>
 
 <br>
 </body>
@@ -91,7 +91,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| GM #6 (Statistical Modeling) | Thurs, Nov. 30, 2023; 7-9pm | <a href="https://classrooms.ucsb.edu/classroom-inventory/hfh-1104" target="_blank">HFH 1104</a> |
 | Project Proposal Template Due | Fri, Jan. 19, 2023 |  |
 
 : {.striped .hover}
