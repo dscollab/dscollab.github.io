@@ -10,36 +10,45 @@ css: "../styles.css"
 
 ## President and Vice President {.test}
 
+<!--- ![](../Images/Profiles/Kris2023.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Kris2023.png" style="width:80%">
 
-![](../Images/Profiles/Kris2023.png){width=80%}
 
 <br>
 
-![](../Images/Profiles/Colton2023.png){width=80%}
+<!--- ![](../Images/Profiles/Colton2023.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Colton2023.png" style="width:80%">
 
 
 ## Secretary and Treasurer {.test}
 
-![](../Images/Profiles/Mollie2023.png){width=80%}
+<!--- ![](../Images/Profiles/Mollie2023.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Mollie2023.png" style="width:80%">
+
 
 <br>
 
-![](../Images/Profiles/Annabelle.png){width=80%}
+<!--- ![](../Images/Profiles/Annabelle.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Annabelle.png" style="width:80%">
 
 
 ## Website Committee {.test}
 
-![](../Images/Profiles/Alaina.png){width=80%}
+<!--- ![](../Images/Profiles/Alaina.png){width=80%}
 
 ![](../Images/Profiles/Sunny.png){width=80%}
 
-![](../Images/Profiles/Bowie.png){width=80%}
+![](../Images/Profiles/Bowie.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Alaina.png" style="width:80%">
 
+<img class="rborder" src="../Images/Profiles/Sunny.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Bowie.png" style="width:80%">
 
 
 ## Outreach Team {.test}
 
-![](../Images/Profiles/Pramukh.png){width=80%}
+<!--- ![](../Images/Profiles/Pramukh.png){width=80%}
 
 ![](../Images/Profiles/Owen.png){width=80%}
 
@@ -49,12 +58,24 @@ css: "../styles.css"
 
 ![](../Images/Profiles/Momo.png){width=80%}
 
-![](../Images/Profiles/Alice.png){width=80%}
+![](../Images/Profiles/Alice.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Pramukh.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Owen.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Krystal.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Cyrus.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Momo.png" style="width:80%">
+
+<img class="rborder" src="../Images/Profiles/Alice.png" style="width:80%">
 
 
 ## Graphic Designer {.test}
 
-![](../Images/Profiles/Jennifer.png){width=80%}
+<!--- ![](../Images/Profiles/Jennifer.png){width=80%} --->
+<img class="rborder" src="../Images/Profiles/Jennifer.png" style="width:80%">
 
 
 

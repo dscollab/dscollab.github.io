@@ -121,3 +121,6 @@ div.column {
 .stickers {
   width: 30%;
 }
+.rborder{
+  border-radius: 35px
+}
