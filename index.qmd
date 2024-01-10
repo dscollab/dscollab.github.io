@@ -91,9 +91,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | Arbor Sticker Tabling | Jan. 9,10, 2024; 9am-2pm | Outside Arbor & Library |
-| Project Group Formation Deadline & GM6 | Jan. 12, 2024; 2pm-3:30pm | Girvetz 1004 |
+| Project Group Formation Deadline & GM6 | Jan. 12, 2024; 2pm-3:30pm | North Hall 1006 |
 | Mentor / Mentee | Jan. 17, 2024; 3-4pm | SRB Multipurpose Room |
-| Project Proposal Template Due & Tableau Workshop | Fri, Jan. 19, 2024; 2pm-3:30pm | Girvetz 1004 |
+| Project Proposal Template Due & Tableau Workshop | Fri, Jan. 19, 2024; 2pm-3:30pm | North Hall 1006 |
 
 : {.striped .hover}
 
