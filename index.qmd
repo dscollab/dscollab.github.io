@@ -27,15 +27,14 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <br>
 
 <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc9WI9_tO4FgmZaEtTgW5WTmzwHziy5q7EFp6uyLd3xF1dDEw/viewform" target="mytab">Project Group Submission Form</a>
-
 <br>
 
-<h3><b>Stickers (coming soon!)</b></h3>
 <img class="stickers" src="Images/Stickers/dscollab1.png" alt="sticker1"> \ \ \ \ \ \ \ 
 <img class="stickers" src="Images/Stickers/dscollab2.png" alt="sticker2"> \ \ \ \ \ \ \ 
 <img class="stickers" src="Images/Stickers/dscollab3.png" alt="sticker3"> 
-<br><br>
-<h6>Stay tuned for winter quarter!</h6>
+<br>
+<a class="button" href="https://forms.gle/52VfA6Kvp2QduFhh8" target="mytab">Purchase Stickers Here!</a>
+<br>
 
 <br>
 </body>
@@ -92,8 +91,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
 | Arbor Sticker Tabling | Jan. 9,10, 2024; 9am-2pm | Outside Arbor & Library |
-| Project Group Formation Deadline & GM6 | Jan. 12, 2024; 2pm-3:30pm | TBD |
-| Project Proposal Template Due & Tableau Workshop | Fri, Jan. 19, 2024; 2pm-3:30pm | TBD |
+| Project Group Formation Deadline & GM6 | Jan. 12, 2024; 2pm-3:30pm | Girvetz 1004 |
+| Mentor / Mentee | Jan. 17, 2024; 3-4pm | SRB Multipurpose Room |
+| Project Proposal Template Due & Tableau Workshop | Fri, Jan. 19, 2024; 2pm-3:30pm | Girvetz 1004 |
 
 : {.striped .hover}
 
