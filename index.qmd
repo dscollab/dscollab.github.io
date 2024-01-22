@@ -20,8 +20,7 @@ Welcome to the official website of the Statistics and Data Science Workshop, hos
 At the Data Science Collaborative (DS Collab for short), our goal is to make data science accessible for everyone. We are dedicated to providing accessible resources and services through one-on-one mentorships, career check-ins, study halls, foundational project workshops, and most importantly, a community full of like-minded people. We promise a deliverable that will be presented at our year-end showcase featuring guest lecturers and industry employers. Join us today to develop your passion in the world of statistics!
 
 <br>
-
-<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc9WI9_tO4FgmZaEtTgW5WTmzwHziy5q7EFp6uyLd3xF1dDEw/viewform" target="mytab">Project Group Submission Form</a>
+<a class="button" href="Files/Project_proposal_outline.pdf" target="mytab">Project Proposal Outline (Due Jan. 26)</a>
 <br>
 
 <img class="stickers" src="Images/Stickers/dscollab1.png" alt="sticker1"> \ \ \ \ \ \ \ 
@@ -85,9 +84,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Speaker + Project check in | Jan. 19, 2024; 2-3:30pm | North Hall 1006 |
-| Bake Sale! | Jan. 22, 2024; 9am-3pm | Pardall Tunnel |
-| Office Hours | Jan. 24, 2024; 3-4pm | TBD |
+| Bake Sale! | Jan. 22, 2024; 8:30am-3pm | Pardall Tunnel |
+| Office Hours | Jan. 24, 2024; 3-4pm | SRB 3280 |
 | Project Proposal Template Due & Tableau Workshop | Fri, Jan. 26, 2024; 2pm-3:30pm | TBA |
 
 : {.striped .hover}
