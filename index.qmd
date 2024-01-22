@@ -84,7 +84,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Bake Sale! | Jan. 22, 2024; 8:30am-3pm | Pardall Tunnel |
+| Bake Sale! | Jan. 23, 2024; 8:30am-4pm | Pardall Tunnel |
 | Office Hours | Jan. 24, 2024; 3-4pm | SRB 3280 |
 | Project Proposal Template Due & Tableau Workshop | Fri, Jan. 26, 2024; 2pm-3:30pm | TBA |
 
