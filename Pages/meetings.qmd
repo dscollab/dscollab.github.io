@@ -62,7 +62,8 @@ title: "2023-2024 Meetings"
 ## Other resources
 
 - <a href="../Files/PSTAT_resume_template.docx" target="_blank">PSTAT Department Resume Template </a> (Click to Download)
-- <a href="../Files/GM_23_24/ProjectProposalOutline.docx" target="_blank">Project Proposal Template </a> (Click to Download)
+- <a href="../Files/Project_proposal_outline" target="_blank">Project Proposal Outline </a> (Click to Download)
+- <a href="../Files/Project_proposal_example" target="_blank">Project Proposal Example </a> (Click to Download)
 
 
 <!--- 
