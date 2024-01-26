@@ -14,6 +14,7 @@ title: "2023-2024 Meetings"
 <details>
   <summary> <p> GM 5 - Tableau Intro Workshop (1/26/24) </p> </summary>
   - Slides: <a href="../Files/GM_23_24/TableauFile/Tableau_presentation.pptx" target="_blank">[.pdf]</a> (Click to download) 
+</details>
 
 <!--- GM #4 --->
 <details>
