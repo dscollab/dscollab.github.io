@@ -66,6 +66,7 @@ title: "2023-2024 Meetings"
 - <a href="../Files/Project_proposal_example.pdf" target="_blank">Project Proposal Example </a> (Click to Download)
 
 
+
 <!--- 
 <details>
   <summary> <p> GM 2 - Name (10/12/23) </p> </summary>
