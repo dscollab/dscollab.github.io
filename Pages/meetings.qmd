@@ -11,6 +11,9 @@ title: "2023-2024 Meetings"
 - <a href="../Files/R_Labs/L03_Fnts/R_l03.qmd" target="_blank">Part 3: Functions</a> (Opens in a New Tab)
 
 ## General Meetings
+<details>
+  <summary> <p> GM 5 - Tableau Intro Workshop (1/26/24) </p> </summary>
+  - Slides: <a href="../Files/GM_23_24/TableauFile/Tableau_presentation.pptx" target="_blank">[.pdf]</a> (Click to download) 
 
 <!--- GM #4 --->
 <details>
