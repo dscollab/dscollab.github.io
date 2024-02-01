@@ -68,6 +68,7 @@ title: "2023-2024 Meetings"
 - <a href="../Files/PSTAT_resume_template.docx" target="_blank">PSTAT Department Resume Template </a> (Click to Download)
 - <a href="../Files/Project_proposal_outline.pdf" target="_blank">Project Proposal Outline </a> (Click to Download)
 - <a href="../Files/Project_proposal_example.pdf" target="_blank">Project Proposal Example </a> (Click to Download)
+- <a href="../Files/GM_23_24/UCSB MOSAIKS Presentation.pptx" target="_blank">MOSAIKS Presentation </a> (Click to Download)
 
 
 

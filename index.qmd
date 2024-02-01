@@ -84,7 +84,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Mentor+Mentee Event | Jan. 31, 2024; 3-4pm | SRB Forum Room |
 | Quarto & Shiny App Workshop | Feb. 2, 2024; 2-3:30pm | TBA |
 | Tableau Workshop #2 | Feb. 16, 2024; 2-3pm | TBA |
 
