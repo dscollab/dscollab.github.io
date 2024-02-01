@@ -21,4 +21,19 @@ On the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had th
 </p>
 </div>
 
+<!--- MOSAIKS Speaker --->
+<div class="post">
+<h3>MOSAIKS Speaker Event</h3>
+<h5>January 19, 2024</h5>
+<img src="../Images/Blog/MOSAIKS/Photo1.JPG">
+<img src="../Images/Blog/MOSAIKS/Photo2.JPG">
+<p>
+On Friday, January 19th, at UCSB's North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master's degree in environmental data science at UC Santa Barbara's Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.
+
+The event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS' remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.
+
+Through engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS' underlying principles and its practical implications. Carlo's expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further.
+</p>
+</div>
+
 
