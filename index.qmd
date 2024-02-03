@@ -84,8 +84,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Quarto & Shiny App Workshop | Feb. 2, 2024; 2-3:30pm | TBA |
-| Tableau Workshop #2 | Feb. 16, 2024; 2-3pm | TBA |
+| Peer and Project Advising Workshop | Feb. 7, 2024; 7-9pm | Buchanan 1940 |
+| Project Walk Through | Feb. 9, 2024; 2-3pm | TBA |
+| Tableau Workshop #2 | Feb. 23, 2024; 2-3pm | TBA |
 
 : {.striped .hover}
 
