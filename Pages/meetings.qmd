@@ -12,6 +12,11 @@ title: "2023-2024 Meetings"
 
 ## General Meetings
 <details>
+  <summary> <p> GM 6 - Project Walkthrough (2/16/24) </p> </summary>
+  - Slides: <a href="https://docs.google.com/presentation/d/17gfzBvzmY6f40cJI_AUjDwsbbfTC4fKBrj9xjimyZso/edit?fbclid=IwAR3S0PMQIunypBsMWrYSkCpdaWHGvpaWOmevKin-1NkTuQaiW-5QMJnzbdY#slide=id.g2b9f572305a_0_335" target="_blank">[google slides]</a> (Click to view) 
+</details>
+
+<details>
   <summary> <p> GM 5 - Tableau Intro Workshop (1/26/24) </p> </summary>
   - Slides: <a href="../Files/GM_23_24/TableauFile/Tableau_presentation.pptx" target="_blank">[.pdf]</a> (Click to download) 
 </details>
