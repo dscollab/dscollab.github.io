@@ -84,10 +84,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Peer and Project Advising Workshop | Feb. 7, 2024; 7-9pm | Buchanan 1940 |
-| Project Walk Through | Feb. 9, 2024; 2-3pm | Girvetz 1116 |
-| Valentine's Grams | Feb. 13, 2024 | Arbor |
 | Tableau Workshop #2 | Feb. 23, 2024; 2-3pm | Girvetz 1116 |
+| Bayesian | March 1, 2024 | TBD |
 
 : {.striped .hover}
 
