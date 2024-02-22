@@ -1,0 +1,261 @@
+[
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nTableau Workshop #2\nFeb. 23, 2024; 2-3pm\nGirvetz 1116\n\n\nBayesian\nMarch 1, 2024\nTBD"
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#prerequisites",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#prerequisites",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#what-is-programming",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#what-is-programming",
+    "title": "Programming in R",
+    "section": "What Is Programming?",
+    "text": "What Is Programming?\nComputers are an incredibly useful tool in a Data Scientist’s arsenal. They are, however, also incredibly complex and can be difficult to communicate with. As such, programming languages are used to help us communicate with computers and provide them with instructions on what we want them to do. There are several different programming languages: the two most often used in Data Science circles are R and Python, though other popular languages include Julia, MatLab, and C+.\nComputer programs can be written in a variety of different environments and editors; for example, Python can be written in Jupyter Notebooks, VS Code, and several others. R is most commonly run in RStudio, which can be downloaded for free (along with the programming language R). Please see the previous lab for further instructions on how to download R and RStudio."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#programming-quick-start",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#programming-quick-start",
+    "title": "Programming in R",
+    "section": "Programming Quick Start",
+    "text": "Programming Quick Start\nThere is a reason we use the word “language” to describe programming languages- that is because they function quite like a human language. This means, among other things, that they each have their own syntax (i.e. set of grammar rules).\nPrograms are made up of expressions, like 2 + 2. We evaluate expressions by running (or executing) them in a programming language. Expressions are like the sentences of programming- they contain complex pieces of information that are conveyed between the user and the computer.\nMuch like sentences in other languages, expressions must obey a rigid syntax. For example, when we want to perform addition in R we must use the + symbol; we can’t, for example, say 2 plus 2 and expect R to know what to do.\nSpeaking of addition, one of the easiest ways to start using R is to use it as a calculator! R, much like many other programming languages, obeys the standard order of operations when evaluating expressions:\n\nParentheses\nExponents\nMultiplication\nDivision\nAddition\nSubtraction\n\nHere is a list of mathematical operators and their corresponding R syntax:\n\n\n\nOperation\nR Operator\nExample\nResult\n\n\n\n\nAddition\n+\n2 + 2\n4\n\n\nSubtraction\n-\n2 - 2\n0\n\n\nMultiplication\n*\n2 * 2\n4\n\n\nDivision\n/\n2 / 2\n1\n\n\nExponentiation\n^\n2 ^ 2\n4\n\n\n\n\n\n\n\n\n\nExercise 1\n\n\n\nEvaluate \\(\\displaystyle \\left(\\frac{2 + 3^{3/2}}{4}\\right)^{2}\\) using R."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#variable-assignment",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#variable-assignment",
+    "title": "Programming in R",
+    "section": "Variable Assignment",
+    "text": "Variable Assignment\nLet’s talk a bit about variables. Just like in math, variables in a programming language function as a sort of placeholder for a particular piece of information (be it a function, value, etc.) The act of storing information in a variable is called assignment, and in R variable assignment is performed using the &lt;- symbol.\n\n&lt;variable name&gt; &lt;- &lt;what you want to associate with the variable&gt;\n\nFor example, after running\n\nx &lt;- 2\n\nthe quantity x will always be synonymous with the quantity 2, and running x + 2 will return a value of 4 (as 2 + 2 = 4).\nR affords a lot of flexibility when it comes to variable names- that is, we can pick almost anything we want to be a variable name! There are, however, some exceptions:\n\nVariable names cannot start with a number\nVariable names cannot include a space\n\n\n\n\n\n\n\nTip\n\n\n\nIt is a good programming practice to give your variables names that are descriptive, but not overly long.\n\n\nIf we want to view the value stored in a variable, we have two options: we could simply type the name of the variable, and run the cell:\n\nx\n\n[1] 2\n\n\nor we could pass the variable name into a call to the print() function (we’ll talk more about functions in a future workshop):\n\nprint(x)\n\n[1] 2\n\n\n\n\n\n\n\n\nCaution\n\n\n\nVariable names in R are case sensitive.\n\n\nFor example, if you run\n\nmy_variable &lt;- 25\n\nR will not know what to do with the variable My_variable!\n\nMy_variable\n\nError in eval(expr, envir, enclos): object 'My_variable' not found\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe errors R outputs often contain useful information- be sure to read them!\n\n\nSometimes it will be necessary to update or re-assign a new value to an existing variable. For example, let’s examine the structure of the following code:\n\nx = 2\nx = x + 3\n\nWhat do you think running x will return? If you said 5, you’d be correct! The key point of this is:\n\n\n\n\n\n\nImportant\n\n\n\nWhen performing variable assignment, R reads from right to left.\n\n\nSo, in code example above, R first executed x + 3 (which is equivalent to 2 + 3; i.e. 5), and then re-assigned x the value 5.\n\n\n\n\n\n\nExercise 2\n\n\n\n\nDefine a variable called num_sections, and assign it the value of 3.\nDefine another variable called section_capacity, and assign it the value of 25.\nUpdate the value of num_sections to be one higher than it originally was.\nCompute the product of num_sections and section_capacity."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#comments",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#comments",
+    "title": "Programming in R",
+    "section": "Comments",
+    "text": "Comments\nCode scripts can get long and complicated, pretty quickly. As such, it is often a good idea to add comments to your code. Comments are pretty much exactly what they sound like- they are short words or phrases that do not get executed, but can help the reader understand the code better.\nIn R, comments are created using the hashtag (#). For example:\n\nx &lt;- 1      # define x\nx &lt;- x + 1  # increment x by 1\n\nAgain, the phrases define x and increment x by 1 are never executed by R; they exist solely to help the reader understand what each line of code is doing."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#functions",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#functions",
+    "title": "Programming in R",
+    "section": "Functions",
+    "text": "Functions\nFunctions in R behave much like functions in mathematics.\nGiven a function f() that has been defined in R (we will talk about how to define functions in a future workshop), we call the function on inputs (aka arguments) arg1, arg2, … using the syntax\n\nf(arg1, arg2, ...)\n\nFor example, as we saw previously, the print() function can be called on an argument to simply print the output:\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#help-files",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#help-files",
+    "title": "Programming in R",
+    "section": "Help Files",
+    "text": "Help Files\nR is an open-source software, meaning there are continually contributions being made. This means that there is no way to know everything about R! Rather, we must rely on the extensive documentation that is provided with most R packages and functions.\nTo access the help file on a particular function, you can use the syntax ?&lt;function name&gt;. For example, ?plot pulls up the help file for the plot() function in R.\n\n\n\n\n\n\nExercise 3\n\n\n\nLook up the help file for the sin() function.\n\n\nSometimes, we may want to look up the help file for function whose name we don’t know exactly. To look up help files containing a word, we can use ??&lt;name&gt;.\n\n\n\n\n\n\nExercise 4\n\n\n\nRun ??exponent, and find out how to perform exponentiation in R. Use this to compute \\(e^{4.2}\\)."
+  },
+  {
+    "objectID": "Files/R_Labs/L01_Basics/R_l01.html#packages",
+    "href": "Files/R_Labs/L01_Basics/R_l01.html#packages",
+    "title": "Programming in R",
+    "section": "Packages",
+    "text": "Packages\nIn R, packages can be thought of as bundles containing several functions and/or structures. By default, R loads (i.e. includes) what is known as the base R package, which comes equipped with several useful functions.\nWe can access help files for particular packages using the same syntax as we used to look up the help files for functions: ?&lt;package name&gt;.\n\n\n\n\n\n\nExercise 5\n\n\n\nLook up the help file for the base package. Then, run code to display a list of all functions included in the base package.\n\n\n\n\n\n\n\n\nTip\n\n\n\nHelp files for packages are often referred to as vignettes by programmers who routinely use R.\n\n\nWith a few exceptions, we always need to install a package before using it for the first time. The syntax we use to install a package with the name package_name is\n\ninstall.packages(package_name)\n\n\n\n\n\n\n\nCaution\n\n\n\nYou only need to install a package once.\n\n\nAfter installing a package, we need to load or import it. The syntax we use to load a package with the name package_name is\n\nlibrary(package_name)"
+  },
+  {
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
+  },
+  {
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
+  },
+  {
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
+    "title": "Programming in R",
+    "section": "Pre-Existing R Functions",
+    "text": "Pre-Existing R Functions\nRecall, from Part 1, that functions in R behave much like functions in mathematics. .\nGiven a function f() that has been defined in R, we call the function on inputs (aka arguments) arg1, arg2, … using the syntax\n\nf(arg1, arg2, ...)\n\nKeep in mind that each of the arguments could potentially be of different data types and/or structures, depending on how the function has been defined.\nWe have actually already seen and utilized several functions in R! For example, we used the print() function to print outputs; we also used the data.frame() function to create a data frame.\n\n\n\n\n\n\nTip\n\n\n\nRemember that you can always access the help file for a function with name function_name using the syntax ?function_name."
+  },
+  {
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
+    "title": "Programming in R",
+    "section": "User-Defined Functions",
+    "text": "User-Defined Functions\nTo define a function with the name function_name, we use the syntax:\n\nfunction_name &lt;- function(arg1, arg2, ...) {\n  &lt;body of function&gt;\n}\n\nFor example,\n\nsum_sq &lt;- function(x) {\n  return(sum(x^2))\n}\n\ndefined a function sum_sq that returns the sum of the squared elements in a vector x.\n\nVectorization\nOne of the key features of R is that, by default, the vast majority of functions are vectorized. This means that functions, most of the time, are applied element-wise to vectors. For example, given a vector x, we can add 2 to every element in x by simply writing x + 2:\n\nx &lt;- c(1, 2, 3)\nx + 2\n\n[1] 3 4 5\n\n\nIf you want to vectorize a user-defined function, you can use the wrapper Vectorize().\n\n\n\n\n\n\nExercise 1\n\n\n\nTake a look at the help file for the Vectorize() function."
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
+    "title": "Programming in R",
+    "section": "Data Types",
+    "text": "Data Types\nMuch in the way different variables (in a statistical sense) can have different types (numerical vs. categorical), so to can quantities in R. For example, R treats the quantity 2 differently from the quantity \"hello\". We use the term data type to, loosely speaking, refer to the actual type of a particular quantity (e.g. numerical, character, etc.) The main data types in R are:\n\ndouble: refers to numerical (real-valued) quantities\ninteger: refers to integers\ncharacter: refers to character- or text-type data (and will always be enclosed in either single quotation marks or double quotation marks)\n\n\n\n\n\n\n\nImportant\n\n\n\nIn R, numbers are by default encoded with type double.\n\n\nTo check the type of a particular quantity, we can use the typeof() function. For example:\n\ntypeof(1.1)\n\n[1] \"double\"\n\ntypeof(1)\n\n[1] \"double\"\n\n\nAgain, note that the type of 1 is actually double! If we really wanted to reference the integer 1, we can use an L:\n\ntypeof(1L)\n\n[1] \"integer\""
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
+    "title": "Programming in R",
+    "section": "Data Structures",
+    "text": "Data Structures\nWe can combine quantities in R as well, to produce what are known as data structures. Some of more common data structures in R are:\n\nVectors\nData Frames\nMatrices\nArrays\nLists\n\nEach data structure has a situation in which it is ideal; for now, let’s discuss vectors and data frames.\n\nVectors\nVectors are the most fundamental data structure in R. A vector is, effectively, a one-dimensional list of values. In R, we use the following syntax to create a vector:\n\nc(&lt;element 1&gt;, &lt;element 2&gt;, ...)\n\nFor example,\n\nc(1L, 3.5, \"hello\")\n\n[1] \"1\"     \"3.5\"   \"hello\"\n\n\n(By the Way: note how, in the output, R has converted all elements to be of type character! We’ll revisit this later.)\n\n\nData Frames\nAnother very popular way of storing data in R is using what is known as a data frame. A data frame can be thought of as a collection of vectors, arranged in tabular format; indeed, when storing data in a data frame, we are necessarily implementing the data matrix representation of data (see Workshop 02 for a refresher on this).\nData frames can be created using the data.frame() function in R:\n\ndata.frame(\n  colname1 = c(val1, val2, ...),\n  colname2 = c(val1, val2, ...),\n  ...\n)\n\nFor example:\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5)\n)\n\n  col1 col2\n1    2    1\n2    4    3\n3    6    5\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhen displaying data frames, R always puts an initial column corresponding to row indices.\n\n\nNote that data frames are created column-wise. Additionally, the columns in a data frame must all be of the same length;\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5, 7)\n)\n\nError in data.frame(col1 = c(2, 4, 6), col2 = c(1, 3, 5, 7)): arguments imply differing number of rows: 3, 4\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe columns in a data frame can be comprised of different data types.\n\n\n\n\n\n\n\n\nExercise 1\n\n\n\nMake a data frame in R based on the following table:\n\n\n\nname\nspecies\nage\n\n\n\n\nRover\nDog\n4\n\n\nSamson\nParrot\n1\n\n\nOlivia\nCat\n3\n\n\nHoppers\nRabbit\n2\n\n\n\nAssign your data frame to a variable called animals. That is, after completing this exercise, you should be able to run animals and obtain\n\nanimals\n\n     name species age\n1   Rover     Dog   4\n2  Samson  Parrot   1\n3  Olivia     Cat   3\n4 Hoppers  Rabbit   2"
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
+    "title": "Programming in R",
+    "section": "Slicing/Indexing",
+    "text": "Slicing/Indexing\nWe may wish to extract or access only certain portions of a vector and/or data frame. This can be accomplished using slicing (aka indexing).\nGiven a vector x, the ith element of x can be extracted using the syntax x[i]. For example:\n\nx &lt;- c(1, 3, 5, 7)\nx[2]\n\n[1] 3\n\n\nGiven a data frame d, the (i, j)th element of d can be extracted using the syntax d[i, j]. For example:\n\nd &lt;- data.frame(\n  col1 = c(1, 3, 5, 7),\n  col2 = c(2, 4, 6, 8)\n)\n\nd[4, 2]\n\n[1] 8\n\n\nWe can also access columns in a data frame by using the $ operator. That is: given a data frame df with a column named col1, the synax df$col1 returns the col1 column of df. For example, given the d data frame defined above, we can access col2 by running\n\nd$col2\n\n[1] 2 4 6 8\n\n\n\n\n\n\n\n\nTip\n\n\n\nWhen returning columns of a data frame using slicing, R always returns a vector.\n\n\n\n\n\n\n\n\nExercise 2\n\n\n\nReturning to the animals data frame created above: return Olivia’s age in two different ways:\n\nby indexing\nby first extracting the age column, and then extracting the appropriate element."
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
+    "title": "Programming in R",
+    "section": "Importing Data",
+    "text": "Importing Data\nIn many situations, we will want to import data that has been written or stored in a file or website. The basic function for reading data into R is read.table().\n\n\n\n\n\n\nExercise 3\n\n\n\nLook up the help file for the read.table() function. Additionally, look up the help file for the read.csv() function, and note how it differs from the read.table() function.\n\n\n\n\n\n\n\n\nExercise 4\n\n\n\nImport the data located at https://pstat5a.github.io/Files/Datasets/movies_2000s.csv, and assign it to a variable called movies_2000. (Though you can technically download the data, try to import the data without downloading it onto your local machine). We will explore this data during the in-person portion of the Workshop in General Meeting 3."
+  },
+  {
+    "objectID": "Pages/projects2223.html",
+    "href": "Pages/projects2223.html",
+    "title": "2022-2023",
+    "section": "",
+    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X"
+  },
+  {
+    "objectID": "Pages/officers.html#president-and-vice-president",
+    "href": "Pages/officers.html#president-and-vice-president",
+    "title": "Meet the Officers",
+    "section": "President and Vice President",
+    "text": "President and Vice President"
+  },
+  {
+    "objectID": "Pages/officers.html#secretary-and-treasurer",
+    "href": "Pages/officers.html#secretary-and-treasurer",
+    "title": "Meet the Officers",
+    "section": "Secretary and Treasurer",
+    "text": "Secretary and Treasurer"
+  },
+  {
+    "objectID": "Pages/officers.html#website-committee",
+    "href": "Pages/officers.html#website-committee",
+    "title": "Meet the Officers",
+    "section": "Website Committee",
+    "text": "Website Committee"
+  },
+  {
+    "objectID": "Pages/officers.html#outreach-team",
+    "href": "Pages/officers.html#outreach-team",
+    "title": "Meet the Officers",
+    "section": "Outreach Team",
+    "text": "Outreach Team"
+  },
+  {
+    "objectID": "Pages/officers.html#graphic-designer",
+    "href": "Pages/officers.html#graphic-designer",
+    "title": "Meet the Officers",
+    "section": "Graphic Designer",
+    "text": "Graphic Designer"
+  },
+  {
+    "objectID": "Pages/officers.html#faculty-and-graduate-advisors",
+    "href": "Pages/officers.html#faculty-and-graduate-advisors",
+    "title": "Meet the Officers",
+    "section": "Faculty and Graduate Advisors",
+    "text": "Faculty and Graduate Advisors\n\nDr. Uma Ravat (Faculty Advisor)\nEthan Marzban (Graduate Student Advisor)"
+  },
+  {
+    "objectID": "Pages/projects.html",
+    "href": "Pages/projects.html",
+    "title": "Past Projects",
+    "section": "",
+    "text": "Past projects from our club members!"
+  },
+  {
+    "objectID": "Pages/meetings.html",
+    "href": "Pages/meetings.html",
+    "title": "2023-2024 Meetings",
+    "section": "",
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
+  },
+  {
+    "objectID": "Pages/meetings.html#r-labs",
+    "href": "Pages/meetings.html#r-labs",
+    "title": "2023-2024 Meetings",
+    "section": "",
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
+  },
+  {
+    "objectID": "Pages/meetings.html#general-meetings",
+    "href": "Pages/meetings.html#general-meetings",
+    "title": "2023-2024 Meetings",
+    "section": "General Meetings",
+    "text": "General Meetings\n\n\n\nGM 6 - Project Walkthrough (2/16/24)\n\n\n\nSlides: [google slides] (Click to view)\n\nNetlify Example: [link] (Click to view)\n\n\n\n\n\n\nGM 5 - Tableau Intro Workshop (1/26/24)\n\n\n\nSlides: [.pdf] (Click to download)\n\n\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View) \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+  },
+  {
+    "objectID": "Pages/meetings.html#other-resources",
+    "href": "Pages/meetings.html#other-resources",
+    "title": "2023-2024 Meetings",
+    "section": "Other resources",
+    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)\nProject Proposal Outline  (Click to Download)\nProject Proposal Example  (Click to Download)\nMOSAIKS Presentation  (Click to Download)"
+  },
+  {
+    "objectID": "Pages/past.html",
+    "href": "Pages/past.html",
+    "title": "2022-2023 Meetings",
+    "section": "",
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+  },
+  {
+    "objectID": "Pages/past.html#general-meetings",
+    "href": "Pages/past.html#general-meetings",
+    "title": "2022-2023 Meetings",
+    "section": "",
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+  },
+  {
+    "objectID": "Pages/past.html#topic-specific-meetings",
+    "href": "Pages/past.html#topic-specific-meetings",
+    "title": "2022-2023 Meetings",
+    "section": "Topic-Specific Meetings",
+    "text": "Topic-Specific Meetings\n\n\n\n\nShiny Apps, and Slides (4/28/23)\n\n\n\nShiny Apps:\n\npalmerpenguins scatterplot, with option to color by species: [.R] (Click to download) \n\nSlides:\n\nBasic RSweave (.Rnw) file: [.Rnw] (Click to download)"
+  },
+  {
+    "objectID": "Pages/about.html",
+    "href": "Pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:\n\nTo make statistics accessible to all skill levels\nTo build a community around data science at UCSB\nEnsure the success of our members by guiding them through their own resume-building data science projects"
+  },
+  {
+    "objectID": "Pages/blog.html",
+    "href": "Pages/blog.html",
+    "title": "\nWelcome to our Blog!\n",
+    "section": "",
+    "text": "Welcome to our Blog!\n\n\nTake a look at some of our past socials and events!\n\n\n\n2023\n\n\n\n\nIce Cream Social\n\n\nOctober 24, 2023 @ Storke Lawn\n\n\n\nOn the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had the delightful opportunity to host an Ice Cream Social for our Data Science Collaborative members at Storke Lawn, UCSB. This event aimed to foster connections among students, providing a platform for them to socialize, meet potential project collaborators, and connect with mentors or mentees. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.\n\n\n\n\n\nMOSAIKS Speaker Event\n\n\nJanuary 19, 2024\n\n \n\nOn Friday, January 19th, at UCSB’s North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master’s degree in environmental data science at UC Santa Barbara’s Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.\nThe event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS’ remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.\nThrough engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS’ underlying principles and its practical implications. Carlo’s expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further."
+  }
+]
