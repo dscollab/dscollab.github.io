@@ -12,9 +12,9 @@ title: "2023-2024 Meetings"
 
 ## General Meetings
 <details>
-  <summary> <p> GM 7 - Tableau Intro Workshop #2(2/23/24) </p> </summary>
+  <summary> <p> GM 7 - Tableau Intro Workshop #2 (2/23/24) </p> </summary>
   - Image: <a href="../Files/GM_23_24/TableauFile/beer.png" target="_blank">[.pdf]</a> (Click to download) 
-  - Result: TBD...
+    - Result: TBD...
 </details>
 
 <details>
@@ -24,7 +24,7 @@ title: "2023-2024 Meetings"
 </details>
 
 <details>
-  <summary> <p> GM 5 - Tableau Intro Workshop (1/26/24) </p> </summary>
+  <summary> <p> GM 5 - Tableau Intro Workshop #1 (1/26/24) </p> </summary>
   - Slides: <a href="../Files/GM_23_24/TableauFile/Tableau_presentation.pptx" target="_blank">[.pdf]</a> (Click to download) 
 </details>
 
