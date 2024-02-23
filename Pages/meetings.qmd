@@ -12,6 +12,12 @@ title: "2023-2024 Meetings"
 
 ## General Meetings
 <details>
+  <summary> <p> GM 7 - Tableau Intro Workshop #2(2/23/24) </p> </summary>
+  - Image: <a href="../Files/GM_23_24/TableauFile/beer.png" target="_blank">[.pdf]</a> (Click to download) 
+  - Result: TBD...
+</details>
+
+<details>
   <summary> <p> GM 6 - Project Walkthrough (2/16/24) </p> </summary>
   - Slides: <a href="https://docs.google.com/presentation/d/17gfzBvzmY6f40cJI_AUjDwsbbfTC4fKBrj9xjimyZso/edit?fbclid=IwAR3S0PMQIunypBsMWrYSkCpdaWHGvpaWOmevKin-1NkTuQaiW-5QMJnzbdY#slide=id.g2b9f572305a_0_335" target="_blank">[google slides]</a> (Click to view) 
   - Netlify Example: <a href="https://dscol-walkthrough.netlify.app/?fbclid=IwAR2LUOOLQrXFlyOhq-YVScjzA8FoXchdtdthoYrjxN0NAMCaSfVM3J88NFg" target="_blank">[link]</a> (Click to view)
