@@ -90,8 +90,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Tableau Workshop #2 | Feb. 23, 2024; 2-3pm | Girvetz 1116 |
-| Bayesian | March 1, 2024 | TBD |
+| Bayesian Data Analysis | March 1, 2024 | TBD |
 
 : {.striped .hover}
 
