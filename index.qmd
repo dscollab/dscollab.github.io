@@ -26,7 +26,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <!-- Calendly badge widget end -->
 
 <br>
-<a class="button" href="Files/Project_proposal_outline.pdf" target="mytab">Project Proposal Outline (Due Jan. 26)</a>
+<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdwiLrwMl2xInwkihQRlQ5_P7tAMSra0iwPEfKkEisPOg4F6w/viewform" target="mytab">Intern Application</a>
 <br>
 
 <img class="stickers" src="Images/Stickers/dscollab1.png" alt="sticker1"> \ \ \ \ \ \ \ 
@@ -90,7 +90,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Bayesian Data Analysis | March 1, 2024 | TBD |
+| Bayesian Data Analysis | March 1, 2024; 2-3pm | Girvetz 1116 |
+| Hot Chocolate Social | March 8, 2024; 2-3pm | TBD |
 
 : {.striped .hover}
 
