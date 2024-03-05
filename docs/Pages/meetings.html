@@ -63,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../CSS/index_slideshow.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed fullcontent">
@@ -113,10 +114,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../Pages/schedule.qmd" rel="" target="">
- <span class="menu-text">Schedule Meeting</span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -297,6 +294,63 @@ GM 1 - Fall Kickoff! (10/05/23)
   <summary> <p> GM 2 - Name (10/12/23) </p> </summary>
 </details>
 --->
+<!-- BEGIN SLIDESHOW -->
+<!--- <img src="../Images/2324Workshops/Photo.png" style="width:100%"> --->
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="numbertext">
+1 / 3
+</div>
+<img src="../Images/Mainpage_Slideshow/GroupPhoto.png" style="width:100%">
+<div class="text">
+A photo of our 2022-2023 Final Project Showcase
+</div>
+</div>
+<div class="mySlides fade">
+<div class="numbertext">
+2 / 3
+</div>
+<img src="../Images/Mainpage_Slideshow/bannerstaff.jpg" style="width:100%">
+<div class="text">
+Hard Work at Our 2023 Final Showcase!
+</div>
+</div>
+<div class="mySlides fade">
+<div class="numbertext">
+3 / 3
+</div>
+<img src="../Images/Mainpage_Slideshow/Candid2.jpg" style="width:100%">
+<div class="text">
+Hard Work at Our 2023 Final Showcase!
+</div>
+</div>
+</div>
+<p><br></p>
+<div style="text-align:center">
+<p><span class="dot"></span> <span class="dot"></span> <span class="dot"></span></p>
+</div>
+<!-- END SLIDESHOW -->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
 
 
 </section>

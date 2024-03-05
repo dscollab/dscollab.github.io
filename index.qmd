@@ -90,7 +90,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Bayesian Data Analysis | March 1, 2024; 2-3pm | Girvetz 1116 |
 | Hot Chocolate Social | March 8, 2024; 2-3pm | TBD |
 
 : {.striped .hover}

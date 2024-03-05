@@ -16,8 +16,6 @@ website:
       - href: Pages/blog.qmd
         text: Blog
       - sidebar:about
-      - href: Pages/schedule.qmd
-        text: Schedule Meeting
   sidebar:
     - title: "Meetings"
       style: "docked"

@@ -9,18 +9,7 @@ format: html
   <h5>Take a look at some of our past socials and events!</h5>
 </div>
 
-<h2>2023</h2>
-
-<!--- Ice Cream Social--->
-<div class="post">
-<h3>Ice Cream Social</h3>
-<h5>October 24, 2023 @ Storke Lawn</h5>
-<img src="../Images/Blog/IceCreamSocial/Photo10.png">
-<p>
-On the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had the delightful opportunity to host an Ice Cream Social for our Data Science Collaborative members at Storke Lawn, UCSB. This event aimed to foster connections among students, providing a platform for them to socialize, meet potential project collaborators, and connect with mentors or mentees. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.
-</p>
-</div>
-
+<h2>2024</h2>
 <!--- MOSAIKS Speaker --->
 <div class="post">
 <h3>MOSAIKS Speaker Event</h3>
@@ -35,5 +24,18 @@ The event provided a valuable opportunity for our curious-minded members to delv
 Through engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS' underlying principles and its practical implications. Carlo's expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further.
 </p>
 </div>
+
+<h2>2023</h2>
+
+<!--- Ice Cream Social--->
+<div class="post">
+<h3>Ice Cream Social</h3>
+<h5>October 24, 2023 @ Storke Lawn</h5>
+<img src="../Images/Blog/IceCreamSocial/Photo10.png">
+<p>
+On the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had the delightful opportunity to host an Ice Cream Social for our Data Science Collaborative members at Storke Lawn, UCSB. This event aimed to foster connections among students, providing a platform for them to socialize, meet potential project collaborators, and connect with mentors or mentees. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.
+</p>
+</div>
+
 
 
