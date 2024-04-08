@@ -90,7 +90,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Hot Chocolate Social | March 8, 2024; 2-3pm | TBD |
+| Professor Speaker Panel | April 8, 2024; 7-9pm | Arts Building 1349 |
 
 : {.striped .hover}
 
