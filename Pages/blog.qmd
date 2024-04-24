@@ -10,6 +10,16 @@ format: html
 </div>
 
 <h2>2024</h2>
+<!--- Professor Panel --->
+<div class="post">
+<h3>Professor Speaker Panel</h3>
+<h5>Monday, April 8, 2024 @ Arts Building 1349</h5>
+
+<p>
+On Monday, April 8th, at the UCSB Arts Building, we had the honor of hosting two esteemed professors in Statistics and Data Science, Dr. Katie Coburn and Dr. Rituparna Sen, for our Professor Panel event in collaboration with UCSB’s Delta Sigma Pi. Throughout the panel, both professors shared their experiences and perspectives on Statistics and Data Science and offered insights into the current industry landscape, as well as advice on pursuing an academic career or extended education in the field. A highlight of the event was the emphasis placed on pursuing an academic route within Statistics and Data Science. Dr. Coburn and Dr. Sen provided invaluable insights into the academic journey, discussing topics such as graduate studies, research opportunities, and the importance of mentorship in shaping one's scholarly pursuits. Approximately 40 students were able to get questions answered and gain a deeper understanding and inspiration for their academic and professional endeavors in Statistics and Data Science.
+</p>
+</div>
+
 <!--- MOSAIKS Speaker --->
 <div class="post">
 <h3>MOSAIKS Speaker Event</h3>

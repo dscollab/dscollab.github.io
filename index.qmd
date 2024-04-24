@@ -25,9 +25,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ucsbdscollab/30min', text: 'Schedule a Meeting', color: '#eec799', textColor: '#000000', branding: undefined }); }</script>
 <!-- Calendly badge widget end -->
 
-<br>
-<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdwiLrwMl2xInwkihQRlQ5_P7tAMSra0iwPEfKkEisPOg4F6w/viewform" target="mytab">Intern Application</a>
-<br>
 
 <img class="stickers" src="Images/Stickers/dscollab1.png" alt="sticker1"> \ \ \ \ \ \ \ 
 <img class="stickers" src="Images/Stickers/dscollab2.png" alt="sticker2"> \ \ \ \ \ \ \ 
@@ -90,7 +87,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Professor Speaker Panel | April 8, 2024; 7-9pm | Arts Building 1349 |
+| All About APIs | April 24, 2024; 6-7pm | Sobel Seminar Room |
 
 : {.striped .hover}
 
