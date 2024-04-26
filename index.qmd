@@ -87,7 +87,10 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| All About APIs | April 24, 2024; 6-7pm | Sobel Seminar Room |
+| 85ºC Bakery Sale | April 29, 2024; 9:30am-3pm | Pardall Tunnel |
+| Project Check-in | May 1, 2024; 6-8pm | Zoom |
+| Panda Express Fundraiser | May 6, 2024; 12-5pm | UCEN |
+| Project Showcase Run Through | May 6, 2024; 6-8pm | Arts Building 1356 |
 
 : {.striped .hover}
 
