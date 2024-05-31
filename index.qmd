@@ -87,9 +87,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Wingstop Fundraiser | May 22, 2024; 12-5pm | Wingstop in IV |
-| Project Showcase Run Through | May 24, 2024; 2-4pm | Zoom |
-| Project Showcase | May 30, 2024; 4-8pm | TBD |
+<!---
+| Wingstop Fundraiser | May 22, 2024; 12-5pm | Wingstop in IV | --->
 
 : {.striped .hover}
 
