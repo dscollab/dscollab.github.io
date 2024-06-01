@@ -1,0 +1,126 @@
+/* css styles */
+/* hex code: #eec799 */
+/* rgba(238, 199, 153, 255) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+body {
+  background-image: linear-gradient(135deg, #eec799, white, #a0ddfe, #a0ddfe);
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 16px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+p {font-family: 'Poppins';}
+
+.img-gallery{
+  width: 80%;
+  margin: 50px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-gallery img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.img-gallery img:hover{
+  transform: scale(0.9);
+  border-radius: 10px;
+  box-shadow: 1 32px 7px rgba(68,77,136,0.2);
+}
+
+.full-img{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100; 
+}
+
+.full-img img{
+  width: 90%;
+  max-width: 500px;
+}
+
+.full-img span{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+div.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+div.column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.button {
+  border-radius: 20px;
+  background-color: #eec799;
+  font-size: 100%;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.calendar{
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.test{
+  text-align: center;
+}
+
+.blogheader{
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.post{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post img{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /*padding: 10px;*/
+}
+
+.stickers {
+  width: 30%;
+}
+.rborder{
+  border-radius: 35px
+}
