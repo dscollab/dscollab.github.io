@@ -6,7 +6,7 @@ editor:
 
 # sdsw-ucsb.github.io
 
-https://sdsw-ucsb.github.io/
+(https://dscollab.github.io/)
 
 ##Github Worksheet
 
