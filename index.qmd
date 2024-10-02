@@ -87,7 +87,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-
+| TBD | TBD | TBD |
 
 : {.striped .hover}
 

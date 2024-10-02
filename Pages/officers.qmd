@@ -8,82 +8,47 @@ css: "../styles.css"
 <br>
 
 
-## President and Vice President {.test}
+## Executive Board {.test}
 
-<!--- ![](../Images/Profiles/Kris2023.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Kris2023.png" style="width:80%">
+<!--- ![](../Images/Profiles/2425executiveboard.jpeg){width=80%} 
 
+![](../Images/Profiles/2425executiveboard2.jpeg){width=80%} --->
 
-<br>
+<img class="rborder" src="../Images/Profiles/2425executiveboard.jpeg" style="width:80%">
 
-<!--- ![](../Images/Profiles/Colton2023.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Colton2023.png" style="width:80%">
-
-
-## Secretary and Treasurer {.test}
-
-<!--- ![](../Images/Profiles/Mollie2023.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Mollie2023.png" style="width:80%">
-
-
-<br>
-
-<!--- ![](../Images/Profiles/Annabelle.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Annabelle.png" style="width:80%">
-
-
-## Website Committee {.test}
-
-<!--- ![](../Images/Profiles/Alaina.png){width=80%}
-
-![](../Images/Profiles/Sunny.png){width=80%}
-
-![](../Images/Profiles/Bowie.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Alaina.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Sunny.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Bowie.png" style="width:80%">
-
-
-## Outreach Team {.test}
-
-<!--- ![](../Images/Profiles/Pramukh.png){width=80%}
-
-![](../Images/Profiles/Owen.png){width=80%}
-
-![](../Images/Profiles/Krystal.png){width=80%}
-
-![](../Images/Profiles/Cyrus.png){width=80%}
-
-![](../Images/Profiles/Momo.png){width=80%}
-
-![](../Images/Profiles/Alice.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Pramukh.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Owen.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Krystal.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Cyrus.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Momo.png" style="width:80%">
-
-<img class="rborder" src="../Images/Profiles/Alice.png" style="width:80%">
-
-
-## Graphic Designer {.test}
-
-<!--- ![](../Images/Profiles/Jennifer.png){width=80%} --->
-<img class="rborder" src="../Images/Profiles/Jennifer.png" style="width:80%">
+<img class="rborder" src="../Images/Profiles/2425executiveboard2.jpeg" style="width:80%">
 
 
 
-## Faculty and Graduate Advisors 
+## Website Development {.test}
 
-- Dr. Uma Ravat (Faculty Advisor)
+<!--- ![](../Images/Profiles/2425websitedevelopment.jpeg){width=80%} --->
 
-- Ethan Marzban (Graduate Student Advisor)
+<img class="rborder" src="../Images/Profiles/2425websitedevelopment.jpeg" style="width:80%">
+
+
+
+## Outreach Committee {.test}
+
+<!--- ![](../Images/Profiles/2425outreachcommittee.jpeg){width=80%} --->
+
+<img class="rborder" src="../Images/Profiles/2425outreachcommittee.jpeg" style="width:80%">
+
+
+
+## Events Committee {.test}
+
+<!--- ![](../Images/Profiles/2425eventscommittee.jpeg){width=80%} --->
+
+<img class="rborder" src="../Images/Profiles/2425eventscommittee.jpeg" style="width:80%">
+
+
+
+## Departmental Advisors 
+
+<!--- ![](../Images/Profiles/2425advisors.jpeg){width=80%} --->
+
+<img class="rborder" src="../Images/Profiles/2425advisors.jpeg" style="width:80%">
 
 
 
