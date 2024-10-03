@@ -87,7 +87,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| TBD | TBD | TBD |
+
+| Ice Cream Social | October 4th, 2024; 3:00 - 5:00 pm | SRB Lawn |
+| GM #1 | October 9th, 2024; 6:30 pm | Psychology 1924 |
 
 : {.striped .hover}
 
