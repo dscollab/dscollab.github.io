@@ -87,6 +87,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
+| Discover Panelist | Oct. 14, 2024 / 7-8pm | Zoom |
 
 <!---
 | DSP x DSCollab Speaker | October 16th, 2024; 7-8 pm | Zoom |
