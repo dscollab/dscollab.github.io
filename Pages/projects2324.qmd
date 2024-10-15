@@ -1,5 +1,5 @@
 ---
-title: "2022-2023"
+title: "2023-2024"
 ---
 
 <!-- PROJECT 1 -->
@@ -22,17 +22,18 @@ How does the price of Bitcoin change over time? In this project, a Long Short-Te
 
 <!-- PROJECT 2 -->
 :::{.callout-note collapse="false"}
-## Best Bang for your Buck
+## NBA Prediction Model
 
-<h3>Best Bang for your Buck</h3>
+<h3>NBA Prediction Model</h3>
 
-This project sought to determine which fast food chains provide the "best bang for your buck". More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of "best health", "best deals" and "best overall".
+Whether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!
 
-**Group Members:** Brendan McGuinness, Alaina Liu
+**Group Members:** Akhil Gorla, Aditya Iyer
 
 :::{.img-gallery}
-<img src="../Images/Project_Showcase/2023/!BrendanAlaina.jpeg" onclick="openFullImg(this.src)" style="width:30%">
-<img src="../Images/Project_Showcase/2023/FastFood.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/nba_prediction_model_1.jpeg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/nba_prediction_model_3.jpeg" onclick="openFullImg(this.src)" style="width:30%">
+
 :::
   
 :::
@@ -41,17 +42,16 @@ This project sought to determine which fast food chains provide the "best bang f
 
 <!-- PROJECT 3 -->
 :::{.callout-note collapse="false"}
-## Real or Fake Faces
+## Pokemon Type Interactions with Tableau
 
-<h3>Real or Fake Faces</h3>
+<h3>Pokemon Type Interactions with Tableau</h3>
 
-With the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces. 
+There are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!
 
-**Group Members:** Yishan, Alice, Johanna P.
+**Group Members:** Pramukh Shankar
 
 :::{.img-gallery}
-<img src="../Images/Project_Showcase/2023/!YishanAliceJohanna.jpg" onclick="openFullImg(this.src)" style="width:30%">
-<img src="../Images/Project_Showcase/2023/!faces_group.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/pokemon_tableau_1.jpg" onclick="openFullImg(this.src)" style="width:30%">
 :::
   
 :::
@@ -60,53 +60,37 @@ With the rise of AI-generated media, the ability to recognize real from fake is 
 
 <!-- PROJECT 4 -->
 :::{.callout-note collapse="false"}
-## TV Show and Movie Popularity Analysis
+## Predictive Modeling of Heart Disease
 
-<h3>TV Show and Movie Popularity Analysis</h3>
+<h3>Predictive Modeling of Heart Disease</h3>
 
-Description goes here.
+Using hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.
 
-**Group Members:** Christian Garduno, Roshan Mehta, Colton Rowe
+**Group Members:** Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao
 
 :::{.img-gallery}
-<img src="../Images/Project_Showcase/2023/!ChristianRoshanColton.jpg" onclick="openFullImg(this.src)" style="width:30%">
-<img src="../Images/Project_Showcase/2023/!group1.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/predictive_modeling_heart_disease_1.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/predictive_modeling_heart_disease_2.jpg" onclick="openFullImg(this.src)" style="width:30%">
 :::
   
 :::
 
-<body>
 
-  <div class="full-img" id="fullImgBox">
-  <html>
-    <img src="../Images/Project_Showcase/2023/!KrisAnnaMollieNixon.jpg" id="fullImg">
-    <span onclick="closeFullImg()">X</span>
-  </html>
-  </div>
-  
-  <div class="img-gallery">
-  <html>
-    <img src="../Images/Project_Showcase/2023/!candid1.jpg" onclick="openFullImg(this.src)">
-    <img src="../Images/Project_Showcase/2023/!candid2.jpg" onclick="openFullImg(this.src)">
-    <img src="../Images/Project_Showcase/2023/!KrisAnnaMollieNixon.jpg" onclick="openFullImg(this.src)">
-    <img src="../Images/Project_Showcase/2023/!BrendanAlaina.jpeg" onclick="openFullImg(this.src)">
-    <img src="../Images/Project_Showcase/2023/!YishanAliceJohanna.jpg" onclick="openFullImg(this.src)">
-    <img src="../Images/Project_Showcase/2023/!ChristianRoshanColton.jpg" onclick="openFullImg(this.src)">
-  </html>
-  </div>
-  
-<script>
-  var fullImgBox = document.getElementById("fullImgBox");
-  var fullImg = document.getElementById("fullImg");
-  
-  function openFullImg(pic){
-    fullImgBox.style.display = "flex";
-    fullImg.src = pic
-  }
-  
-  function closeFullImg(){
-  fullImgBox.style.display = "none";
-  }
-</script>
 
-</body>
+<!-- PROJECT 5 -->
+:::{.callout-note collapse="false"}
+## Visual Mouse Using MediaPipe
+
+<h3>Visual Mouse Using MediaPipe</h3>
+
+Using MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!
+
+**Group Members:** Colton Rowe
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2024/visual_mouse_using_mediapipe_1.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/visual_mouse_using_mediapipe_2.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/visual_mouse_using_mediapipe_3.jpg" onclick="openFullImg(this.src)" style="width:30%">
+:::
+  
+:::

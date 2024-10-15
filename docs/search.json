@@ -63,12 +63,12 @@
   {
     "objectID": "Pages/projects2324.html",
     "href": "Pages/projects2324.html",
-    "title": "2022-2023",
+    "title": "2023-2024",
     "section": "",
-    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X",
+    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Prediction Model\n\n\n\n\n\n\nNBA Prediction Model\n\nWhether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!\nGroup Members: Akhil Gorla, Aditya Iyer\n\n \n\n\n\n\n\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\nThere are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!\nGroup Members: Pramukh Shankar\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\nUsing hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.\nGroup Members: Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao\n\n \n\n\n\n\n\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\nUsing MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!\nGroup Members: Colton Rowe",
     "crumbs": [
       "Projects",
-      "2022-2023"
+      "2023-2024"
     ]
   },
   {
