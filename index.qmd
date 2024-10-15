@@ -89,8 +89,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 |--------|------------|----------|
 
 <!---
-| Ice Cream Social | October 4th, 2024; 3:00 - 5:00 pm | SRB Lawn |
-| GM #1 | October 9th, 2024; 6:30 pm | Psychology 1924 | --->
+| DSP x DSCollab Speaker | October 16th, 2024; 7-8 pm | Zoom |
+| Stats R Fun #1 | October 17h, 2024; 6:30-7:45 pm | Psychology 1902 | --->
 
 <!-- : {.striped .hover} -->
 

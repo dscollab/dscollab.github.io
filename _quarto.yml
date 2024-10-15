@@ -30,6 +30,7 @@ website:
       contents:
         - Pages/projects.qmd
         - Pages/projects2223.qmd
+        - Pages/projects2324.qmd
     - id: about
       title: "About"
       contents:
