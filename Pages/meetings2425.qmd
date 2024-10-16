@@ -1,0 +1,12 @@
+---
+title: "2024-2025 Meetings"
+css: "../CSS/index_slideshow.css"
+---
+
+## General Meetings
+
+<!--- GM #1 --->
+<details>
+  <summary> <p> GM 1 - Fall Kickoff! (10/09/24) </p> </summary>
+  - Slides: <a href="../Files/GM_23_24/gm1slides.pdf" target="_blank">[gm1.pdf]</a> (Click to download) <br>
+</details>

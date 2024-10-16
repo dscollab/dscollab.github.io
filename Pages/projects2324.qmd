@@ -31,8 +31,8 @@ Whether attempting to win a bet with your friends, or trying to make a viral pos
 **Group Members:** Akhil Gorla, Aditya Iyer
 
 :::{.img-gallery}
-<img src="../Images/Project_Showcase/2024/nba_prediction_model_1.jpeg" onclick="openFullImg(this.src)" style="width:30%">
-<img src="../Images/Project_Showcase/2024/nba_prediction_model_3.jpeg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/nba_predictive_model_1.jpg" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2024/nba_predictive_model_3.jpg" onclick="openFullImg(this.src)" style="width:30%">
 
 :::
   

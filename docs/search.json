@@ -4,7 +4,7 @@
     "href": "Pages/blog.html",
     "title": "\nWelcome to our Blog!\n",
     "section": "",
-    "text": "Welcome to our Blog!\n\n\nTake a look at some of our past socials and events!\n\n\n\n2024\n\n\n\n\nProfessor Speaker Panel\n\n\nMonday, April 8, 2024 @ Arts Building 1349\n\n\nOn Monday, April 8th, at the UCSB Arts Building, we had the honor of hosting two esteemed professors in Statistics and Data Science, Dr. Katie Coburn and Dr. Rituparna Sen, for our Professor Panel event in collaboration with UCSB’s Delta Sigma Pi. Throughout the panel, both professors shared their experiences and perspectives on Statistics and Data Science and offered insights into the current industry landscape, as well as advice on pursuing an academic career or extended education in the field. A highlight of the event was the emphasis placed on pursuing an academic route within Statistics and Data Science. Dr. Coburn and Dr. Sen provided invaluable insights into the academic journey, discussing topics such as graduate studies, research opportunities, and the importance of mentorship in shaping one’s scholarly pursuits. Approximately 40 students were able to get questions answered and gain a deeper understanding and inspiration for their academic and professional endeavors in Statistics and Data Science.\n\n\n\n\n\nMOSAIKS Speaker Event\n\n\nJanuary 19, 2024\n\n \n\nOn Friday, January 19th, at UCSB’s North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master’s degree in environmental data science at UC Santa Barbara’s Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.\nThe event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS’ remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.\nThrough engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS’ underlying principles and its practical implications. Carlo’s expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further.\n\n\n\n2023\n\n\n\n\nIce Cream Social\n\n\nOctober 24, 2023 @ Storke Lawn\n\n\n\nOn the sunny afternoon of Tuesday, October 24th, from 4:00 to 5:00 pm, we had the delightful opportunity to host an Ice Cream Social for our Data Science Collaborative members at Storke Lawn, UCSB. This event aimed to foster connections among students, providing a platform for them to socialize, meet potential project collaborators, and connect with mentors or mentees. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering."
+    "text": "Welcome to our Blog!\n\n\nTake a look at some of our past socials and events!\n\n\n\n2024\n\n\n\n\nGeneral Meeting #1\n\n\nWednesday, October 9, 2024 @ SRB Lawn\n\n  \n\nOn Wednesday, October 9th, the officers of DS Collab hosted the first general meeting of the 2024-2025 school year! We had a great turnout of students from a variety of majors and backgrounds who were all excited to learn data science from like-minded individuals. The meeting began with introductions from our officers and turned into details about future meetings, workshops, and events. Then, we ended the night with a DS Collab / PSTAT Department / UCSB Trivia related Kahoot with giftcard prizes from the sponsor of the meeting: Woodstock’s Pizza!\n\n\n\n\n\nIce Cream Social\n\n\nFriday, October 4, 2024 @ SRB Lawn\n\n\n\nOn Friday, October 4th, DS Collab hosted a club kickoff ice cream social at the SRB Lawn! From 3:00 to 5:00 pm, the officers connected with many current and prospective club members about the exciting world of data science! We spoke about the structure of the club, the general plan for the year, and the plethora of ways that beginners and non-majors can take their first steps. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.\n\n\n\n\n\nProfessor Speaker Panel\n\n\nMonday, April 8, 2024 @ Arts Building 1349\n\n\nOn Monday, April 8th, at the UCSB Arts Building, we had the honor of hosting two esteemed professors in Statistics and Data Science, Dr. Katie Coburn and Dr. Rituparna Sen, for our Professor Panel event in collaboration with UCSB’s Delta Sigma Pi. Throughout the panel, both professors shared their experiences and perspectives on Statistics and Data Science and offered insights into the current industry landscape, as well as advice on pursuing an academic career or extended education in the field. A highlight of the event was the emphasis placed on pursuing an academic route within Statistics and Data Science. Dr. Coburn and Dr. Sen provided invaluable insights into the academic journey, discussing topics such as graduate studies, research opportunities, and the importance of mentorship in shaping one’s scholarly pursuits. Approximately 40 students were able to get questions answered and gain a deeper understanding and inspiration for their academic and professional endeavors in Statistics and Data Science.\n\n\n\n\n\nMOSAIKS Speaker Event\n\n\nJanuary 19, 2024\n\n \n\nOn Friday, January 19th, at UCSB’s North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master’s degree in environmental data science at UC Santa Barbara’s Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.\nThe event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS’ remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.\nThrough engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS’ underlying principles and its practical implications. Carlo’s expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further."
   },
   {
     "objectID": "Pages/about.html",
@@ -72,50 +72,60 @@
     ]
   },
   {
-    "objectID": "Pages/projects2223.html",
-    "href": "Pages/projects2223.html",
-    "title": "2022-2023",
+    "objectID": "Pages/meetings2425.html",
+    "href": "Pages/meetings2425.html",
+    "title": "2024-2025 Meetings",
     "section": "",
-    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X",
-    "crumbs": [
-      "Projects",
-      "2022-2023"
-    ]
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
   },
   {
-    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html",
-    "href": "Files/R_Labs/L03_Fnts/R_l03.html",
-    "title": "Programming in R",
+    "objectID": "Pages/meetings2425.html#general-meetings",
+    "href": "Pages/meetings2425.html#general-meetings",
+    "title": "2024-2025 Meetings",
     "section": "",
-    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
   },
   {
-    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
-    "href": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html",
     "title": "Programming in R",
     "section": "",
-    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
+    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
   },
   {
-    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
-    "href": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
     "title": "Programming in R",
-    "section": "Pre-Existing R Functions",
-    "text": "Pre-Existing R Functions\nRecall, from Part 1, that functions in R behave much like functions in mathematics. .\nGiven a function f() that has been defined in R, we call the function on inputs (aka arguments) arg1, arg2, … using the syntax\n\nf(arg1, arg2, ...)\n\nKeep in mind that each of the arguments could potentially be of different data types and/or structures, depending on how the function has been defined.\nWe have actually already seen and utilized several functions in R! For example, we used the print() function to print outputs; we also used the data.frame() function to create a data frame.\n\n\n\n\n\n\nTip\n\n\n\nRemember that you can always access the help file for a function with name function_name using the syntax ?function_name."
+    "section": "",
+    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
   },
   {
-    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
-    "href": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
     "title": "Programming in R",
-    "section": "User-Defined Functions",
-    "text": "User-Defined Functions\nTo define a function with the name function_name, we use the syntax:\n\nfunction_name &lt;- function(arg1, arg2, ...) {\n  &lt;body of function&gt;\n}\n\nFor example,\n\nsum_sq &lt;- function(x) {\n  return(sum(x^2))\n}\n\ndefined a function sum_sq that returns the sum of the squared elements in a vector x.\n\nVectorization\nOne of the key features of R is that, by default, the vast majority of functions are vectorized. This means that functions, most of the time, are applied element-wise to vectors. For example, given a vector x, we can add 2 to every element in x by simply writing x + 2:\n\nx &lt;- c(1, 2, 3)\nx + 2\n\n[1] 3 4 5\n\n\nIf you want to vectorize a user-defined function, you can use the wrapper Vectorize().\n\n\n\n\n\n\nExercise 1\n\n\n\nTake a look at the help file for the Vectorize() function."
+    "section": "Data Types",
+    "text": "Data Types\nMuch in the way different variables (in a statistical sense) can have different types (numerical vs. categorical), so to can quantities in R. For example, R treats the quantity 2 differently from the quantity \"hello\". We use the term data type to, loosely speaking, refer to the actual type of a particular quantity (e.g. numerical, character, etc.) The main data types in R are:\n\ndouble: refers to numerical (real-valued) quantities\ninteger: refers to integers\ncharacter: refers to character- or text-type data (and will always be enclosed in either single quotation marks or double quotation marks)\n\n\n\n\n\n\n\nImportant\n\n\n\nIn R, numbers are by default encoded with type double.\n\n\nTo check the type of a particular quantity, we can use the typeof() function. For example:\n\ntypeof(1.1)\n\n[1] \"double\"\n\ntypeof(1)\n\n[1] \"double\"\n\n\nAgain, note that the type of 1 is actually double! If we really wanted to reference the integer 1, we can use an L:\n\ntypeof(1L)\n\n[1] \"integer\""
   },
   {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "",
-    "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nDiscover Panelist\nOct. 14, 2024 / 7-8pm\nZoom"
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
+    "title": "Programming in R",
+    "section": "Data Structures",
+    "text": "Data Structures\nWe can combine quantities in R as well, to produce what are known as data structures. Some of more common data structures in R are:\n\nVectors\nData Frames\nMatrices\nArrays\nLists\n\nEach data structure has a situation in which it is ideal; for now, let’s discuss vectors and data frames.\n\nVectors\nVectors are the most fundamental data structure in R. A vector is, effectively, a one-dimensional list of values. In R, we use the following syntax to create a vector:\n\nc(&lt;element 1&gt;, &lt;element 2&gt;, ...)\n\nFor example,\n\nc(1L, 3.5, \"hello\")\n\n[1] \"1\"     \"3.5\"   \"hello\"\n\n\n(By the Way: note how, in the output, R has converted all elements to be of type character! We’ll revisit this later.)\n\n\nData Frames\nAnother very popular way of storing data in R is using what is known as a data frame. A data frame can be thought of as a collection of vectors, arranged in tabular format; indeed, when storing data in a data frame, we are necessarily implementing the data matrix representation of data (see Workshop 02 for a refresher on this).\nData frames can be created using the data.frame() function in R:\n\ndata.frame(\n  colname1 = c(val1, val2, ...),\n  colname2 = c(val1, val2, ...),\n  ...\n)\n\nFor example:\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5)\n)\n\n  col1 col2\n1    2    1\n2    4    3\n3    6    5\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhen displaying data frames, R always puts an initial column corresponding to row indices.\n\n\nNote that data frames are created column-wise. Additionally, the columns in a data frame must all be of the same length;\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5, 7)\n)\n\nError in data.frame(col1 = c(2, 4, 6), col2 = c(1, 3, 5, 7)): arguments imply differing number of rows: 3, 4\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe columns in a data frame can be comprised of different data types.\n\n\n\n\n\n\n\n\nExercise 1\n\n\n\nMake a data frame in R based on the following table:\n\n\n\nname\nspecies\nage\n\n\n\n\nRover\nDog\n4\n\n\nSamson\nParrot\n1\n\n\nOlivia\nCat\n3\n\n\nHoppers\nRabbit\n2\n\n\n\nAssign your data frame to a variable called animals. That is, after completing this exercise, you should be able to run animals and obtain\n\nanimals\n\n     name species age\n1   Rover     Dog   4\n2  Samson  Parrot   1\n3  Olivia     Cat   3\n4 Hoppers  Rabbit   2"
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
+    "title": "Programming in R",
+    "section": "Slicing/Indexing",
+    "text": "Slicing/Indexing\nWe may wish to extract or access only certain portions of a vector and/or data frame. This can be accomplished using slicing (aka indexing).\nGiven a vector x, the ith element of x can be extracted using the syntax x[i]. For example:\n\nx &lt;- c(1, 3, 5, 7)\nx[2]\n\n[1] 3\n\n\nGiven a data frame d, the (i, j)th element of d can be extracted using the syntax d[i, j]. For example:\n\nd &lt;- data.frame(\n  col1 = c(1, 3, 5, 7),\n  col2 = c(2, 4, 6, 8)\n)\n\nd[4, 2]\n\n[1] 8\n\n\nWe can also access columns in a data frame by using the $ operator. That is: given a data frame df with a column named col1, the synax df$col1 returns the col1 column of df. For example, given the d data frame defined above, we can access col2 by running\n\nd$col2\n\n[1] 2 4 6 8\n\n\n\n\n\n\n\n\nTip\n\n\n\nWhen returning columns of a data frame using slicing, R always returns a vector.\n\n\n\n\n\n\n\n\nExercise 2\n\n\n\nReturning to the animals data frame created above: return Olivia’s age in two different ways:\n\nby indexing\nby first extracting the age column, and then extracting the appropriate element."
+  },
+  {
+    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
+    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
+    "title": "Programming in R",
+    "section": "Importing Data",
+    "text": "Importing Data\nIn many situations, we will want to import data that has been written or stored in a file or website. The basic function for reading data into R is read.table().\n\n\n\n\n\n\nExercise 3\n\n\n\nLook up the help file for the read.table() function. Additionally, look up the help file for the read.csv() function, and note how it differs from the read.table() function.\n\n\n\n\n\n\n\n\nExercise 4\n\n\n\nImport the data located at https://pstat5a.github.io/Files/Datasets/movies_2000s.csv, and assign it to a variable called movies_2000. (Though you can technically download the data, try to import the data without downloading it onto your local machine). We will explore this data during the in-person portion of the Workshop in General Meeting 3."
   },
   {
     "objectID": "Files/R_Labs/L01_Basics/R_l01.html",
@@ -181,46 +191,50 @@
     "text": "Packages\nIn R, packages can be thought of as bundles containing several functions and/or structures. By default, R loads (i.e. includes) what is known as the base R package, which comes equipped with several useful functions.\nWe can access help files for particular packages using the same syntax as we used to look up the help files for functions: ?&lt;package name&gt;.\n\n\n\n\n\n\nExercise 5\n\n\n\nLook up the help file for the base package. Then, run code to display a list of all functions included in the base package.\n\n\n\n\n\n\n\n\nTip\n\n\n\nHelp files for packages are often referred to as vignettes by programmers who routinely use R.\n\n\nWith a few exceptions, we always need to install a package before using it for the first time. The syntax we use to install a package with the name package_name is\n\ninstall.packages(package_name)\n\n\n\n\n\n\n\nCaution\n\n\n\nYou only need to install a package once.\n\n\nAfter installing a package, we need to load or import it. The syntax we use to load a package with the name package_name is\n\nlibrary(package_name)"
   },
   {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html",
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nDiscover Panelist\nOct. 14, 2024 / 7-8pm\nZoom\n\n\nStats R Fun #1\nOctober 17th, 2024 / 6:30-7:45 pm\nPsychology 1902"
+  },
+  {
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html",
     "title": "Programming in R",
     "section": "",
-    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
   },
   {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#prerequisites",
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#prerequisites",
     "title": "Programming in R",
     "section": "",
-    "text": "Please make sure you have downloaded both R and RStudio.\nPlease make sure you are comfortable with the material in Part 1 (Fundamentals)."
+    "text": "Please make sure you have downloaded both R and RStudio, as outlined in the previous lab.\nPlease make sure you are familiar with the concepts of data types, data structures, and packages, along with the basics of programming outlined in Part 1."
   },
   {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-types",
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#pre-existing-r-functions",
     "title": "Programming in R",
-    "section": "Data Types",
-    "text": "Data Types\nMuch in the way different variables (in a statistical sense) can have different types (numerical vs. categorical), so to can quantities in R. For example, R treats the quantity 2 differently from the quantity \"hello\". We use the term data type to, loosely speaking, refer to the actual type of a particular quantity (e.g. numerical, character, etc.) The main data types in R are:\n\ndouble: refers to numerical (real-valued) quantities\ninteger: refers to integers\ncharacter: refers to character- or text-type data (and will always be enclosed in either single quotation marks or double quotation marks)\n\n\n\n\n\n\n\nImportant\n\n\n\nIn R, numbers are by default encoded with type double.\n\n\nTo check the type of a particular quantity, we can use the typeof() function. For example:\n\ntypeof(1.1)\n\n[1] \"double\"\n\ntypeof(1)\n\n[1] \"double\"\n\n\nAgain, note that the type of 1 is actually double! If we really wanted to reference the integer 1, we can use an L:\n\ntypeof(1L)\n\n[1] \"integer\""
+    "section": "Pre-Existing R Functions",
+    "text": "Pre-Existing R Functions\nRecall, from Part 1, that functions in R behave much like functions in mathematics. .\nGiven a function f() that has been defined in R, we call the function on inputs (aka arguments) arg1, arg2, … using the syntax\n\nf(arg1, arg2, ...)\n\nKeep in mind that each of the arguments could potentially be of different data types and/or structures, depending on how the function has been defined.\nWe have actually already seen and utilized several functions in R! For example, we used the print() function to print outputs; we also used the data.frame() function to create a data frame.\n\n\n\n\n\n\nTip\n\n\n\nRemember that you can always access the help file for a function with name function_name using the syntax ?function_name."
   },
   {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#data-structures",
+    "objectID": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
+    "href": "Files/R_Labs/L03_Fnts/R_l03.html#user-defined-functions",
     "title": "Programming in R",
-    "section": "Data Structures",
-    "text": "Data Structures\nWe can combine quantities in R as well, to produce what are known as data structures. Some of more common data structures in R are:\n\nVectors\nData Frames\nMatrices\nArrays\nLists\n\nEach data structure has a situation in which it is ideal; for now, let’s discuss vectors and data frames.\n\nVectors\nVectors are the most fundamental data structure in R. A vector is, effectively, a one-dimensional list of values. In R, we use the following syntax to create a vector:\n\nc(&lt;element 1&gt;, &lt;element 2&gt;, ...)\n\nFor example,\n\nc(1L, 3.5, \"hello\")\n\n[1] \"1\"     \"3.5\"   \"hello\"\n\n\n(By the Way: note how, in the output, R has converted all elements to be of type character! We’ll revisit this later.)\n\n\nData Frames\nAnother very popular way of storing data in R is using what is known as a data frame. A data frame can be thought of as a collection of vectors, arranged in tabular format; indeed, when storing data in a data frame, we are necessarily implementing the data matrix representation of data (see Workshop 02 for a refresher on this).\nData frames can be created using the data.frame() function in R:\n\ndata.frame(\n  colname1 = c(val1, val2, ...),\n  colname2 = c(val1, val2, ...),\n  ...\n)\n\nFor example:\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5)\n)\n\n  col1 col2\n1    2    1\n2    4    3\n3    6    5\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhen displaying data frames, R always puts an initial column corresponding to row indices.\n\n\nNote that data frames are created column-wise. Additionally, the columns in a data frame must all be of the same length;\n\ndata.frame(\n  col1 = c(2, 4, 6),\n  col2 = c(1, 3, 5, 7)\n)\n\nError in data.frame(col1 = c(2, 4, 6), col2 = c(1, 3, 5, 7)): arguments imply differing number of rows: 3, 4\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe columns in a data frame can be comprised of different data types.\n\n\n\n\n\n\n\n\nExercise 1\n\n\n\nMake a data frame in R based on the following table:\n\n\n\nname\nspecies\nage\n\n\n\n\nRover\nDog\n4\n\n\nSamson\nParrot\n1\n\n\nOlivia\nCat\n3\n\n\nHoppers\nRabbit\n2\n\n\n\nAssign your data frame to a variable called animals. That is, after completing this exercise, you should be able to run animals and obtain\n\nanimals\n\n     name species age\n1   Rover     Dog   4\n2  Samson  Parrot   1\n3  Olivia     Cat   3\n4 Hoppers  Rabbit   2"
+    "section": "User-Defined Functions",
+    "text": "User-Defined Functions\nTo define a function with the name function_name, we use the syntax:\n\nfunction_name &lt;- function(arg1, arg2, ...) {\n  &lt;body of function&gt;\n}\n\nFor example,\n\nsum_sq &lt;- function(x) {\n  return(sum(x^2))\n}\n\ndefined a function sum_sq that returns the sum of the squared elements in a vector x.\n\nVectorization\nOne of the key features of R is that, by default, the vast majority of functions are vectorized. This means that functions, most of the time, are applied element-wise to vectors. For example, given a vector x, we can add 2 to every element in x by simply writing x + 2:\n\nx &lt;- c(1, 2, 3)\nx + 2\n\n[1] 3 4 5\n\n\nIf you want to vectorize a user-defined function, you can use the wrapper Vectorize().\n\n\n\n\n\n\nExercise 1\n\n\n\nTake a look at the help file for the Vectorize() function."
   },
   {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#slicingindexing",
-    "title": "Programming in R",
-    "section": "Slicing/Indexing",
-    "text": "Slicing/Indexing\nWe may wish to extract or access only certain portions of a vector and/or data frame. This can be accomplished using slicing (aka indexing).\nGiven a vector x, the ith element of x can be extracted using the syntax x[i]. For example:\n\nx &lt;- c(1, 3, 5, 7)\nx[2]\n\n[1] 3\n\n\nGiven a data frame d, the (i, j)th element of d can be extracted using the syntax d[i, j]. For example:\n\nd &lt;- data.frame(\n  col1 = c(1, 3, 5, 7),\n  col2 = c(2, 4, 6, 8)\n)\n\nd[4, 2]\n\n[1] 8\n\n\nWe can also access columns in a data frame by using the $ operator. That is: given a data frame df with a column named col1, the synax df$col1 returns the col1 column of df. For example, given the d data frame defined above, we can access col2 by running\n\nd$col2\n\n[1] 2 4 6 8\n\n\n\n\n\n\n\n\nTip\n\n\n\nWhen returning columns of a data frame using slicing, R always returns a vector.\n\n\n\n\n\n\n\n\nExercise 2\n\n\n\nReturning to the animals data frame created above: return Olivia’s age in two different ways:\n\nby indexing\nby first extracting the age column, and then extracting the appropriate element."
-  },
-  {
-    "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
-    "href": "Files/R_Labs/L02_DT_DS/R_l02.html#importing-data",
-    "title": "Programming in R",
-    "section": "Importing Data",
-    "text": "Importing Data\nIn many situations, we will want to import data that has been written or stored in a file or website. The basic function for reading data into R is read.table().\n\n\n\n\n\n\nExercise 3\n\n\n\nLook up the help file for the read.table() function. Additionally, look up the help file for the read.csv() function, and note how it differs from the read.table() function.\n\n\n\n\n\n\n\n\nExercise 4\n\n\n\nImport the data located at https://pstat5a.github.io/Files/Datasets/movies_2000s.csv, and assign it to a variable called movies_2000. (Though you can technically download the data, try to import the data without downloading it onto your local machine). We will explore this data during the in-person portion of the Workshop in General Meeting 3."
+    "objectID": "Pages/projects2223.html",
+    "href": "Pages/projects2223.html",
+    "title": "2022-2023",
+    "section": "",
+    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X",
+    "crumbs": [
+      "Projects",
+      "2022-2023"
+    ]
   },
   {
     "objectID": "Pages/officers.html#executive-board",
