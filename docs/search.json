@@ -11,87 +11,56 @@
     "href": "Pages/about.html",
     "title": "About",
     "section": "",
-    "text": "Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:\n\nTo make statistics accessible to all skill levels\nTo build a community around data science at UCSB\nEnsure the success of our members by guiding them through their own resume-building data science projects",
-    "crumbs": [
-      "About"
-    ]
+    "text": "Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:\n\nTo make statistics accessible to all skill levels\nTo build a community around data science at UCSB\nEnsure the success of our members by guiding them through their own resume-building data science projects"
   },
   {
     "objectID": "Pages/meetings.html",
     "href": "Pages/meetings.html",
     "title": "2023-2024 Meetings",
     "section": "",
-    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)",
-    "crumbs": [
-      "Meetings",
-      "2023-2024 Meetings"
-    ]
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
   },
   {
     "objectID": "Pages/meetings.html#r-labs",
     "href": "Pages/meetings.html#r-labs",
     "title": "2023-2024 Meetings",
     "section": "",
-    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)",
-    "crumbs": [
-      "Meetings",
-      "2023-2024 Meetings"
-    ]
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
   },
   {
     "objectID": "Pages/meetings.html#general-meetings",
     "href": "Pages/meetings.html#general-meetings",
     "title": "2023-2024 Meetings",
     "section": "General Meetings",
-    "text": "General Meetings\n\n\n\nGM 8 - API Workshop (4/24/24)\n\n\n\nSlides: TBD… [.pdf] (Click to download)\nAPI Demo1: [.py] (Click to download)\nAPI Demo2: [.py] (Click to download)\nAPI Demo3: [.py] (Click to download)\n\n\n\n\n\nGM 7 - Tableau Intro Workshop #2 (2/23/24)\n\n\n\nImage: [.pdf] (Click to download)\nResult: [.twb] (Click to download)\n\n\n\n\n\nGM 6 - Project Walkthrough (2/16/24)\n\n\n\nSlides: [google slides] (Click to view)\n\nNetlify Example: [link] (Click to view)\n\n\n\n\n\n\nGM 5 - Tableau Intro Workshop #1 (1/26/24)\n\n\n\nSlides: [.pdf] (Click to download)\n\n\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View) \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2023-2024 Meetings"
-    ]
+    "text": "General Meetings\n\n\n\nGM 8 - API Workshop (4/24/24)\n\n\n\nSlides: TBD… [.pdf] (Click to download)\nAPI Demo1: [.py] (Click to download)\nAPI Demo2: [.py] (Click to download)\nAPI Demo3: [.py] (Click to download)\n\n\n\n\n\nGM 7 - Tableau Intro Workshop #2 (2/23/24)\n\n\n\nImage: [.pdf] (Click to download)\nResult: [.twb] (Click to download)\n\n\n\n\n\nGM 6 - Project Walkthrough (2/16/24)\n\n\n\nSlides: [google slides] (Click to view)\n\nNetlify Example: [link] (Click to view)\n\n\n\n\n\n\nGM 5 - Tableau Intro Workshop #1 (1/26/24)\n\n\n\nSlides: [.pdf] (Click to download)\n\n\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View) \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)"
   },
   {
     "objectID": "Pages/meetings.html#other-resources",
     "href": "Pages/meetings.html#other-resources",
     "title": "2023-2024 Meetings",
     "section": "Other resources",
-    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)\nProject Proposal Outline  (Click to Download)\nProject Proposal Example  (Click to Download)\nMOSAIKS Presentation  (Click to Download)\n\n\n\n\n\n\n\n\n1 / 8\n\n\n\nTableau Workshop\n\n\n\n\n2 / 8\n\n\n\nTableau Workshop\n\n\n\n\n3 / 8\n\n\n\nTableau Workshop\n\n\n\n\n4 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n5 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n6 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n7 / 8\n\n\n\nTableau Workshop 2\n\n\n\n\n8 / 8\n\n\n\nTableau Workshop",
-    "crumbs": [
-      "Meetings",
-      "2023-2024 Meetings"
-    ]
+    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)\nProject Proposal Outline  (Click to Download)\nProject Proposal Example  (Click to Download)\nMOSAIKS Presentation  (Click to Download)\n\n\n\n\n\n\n\n\n1 / 8\n\n\n\nTableau Workshop\n\n\n\n\n2 / 8\n\n\n\nTableau Workshop\n\n\n\n\n3 / 8\n\n\n\nTableau Workshop\n\n\n\n\n4 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n5 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n6 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n7 / 8\n\n\n\nTableau Workshop 2\n\n\n\n\n8 / 8\n\n\n\nTableau Workshop"
   },
   {
     "objectID": "Pages/projects2324.html",
     "href": "Pages/projects2324.html",
     "title": "2023-2024",
     "section": "",
-    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Prediction Model\n\n\n\n\n\n\nNBA Prediction Model\n\nWhether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!\nGroup Members: Akhil Gorla, Aditya Iyer\n\n \n\n\n\n\n\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\nThere are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!\nGroup Members: Pramukh Shankar\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\nUsing hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.\nGroup Members: Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao\n\n \n\n\n\n\n\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\nUsing MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!\nGroup Members: Colton Rowe",
-    "crumbs": [
-      "Projects",
-      "2023-2024"
-    ]
+    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Prediction Model\n\n\n\n\n\n\nNBA Prediction Model\n\nWhether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!\nGroup Members: Akhil Gorla, Aditya Iyer\n\n \n\n\n\n\n\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\nThere are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!\nGroup Members: Pramukh Shankar\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\nUsing hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.\nGroup Members: Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao\n\n \n\n\n\n\n\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\nUsing MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!\nGroup Members: Colton Rowe"
   },
   {
     "objectID": "Pages/meetings2425.html",
     "href": "Pages/meetings2425.html",
     "title": "2024-2025 Meetings",
     "section": "",
-    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2024-2025 Meetings"
-    ]
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
   },
   {
     "objectID": "Pages/meetings2425.html#general-meetings",
     "href": "Pages/meetings2425.html#general-meetings",
     "title": "2024-2025 Meetings",
     "section": "",
-    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2024-2025 Meetings"
-    ]
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
   },
   {
     "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html",
@@ -238,104 +207,69 @@
     "href": "Pages/projects2223.html",
     "title": "2022-2023",
     "section": "",
-    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X",
-    "crumbs": [
-      "Projects",
-      "2022-2023"
-    ]
+    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X"
   },
   {
     "objectID": "Pages/officers.html#executive-board",
     "href": "Pages/officers.html#executive-board",
     "title": "Meet the Officers",
     "section": "Executive Board",
-    "text": "Executive Board",
-    "crumbs": [
-      "Meet the Officers"
-    ]
+    "text": "Executive Board"
   },
   {
     "objectID": "Pages/officers.html#website-development",
     "href": "Pages/officers.html#website-development",
     "title": "Meet the Officers",
     "section": "Website Development",
-    "text": "Website Development",
-    "crumbs": [
-      "Meet the Officers"
-    ]
+    "text": "Website Development"
   },
   {
     "objectID": "Pages/officers.html#outreach-committee",
     "href": "Pages/officers.html#outreach-committee",
     "title": "Meet the Officers",
     "section": "Outreach Committee",
-    "text": "Outreach Committee",
-    "crumbs": [
-      "Meet the Officers"
-    ]
+    "text": "Outreach Committee"
   },
   {
     "objectID": "Pages/officers.html#events-committee",
     "href": "Pages/officers.html#events-committee",
     "title": "Meet the Officers",
     "section": "Events Committee",
-    "text": "Events Committee",
-    "crumbs": [
-      "Meet the Officers"
-    ]
+    "text": "Events Committee"
   },
   {
     "objectID": "Pages/officers.html#departmental-advisors",
     "href": "Pages/officers.html#departmental-advisors",
     "title": "Meet the Officers",
     "section": "Departmental Advisors",
-    "text": "Departmental Advisors",
-    "crumbs": [
-      "Meet the Officers"
-    ]
+    "text": "Departmental Advisors"
   },
   {
     "objectID": "Pages/projects.html",
     "href": "Pages/projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Past projects from our club members!",
-    "crumbs": [
-      "Projects",
-      "Past Projects"
-    ]
+    "text": "Past projects from our club members!"
   },
   {
     "objectID": "Pages/past.html",
     "href": "Pages/past.html",
     "title": "2022-2023 Meetings",
     "section": "",
-    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2022-2023 Meetings"
-    ]
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
   },
   {
     "objectID": "Pages/past.html#general-meetings",
     "href": "Pages/past.html#general-meetings",
     "title": "2022-2023 Meetings",
     "section": "",
-    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2022-2023 Meetings"
-    ]
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
   },
   {
     "objectID": "Pages/past.html#topic-specific-meetings",
     "href": "Pages/past.html#topic-specific-meetings",
     "title": "2022-2023 Meetings",
     "section": "Topic-Specific Meetings",
-    "text": "Topic-Specific Meetings\n\n\n\n\nShiny Apps, and Slides (4/28/23)\n\n\n\nShiny Apps:\n\npalmerpenguins scatterplot, with option to color by species: [.R] (Click to download) \n\nSlides:\n\nBasic RSweave (.Rnw) file: [.Rnw] (Click to download)",
-    "crumbs": [
-      "Meetings",
-      "2022-2023 Meetings"
-    ]
+    "text": "Topic-Specific Meetings\n\n\n\n\nShiny Apps, and Slides (4/28/23)\n\n\n\nShiny Apps:\n\npalmerpenguins scatterplot, with option to color by species: [.R] (Click to download) \n\nSlides:\n\nBasic RSweave (.Rnw) file: [.Rnw] (Click to download)"
   }
 ]
