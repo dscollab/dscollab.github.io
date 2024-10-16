@@ -13,7 +13,7 @@ format: html
 <!--- General Meeting #1 --->
 <div class="post">
 <h3>General Meeting #1</h3>
-<h5>Wednesday, October 9, 2024 @ SRB Lawn</h5>
+<h5>Wednesday, October 9, 2024 @ Psychology 1924</h5>
 <img src="../Images/2425Workshops/GM1/2425gm10.JPG">
 <img src="../Images/2425Workshops/GM1/2425gm12.JPG">
 <img src="../Images/2425Workshops/GM1/2425gm17.JPG">
