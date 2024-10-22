@@ -69,6 +69,7 @@ Using hospital data, this project sought to determine the links between various 
 **Group Members:** Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao
 
 :::{.img-gallery}
+<img src="../Images/Project_Showcase/2024/predictive_modeling_heart_disease_0.jpg" onclick="openFullImg(this.src)" style="width:30%">
 <img src="../Images/Project_Showcase/2024/predictive_modeling_heart_disease_1.jpg" onclick="openFullImg(this.src)" style="width:30%">
 <img src="../Images/Project_Showcase/2024/predictive_modeling_heart_disease_2.jpg" onclick="openFullImg(this.src)" style="width:30%">
 :::

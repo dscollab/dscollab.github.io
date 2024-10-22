@@ -7,5 +7,15 @@ title: "2024-2025 Meetings"
 <!--- GM #1 --->
 <details>
   <summary> <p> GM 1 - Fall Kickoff! (10/09/24) </p> </summary>
-  - Slides: <a href="../Files/GM_23_24/gm1slides.pdf" target="_blank">[gm1.pdf]</a> (Click to download) <br>
+  - Slides: <a href="../Files/GM_24_25/gm1slides.pdf" target="_blank">[gm1.pdf]</a> (Click to download) <br>
+</details>
+
+## Stats R Fun
+
+<!--- Stats R Fun #1 --->
+<details>
+  <summary> <p> Stats R Fun #1 (10/17/24) </p> </summary>
+  - Slides: <a href="../Files/Workshops_24_25/Stats_R_fun_1.pdf" target="_blank">[StatsRFun1.pdf]</a> (Click to download) <br>
+  - Intro to Python Jupyter Notebook: <a href="../Files/Workshops_24_25/Intro_to_Python_+_Data.ipynb" target="_blank">[IntrotoPython.pdf]</a> (Click to download) <br>
+  - Intro to Python Answers: <a href="../Files/Workshops_24_25/ANSWERS_Intro_to_Python_+_Data.ipynb" target="_blank">[IntrotoPythonAnswers.pdf]</a> (Click to download) <br>
 </details>

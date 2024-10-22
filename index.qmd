@@ -78,7 +78,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 <p style = "text-align: center">
   <a href = "https://www.instagram.com/ucsbdscollab/" target = "_blank"><img src = "Images/Logos_Icons/instagram.png" width = 40></a> \ \ \ \ \ \ \ \ 
-  <a href = "https://discord.gg/EJGYhShztV" target = "_blank"><img src = "Images/Logos_Icons/discord.png" width = 40></a> \ \ \ \ \ \ \ \ 
+  <a href = "https://discord.gg/RHQrkvTu2g" target = "_blank"><img src = "Images/Logos_Icons/discord.png" width = 40></a> \ \ \ \ \ \ \ \ 
   <a href = "https://shoreline.ucsb.edu/DCOL/club_signup" target = "_blank"><img  src = "Images/Logos_Icons/shoreline.png" width = 40></a> \ \ \ \ \ \ \ \ 
   <a href = "https://mail.google.com/mail/?view=cm&source=mailto&to=ucsbdscollab@gmail.com" target = "_blank"><img src = "Images/Logos_Icons/email.png" width = 40></a> \ \ \ \ \ \ \ \ 
   <a href = "https://www.linkedin.com/company/98787644/admin/feed/posts/" target = "_blank"><img src = "Images/Logos_Icons/linkedIn.png" width = 40></a> 
@@ -88,8 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Discover Panelist | Oct. 14, 2024 / 7-8pm | Zoom |
-| Stats R Fun #1 | October 17th, 2024 / 6:30-7:45 pm | Psychology 1902 |
+| Stats R Fun #2 | October 30th, 2024 / 6:30-7:45 pm | Psychology 1902 |
 
 <!-- : {.striped .hover} -->
 

@@ -4,63 +4,105 @@
     "href": "Pages/blog.html",
     "title": "\nWelcome to our Blog!\n",
     "section": "",
-    "text": "Welcome to our Blog!\n\n\nTake a look at some of our past socials and events!\n\n\n\n2024\n\n\n\n\nGeneral Meeting #1\n\n\nWednesday, October 9, 2024 @ Psychology 1924\n\n  \n\nOn Wednesday, October 9th, the officers of DS Collab hosted the first general meeting of the 2024-2025 school year! We had a great turnout of students from a variety of majors and backgrounds who were all excited to learn data science from like-minded individuals. The meeting began with introductions from our officers and turned into details about future meetings, workshops, and events. Then, we ended the night with a DS Collab / PSTAT Department / UCSB Trivia related Kahoot with giftcard prizes from the sponsor of the meeting: Woodstock’s Pizza!\n\n\n\n\n\nIce Cream Social\n\n\nFriday, October 4, 2024 @ SRB Lawn\n\n\n\nOn Friday, October 4th, DS Collab hosted a club kickoff ice cream social at the SRB Lawn! From 3:00 to 5:00 pm, the officers connected with many current and prospective club members about the exciting world of data science! We spoke about the structure of the club, the general plan for the year, and the plethora of ways that beginners and non-majors can take their first steps. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.\n\n\n\n\n\nProfessor Speaker Panel\n\n\nMonday, April 8, 2024 @ Arts Building 1349\n\n\nOn Monday, April 8th, at the UCSB Arts Building, we had the honor of hosting two esteemed professors in Statistics and Data Science, Dr. Katie Coburn and Dr. Rituparna Sen, for our Professor Panel event in collaboration with UCSB’s Delta Sigma Pi. Throughout the panel, both professors shared their experiences and perspectives on Statistics and Data Science and offered insights into the current industry landscape, as well as advice on pursuing an academic career or extended education in the field. A highlight of the event was the emphasis placed on pursuing an academic route within Statistics and Data Science. Dr. Coburn and Dr. Sen provided invaluable insights into the academic journey, discussing topics such as graduate studies, research opportunities, and the importance of mentorship in shaping one’s scholarly pursuits. Approximately 40 students were able to get questions answered and gain a deeper understanding and inspiration for their academic and professional endeavors in Statistics and Data Science.\n\n\n\n\n\nMOSAIKS Speaker Event\n\n\nJanuary 19, 2024\n\n \n\nOn Friday, January 19th, at UCSB’s North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master’s degree in environmental data science at UC Santa Barbara’s Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.\nThe event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS’ remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.\nThrough engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS’ underlying principles and its practical implications. Carlo’s expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further."
+    "text": "Welcome to our Blog!\n\n\nTake a look at some of our past socials and events!\n\n\n\n2024\n\n\n\n\nStats R Fun #1\n\n\nThursday, October 17, 2024 @ Psychology 1902\n\n  \n\nOn Thursday, October 17th, at 6:30 pm, DSCollab hosted its first workshop of the 2024-2025 academic year. Our president, Cyrus Navasca, introduced us to many of the essential characteristics and componenets of python for data science! We delved into basic python syntax, data types, and importing data.\n\n\n\n\n\nDiscover Guest Speaker\n\n\nWednesday, October 16, 2024 on Zoom\n\n\nOn Wednesday, October 16th, from 7-8 pm, DSCollab and Delta Sigma Pi hosted a guest speaker event by Brianna Griffin, a Senior Lead Data Analyst @ Discover! Brianna shared her experiences studying at UC Santa Barbara, going through the internship process, and landing a job in the fraud prevention sector at Discover Financial Services. She discussed her day-to-day life, her role and responsibilities, and her career progression through the company. Overall, it was a very worthwhile and informative event, especially since Brianna was in our shoes not too long ago!\n\n\n\n\n\nGeneral Meeting #1\n\n\nWednesday, October 9, 2024 @ Psychology 1924\n\n  \n\nOn Wednesday, October 9th, the officers of DS Collab hosted the first general meeting of the 2024-2025 school year! We had a great turnout of students from a variety of majors and backgrounds who were all excited to learn data science from like-minded individuals. The meeting began with introductions from our officers and turned into details about future meetings, workshops, and events. Then, we ended the night with a DS Collab / PSTAT Department / UCSB Trivia related Kahoot with giftcard prizes from the sponsor of the meeting: Woodstock’s Pizza!\n\n\n\n\n\nIce Cream Social\n\n\nFriday, October 4, 2024 @ SRB Lawn\n\n\n\nOn Friday, October 4th, DS Collab hosted a club kickoff ice cream social at the SRB Lawn! From 3:00 to 5:00 pm, the officers connected with many current and prospective club members about the exciting world of data science! We spoke about the structure of the club, the general plan for the year, and the plethora of ways that beginners and non-majors can take their first steps. During the social, we offered a variety of ice cream treats, including classic Kirkland chocolate options and vegan alternatives. The event had a successful turnout, with students mingling, making new acquaintances, and nurturing a strong sense of the data science community through this enjoyable gathering.\n\n\n\n\n\nProfessor Speaker Panel\n\n\nMonday, April 8, 2024 @ Arts Building 1349\n\n\nOn Monday, April 8th, at the UCSB Arts Building, we had the honor of hosting two esteemed professors in Statistics and Data Science, Dr. Katie Coburn and Dr. Rituparna Sen, for our Professor Panel event in collaboration with UCSB’s Delta Sigma Pi. Throughout the panel, both professors shared their experiences and perspectives on Statistics and Data Science and offered insights into the current industry landscape, as well as advice on pursuing an academic career or extended education in the field. A highlight of the event was the emphasis placed on pursuing an academic route within Statistics and Data Science. Dr. Coburn and Dr. Sen provided invaluable insights into the academic journey, discussing topics such as graduate studies, research opportunities, and the importance of mentorship in shaping one’s scholarly pursuits. Approximately 40 students were able to get questions answered and gain a deeper understanding and inspiration for their academic and professional endeavors in Statistics and Data Science.\n\n\n\n\n\nMOSAIKS Speaker Event\n\n\nJanuary 19, 2024\n\n \n\nOn Friday, January 19th, at UCSB’s North Hall, we had the pleasure of hosting speaker Carlo Broderick, who received a Master’s degree in environmental data science at UC Santa Barbara’s Bren School of Environmental Science and Management. He came to speak about MOSAIKS (Multi-task Observation using Satellite Imagery & Kitchen Sinks), a new approach to analyzing satellite imagery with machine learning, for our Data Science Collaborative members.\nThe event provided a valuable opportunity for our curious-minded members to delve into the intricacies of MOSAIKS and its transformative potential. Carlo elucidated how MOSAIKS transforms satellite images into tabular data (features). One of the most remarkable aspects highlighted was MOSAICS’ remarkable ability to generalize across diverse tasks using a unified set of features, ensuring accessibility and effectiveness across a broad spectrum of applications.\nThrough engaging with Carlo during the speaker event, our members gained a deeper understanding of MOSAICS’ underlying principles and its practical implications. Carlo’s expertise and passion for leveraging machine learning to address real-world challenges shone through, inspiring our members to explore the intersection of data science and environmental analysis further."
   },
   {
     "objectID": "Pages/about.html",
     "href": "Pages/about.html",
     "title": "About",
     "section": "",
-    "text": "Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:\n\nTo make statistics accessible to all skill levels\nTo build a community around data science at UCSB\nEnsure the success of our members by guiding them through their own resume-building data science projects"
+    "text": "Founded in 2023 by Kris Hao and Anya Macomber, the workshop series aims to provide an inclusive and collegial atmosphere where motivated students can engage more fully with real-world datasets and projects. Our goals as an organization are:\n\nTo make statistics accessible to all skill levels\nTo build a community around data science at UCSB\nEnsure the success of our members by guiding them through their own resume-building data science projects",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "Pages/meetings.html",
     "href": "Pages/meetings.html",
     "title": "2023-2024 Meetings",
     "section": "",
-    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)",
+    "crumbs": [
+      "Meetings",
+      "2023-2024 Meetings"
+    ]
   },
   {
     "objectID": "Pages/meetings.html#r-labs",
     "href": "Pages/meetings.html#r-labs",
     "title": "2023-2024 Meetings",
     "section": "",
-    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)"
+    "text": "Part 1: Fundamentals (Opens in a New Tab)\nPart 2: Data Types and Data Structures (Opens in a New Tab)\nPart 3: Functions (Opens in a New Tab)",
+    "crumbs": [
+      "Meetings",
+      "2023-2024 Meetings"
+    ]
   },
   {
     "objectID": "Pages/meetings.html#general-meetings",
     "href": "Pages/meetings.html#general-meetings",
     "title": "2023-2024 Meetings",
     "section": "General Meetings",
-    "text": "General Meetings\n\n\n\nGM 8 - API Workshop (4/24/24)\n\n\n\nSlides: TBD… [.pdf] (Click to download)\nAPI Demo1: [.py] (Click to download)\nAPI Demo2: [.py] (Click to download)\nAPI Demo3: [.py] (Click to download)\n\n\n\n\n\nGM 7 - Tableau Intro Workshop #2 (2/23/24)\n\n\n\nImage: [.pdf] (Click to download)\nResult: [.twb] (Click to download)\n\n\n\n\n\nGM 6 - Project Walkthrough (2/16/24)\n\n\n\nSlides: [google slides] (Click to view)\n\nNetlify Example: [link] (Click to view)\n\n\n\n\n\n\nGM 5 - Tableau Intro Workshop #1 (1/26/24)\n\n\n\nSlides: [.pdf] (Click to download)\n\n\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View) \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+    "text": "General Meetings\n\n\n\nGM 8 - API Workshop (4/24/24)\n\n\n\nSlides: TBD… [.pdf] (Click to download)\nAPI Demo1: [.py] (Click to download)\nAPI Demo2: [.py] (Click to download)\nAPI Demo3: [.py] (Click to download)\n\n\n\n\n\nGM 7 - Tableau Intro Workshop #2 (2/23/24)\n\n\n\nImage: [.pdf] (Click to download)\nResult: [.twb] (Click to download)\n\n\n\n\n\nGM 6 - Project Walkthrough (2/16/24)\n\n\n\nSlides: [google slides] (Click to view)\n\nNetlify Example: [link] (Click to view)\n\n\n\n\n\n\nGM 5 - Tableau Intro Workshop #1 (1/26/24)\n\n\n\nSlides: [.pdf] (Click to download)\n\n\n\n\n\n\nGM 4 - Data Cleaning + Github (11/02/23)\n\n\n\nSlides: [.pdf] (Click to download)\nData Cleaning Code Demo [.R] (Click to download)\n\n\n\n\n\n\n\nGM 3 - Data Visualization (10/19/23)\n\n\n\nDownload R and R Studio  \n\nSteps to Access the Interactive Demo/Tutorial:\n\nDownload the file located at https://bit.ly/dsc-gm3\nOpen the file in RStudio and follow any prompts to download any necessary packages\nClick the Run Document button: \n\n\n\n\n\n\n\n\nGM 2 - Descriptive Statistics & Project Proposal (10/12/23)\n\n\n\nSlides: [.pdf] (Click to download)  Descriptive Statistics (Click to View) \n\n\n\n\n\n\nGM 1 - Fall Kickoff! (10/05/23)\n\n\n\nSlides: [.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2023-2024 Meetings"
+    ]
   },
   {
     "objectID": "Pages/meetings.html#other-resources",
     "href": "Pages/meetings.html#other-resources",
     "title": "2023-2024 Meetings",
     "section": "Other resources",
-    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)\nProject Proposal Outline  (Click to Download)\nProject Proposal Example  (Click to Download)\nMOSAIKS Presentation  (Click to Download)\n\n\n\n\n\n\n\n\n1 / 8\n\n\n\nTableau Workshop\n\n\n\n\n2 / 8\n\n\n\nTableau Workshop\n\n\n\n\n3 / 8\n\n\n\nTableau Workshop\n\n\n\n\n4 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n5 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n6 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n7 / 8\n\n\n\nTableau Workshop 2\n\n\n\n\n8 / 8\n\n\n\nTableau Workshop"
+    "text": "Other resources\n\nPSTAT Department Resume Template  (Click to Download)\nProject Proposal Outline  (Click to Download)\nProject Proposal Example  (Click to Download)\nMOSAIKS Presentation  (Click to Download)\n\n\n\n\n\n\n\n\n1 / 8\n\n\n\nTableau Workshop\n\n\n\n\n2 / 8\n\n\n\nTableau Workshop\n\n\n\n\n3 / 8\n\n\n\nTableau Workshop\n\n\n\n\n4 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n5 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n6 / 8\n\n\n\nMOSAIKS Presentation\n\n\n\n\n7 / 8\n\n\n\nTableau Workshop 2\n\n\n\n\n8 / 8\n\n\n\nTableau Workshop",
+    "crumbs": [
+      "Meetings",
+      "2023-2024 Meetings"
+    ]
   },
   {
     "objectID": "Pages/projects2324.html",
     "href": "Pages/projects2324.html",
     "title": "2023-2024",
     "section": "",
-    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Prediction Model\n\n\n\n\n\n\nNBA Prediction Model\n\nWhether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!\nGroup Members: Akhil Gorla, Aditya Iyer\n\n \n\n\n\n\n\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\nThere are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!\nGroup Members: Pramukh Shankar\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\nUsing hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.\nGroup Members: Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao\n\n \n\n\n\n\n\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\nUsing MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!\nGroup Members: Colton Rowe"
+    "text": "Bitcoin Price Prediction\n\n\n\n\n\n\nBitcoin Price Prediction\n\nHow does the price of Bitcoin change over time? In this project, a Long Short-Term Memory (LSTM) model was used to capture data and model long-term dependencies in sequential data.\nGroup Members: Alice Xu\n\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Prediction Model\n\n\n\n\n\n\nNBA Prediction Model\n\nWhether attempting to win a bet with your friends, or trying to make a viral post before your favorite NBA team plays, we can clearly see the benefit of a predictive model for NBA match-ups!\nGroup Members: Akhil Gorla, Aditya Iyer\n\n \n\n\n\n\n\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\n\n\n\n\n\nPokemon Type Interactions with Tableau\n\nThere are a lot of pokemon types and a plethora of various type combinations. Using tableau, this project allows for clear and concise examination of the various types and their interactions on different Pokemon!\nGroup Members: Pramukh Shankar\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\n\n\n\n\n\nPredictive Modeling of Heart Disease\n\nUsing hospital data, this project sought to determine the links between various indicators and their impacts on the chances of a patient developing heart disease.\nGroup Members: Cyrus Navasca, Owen Feng, Nikhil Gupta, Tony Cao\n\n  \n\n\n\n\n\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\n\n\n\n\n\nVisual Mouse Using MediaPipe\n\nUsing MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the camera is translated into mouse movements and clicks!\nGroup Members: Colton Rowe",
+    "crumbs": [
+      "Projects",
+      "2023-2024"
+    ]
   },
   {
     "objectID": "Pages/meetings2425.html",
     "href": "Pages/meetings2425.html",
     "title": "2024-2025 Meetings",
     "section": "",
-    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2024-2025 Meetings"
+    ]
   },
   {
     "objectID": "Pages/meetings2425.html#general-meetings",
     "href": "Pages/meetings2425.html#general-meetings",
     "title": "2024-2025 Meetings",
     "section": "",
-    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)"
+    "text": "GM 1 - Fall Kickoff! (10/09/24)\n\n\n\nSlides: [gm1.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2024-2025 Meetings"
+    ]
+  },
+  {
+    "objectID": "Pages/meetings2425.html#stats-r-fun",
+    "href": "Pages/meetings2425.html#stats-r-fun",
+    "title": "2024-2025 Meetings",
+    "section": "Stats R Fun",
+    "text": "Stats R Fun\n\n\n\n\nStats R Fun #1 (10/17/24)\n\n\n\nSlides: [StatsRFun1.pdf] (Click to download) \n\nIntro to Python Jupyter Notebook: [IntrotoPython.pdf] (Click to download) \nIntro to Python Answers: [IntrotoPythonAnswers.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2024-2025 Meetings"
+    ]
   },
   {
     "objectID": "Files/R_Labs/L02_DT_DS/R_l02.html",
@@ -168,11 +210,25 @@
     "text": "Packages\nIn R, packages can be thought of as bundles containing several functions and/or structures. By default, R loads (i.e. includes) what is known as the base R package, which comes equipped with several useful functions.\nWe can access help files for particular packages using the same syntax as we used to look up the help files for functions: ?&lt;package name&gt;.\n\n\n\n\n\n\nExercise 5\n\n\n\nLook up the help file for the base package. Then, run code to display a list of all functions included in the base package.\n\n\n\n\n\n\n\n\nTip\n\n\n\nHelp files for packages are often referred to as vignettes by programmers who routinely use R.\n\n\nWith a few exceptions, we always need to install a package before using it for the first time. The syntax we use to install a package with the name package_name is\n\ninstall.packages(package_name)\n\n\n\n\n\n\n\nCaution\n\n\n\nYou only need to install a package once.\n\n\nAfter installing a package, we need to load or import it. The syntax we use to load a package with the name package_name is\n\nlibrary(package_name)"
   },
   {
+    "objectID": "Files/Workshops_24_25/Intro_to_Python_+_Data.html",
+    "href": "Files/Workshops_24_25/Intro_to_Python_+_Data.html",
+    "title": "",
+    "section": "",
+    "text": "Creating Variables: - A variable can be set to any data type - You can name a variable anything - Except… it cannot start with a number, or contain periods\n\n# 1) Create a variable with a value of 2, and another one with a value of 3\n\nBasic Math Functions: - Addition: x + y - Subtraction: x - y - Multiplication: x * y - Division: x/y - Exponential: x ** y\n\n# Add, multiply and divide your variables!\n\nData Types - Integers (‘int’): Whole numbers - Floats (‘float’): Decimals - Strings (‘str’): Sequences of characters surrounded by quotations - Booleans (‘bool’): True/False - Lists (‘list’): Collections of items surrounded by brackets - Dictionaries (‘dict’): Collections of items assigned to labels\n\n# DO NOT REMOVE #\n\nnum1 = 5\nnum2 = 5.0\nnum3 = \"5\"\n\nmy_dict = {\n    'colors': ['red', 'blue', 'green'],\n    'numbers': [1,2,3],\n    'favorite food': 'pizza'\n    }\n\nmy_list = [\"hey\", 35]\n\n# DO NOT REMOVE #\n\n\n# Find the types of each: num1, num2, num3, my_dict and my_list (hint: type())\n\n\n# Create a list of numbers from 5-10 and a dictionary with your favorite\n# foods and favorite drinks\n\nIndexing: retrieving an element from a collection (such as a list of dictionary) - Remember it starts at 0!\n\n# Retrieve the first element of my_list, and the color green from my_dict\n\nImporting Data: - Data usually comes in the form of CSV’s (comma seperated values) - We usually look at structured data which is a big table - We can index it like a dictionary!\n\n# Import data here, and show the \"head\""
+  },
+  {
     "objectID": "index.html#upcoming-events",
     "href": "index.html#upcoming-events",
     "title": "",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nDiscover Panelist\nOct. 14, 2024 / 7-8pm\nZoom\n\n\nStats R Fun #1\nOctober 17th, 2024 / 6:30-7:45 pm\nPsychology 1902"
+    "text": "Upcoming Events\n\n\n\nEvent\nDate/Time\nLocation\n\n\n\n\nStats R Fun #2\nOctober 30th, 2024 / 6:30-7:45 pm\nPsychology 1902"
+  },
+  {
+    "objectID": "Files/Workshops_24_25/ANSWERS_Intro_to_Python_+_Data.html",
+    "href": "Files/Workshops_24_25/ANSWERS_Intro_to_Python_+_Data.html",
+    "title": "",
+    "section": "",
+    "text": "Creating Variables: - A variable can be set to any data type - You can name a variable anything - Except… it cannot start with a number, or contain periods\n\n# 1) Create a variable with a value of 2, and another one with a value of 3\nx = 2\ny = 3\n\nBasic Math Functions: - Addition: x + y - Subtraction: x - y - Multiplication: x * y - Division: x/y - Exponential: x ** y\n\n# Add, multiply and divide your variables!\nx - y\n\n-1\n\n\n\nx * y\n\n6\n\n\n\nx / y\n\n0.6666666666666666\n\n\nData Types - Integers (‘int’): Whole numbers - Floats (‘float’): Decimals - Strings (‘str’): Sequences of characters surrounded by quotations - Booleans (‘bool’): True/False - Lists (‘list’): Collections of items surrounded by brackets - Dictionaries (‘dict’): Collections of items assigned to labels\n\n# DO NOT REMOVE #\n\nnum1 = 5\nnum2 = 5.0\nnum3 = \"5\"\n\nmy_dict = {\n    'colors': ['red', 'blue', 'green'],\n    'numbers': [1,2,3],\n    'favorite food': 'pizza'\n    }\n\nmy_list = [\"hey\", 35]\n\n# DO NOT REMOVE #\n\n\n# Find the types of each: num1, num2, num3, my_dict and my_list (hint: type())\n\ntype(num1), type(num2), type(num3)\n\nint\n\n\n\n# Create a list of numbers from 5-10 and a dictionary with your favorite\n# foods and favorite drinks\n\nmy_list2 = [5, 6, 7, 8, 9, 10]\n\nmy_dictionary2 = {\n    \"favorite foods\": [\"pizza\", \"pasta\"],\n    \"favorite drinks\": [\"costco oat milk\", \"costco soy milk\"]\n}\n\nmy_list2[0], my_dictionary2[\"favorite foods\"]\n\n(5, ['pizza', 'pasta'])\n\n\nIndexing: retrieving an element from a collection (such as a list of dictionary) - Remember it starts at 0!\n\n# Retrieve the first element of my_list, and the color green from my_dict\n\nmy_list[1], my_dict[\"colors\"][2]\n\n(35, 'green')\n\n\nImporting Data: - Data usually comes in the form of CSV’s (comma seperated values) - We usually look at structured data which is a big table - We can index it like a dictionary!\n\n# Import data here, and show the \"head\"\n\nimport pandas as pd\nbooks = pd.read_csv(\"books.csv\")\n\nbooks.head()\n\n\n\n  \n    \n\n\n\n\n\n\nName\nAuthor\nUser Rating\nReviews\nPrice\nYear\nGenre\n\n\n\n\n0\nAct Like a Lady, Think Like a Man: What Men Re...\nSteve Harvey\n4.6\n5013\n17\n2009\nNon Fiction\n\n\n1\nArguing with Idiots: How to Stop Small Minds a...\nGlenn Beck\n4.6\n798\n5\n2009\nNon Fiction\n\n\n2\nBreaking Dawn (The Twilight Saga, Book 4)\nStephenie Meyer\n4.6\n9769\n13\n2009\nFiction\n\n\n3\nCrazy Love: Overwhelmed by a Relentless God\nFrancis Chan\n4.7\n1542\n14\n2009\nNon Fiction\n\n\n4\nDead And Gone: A Sookie Stackhouse Novel (Sook...\nCharlaine Harris\n4.6\n1541\n4\n2009\nFiction"
   },
   {
     "objectID": "Files/R_Labs/L03_Fnts/R_l03.html",
@@ -207,69 +263,104 @@
     "href": "Pages/projects2223.html",
     "title": "2022-2023",
     "section": "",
-    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X"
+    "text": "Analyzing the Relationship Between Family Themes and Movie Ratings\n\n\n\n\n\n\nAnalyzing the Relationship Between Family Themes and Movie Ratings\n\nDo Daddy Issues Sell? This project sought to explore the relationship between movie ratings in genres pertaining to family themes and those not pertaining to family themes.\nGroup Members: Anna Xue, Kris Hao, Mollie Jiang, and Nixon Carino\n\n \n\n\n\n\n\n\n\n\n\n\n\nBest Bang for your Buck\n\n\n\n\n\n\nBest Bang for your Buck\n\nThis project sought to determine which fast food chains provide the “best bang for your buck”. More concretely, the nutritional content of meals from various fast food chains was analyzed, and restaurants were awarded one of “best health”, “best deals” and “best overall”.\nGroup Members: Brendan McGuinness, Alaina Liu\n\n \n\n\n\n\n\n\n\n\n\n\n\nReal or Fake Faces\n\n\n\n\n\n\nReal or Fake Faces\n\nWith the rise of AI-generated media, the ability to recognize real from fake is imperative. The goal of this project was to train a series of simple models to recognize photos of real faces from photos of artificially-generated faces.\nGroup Members: Yishan, Alice, Johanna P.\n\n \n\n\n\n\n\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\n\n\n\n\n\nTV Show and Movie Popularity Analysis\n\nDescription goes here.\nGroup Members: Christian Garduno, Roshan Mehta, Colton Rowe\n\n \n\n\n\n\n\n\n\n X",
+    "crumbs": [
+      "Projects",
+      "2022-2023"
+    ]
   },
   {
     "objectID": "Pages/officers.html#executive-board",
     "href": "Pages/officers.html#executive-board",
     "title": "Meet the Officers",
     "section": "Executive Board",
-    "text": "Executive Board"
+    "text": "Executive Board",
+    "crumbs": [
+      "Meet the Officers"
+    ]
   },
   {
     "objectID": "Pages/officers.html#website-development",
     "href": "Pages/officers.html#website-development",
     "title": "Meet the Officers",
     "section": "Website Development",
-    "text": "Website Development"
+    "text": "Website Development",
+    "crumbs": [
+      "Meet the Officers"
+    ]
   },
   {
     "objectID": "Pages/officers.html#outreach-committee",
     "href": "Pages/officers.html#outreach-committee",
     "title": "Meet the Officers",
     "section": "Outreach Committee",
-    "text": "Outreach Committee"
+    "text": "Outreach Committee",
+    "crumbs": [
+      "Meet the Officers"
+    ]
   },
   {
     "objectID": "Pages/officers.html#events-committee",
     "href": "Pages/officers.html#events-committee",
     "title": "Meet the Officers",
     "section": "Events Committee",
-    "text": "Events Committee"
+    "text": "Events Committee",
+    "crumbs": [
+      "Meet the Officers"
+    ]
   },
   {
     "objectID": "Pages/officers.html#departmental-advisors",
     "href": "Pages/officers.html#departmental-advisors",
     "title": "Meet the Officers",
     "section": "Departmental Advisors",
-    "text": "Departmental Advisors"
+    "text": "Departmental Advisors",
+    "crumbs": [
+      "Meet the Officers"
+    ]
   },
   {
     "objectID": "Pages/projects.html",
     "href": "Pages/projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Past projects from our club members!"
+    "text": "Past projects from our club members!",
+    "crumbs": [
+      "Projects",
+      "Past Projects"
+    ]
   },
   {
     "objectID": "Pages/past.html",
     "href": "Pages/past.html",
     "title": "2022-2023 Meetings",
     "section": "",
-    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2022-2023 Meetings"
+    ]
   },
   {
     "objectID": "Pages/past.html#general-meetings",
     "href": "Pages/past.html#general-meetings",
     "title": "2022-2023 Meetings",
     "section": "",
-    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)"
+    "text": "GM 3 - Manage Files and Repositories (3/3/23)\n\n\n\nSlides: [.pdf] (Click to download)  \n\n\n\n\n\n\nGM 2 - Create Project Proposal (2/3/23)\n\n\n\nSlides: [.pdf] (Click to download)   \n\n\n\n\n\n\nGM 1 - Introductory Workshop (1/27/23)\n\n\n\nSlides: [.pdf] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2022-2023 Meetings"
+    ]
   },
   {
     "objectID": "Pages/past.html#topic-specific-meetings",
     "href": "Pages/past.html#topic-specific-meetings",
     "title": "2022-2023 Meetings",
     "section": "Topic-Specific Meetings",
-    "text": "Topic-Specific Meetings\n\n\n\n\nShiny Apps, and Slides (4/28/23)\n\n\n\nShiny Apps:\n\npalmerpenguins scatterplot, with option to color by species: [.R] (Click to download) \n\nSlides:\n\nBasic RSweave (.Rnw) file: [.Rnw] (Click to download)"
+    "text": "Topic-Specific Meetings\n\n\n\n\nShiny Apps, and Slides (4/28/23)\n\n\n\nShiny Apps:\n\npalmerpenguins scatterplot, with option to color by species: [.R] (Click to download) \n\nSlides:\n\nBasic RSweave (.Rnw) file: [.Rnw] (Click to download)",
+    "crumbs": [
+      "Meetings",
+      "2022-2023 Meetings"
+    ]
   }
 ]
