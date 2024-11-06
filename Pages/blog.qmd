@@ -10,6 +10,18 @@ format: html
 </div>
 
 <h2>2024</h2>
+<!--- Stats R Fun #2 --->
+<div class="post">
+<h3>Stats R Fun #2</h3>
+<h5>Thursday, October 30, 2024 @ Psychology 1924</h5>
+<img src="../Images/2425Workshops/STATSRFUN2/socialmediagraphic.jpg">
+<img src="../Images/2425Workshops/STATSRFUN2/sideshot.JPG">
+<img src="../Images/2425Workshops/STATSRFUN2/pythonpackages.JPG">
+<p>
+On Wednesday 30, 2024, DSCollab hosted its second workshop of the academic year.  We delved into two of the most important and foundational structures for working with data in Python: NumPy & Pandas. These two Python packages allow for intuitive and powerful data wrangling and manipulation, and they are accessible to anyone, regardless of prior data science experience. Thank you to everyone who showed up and stay tuned for future workshops where we will explore the vast world of data science through data visualization and other exciting topics!
+</p>
+</div>
+
 <!--- Boba + Study Social --->
 <div class="post">
 <h3>Boba + Study Social</h3>
