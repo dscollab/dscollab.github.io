@@ -11,7 +11,7 @@ website:
         text: Calendar
       - href: Pages/projects.qmd
         text: Projects
-      - href: Pages/meetings.qmd
+      - href: Pages/meetings2425.qmd
         text: Meetings
       - href: Pages/blog.qmd
         text: Blog

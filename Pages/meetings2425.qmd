@@ -27,3 +27,10 @@ title: "2024-2025 Meetings"
   - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN2/Intro_to_NumPy_and_Pandas.ipynb" target="_blank">[NumpyAndPandas.pdf]</a> (Click to download) <br>
   - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN2/ANSWERS_Intro_to_NumPy_and_Pandas.ipynb" target="_blank">[NumpyAndPandasAnswers.pdf]</a> (Click to download) <br>
 </details>
+
+<!--- Stats R Fun #2 --->
+<details>
+  <summary> <p> Stats R Fun #3 (11/14/24) </p> </summary>
+  - Slides: <a href="https://docs.google.com/presentation/d/1vVLo4vMJTt4NX_7otyviiV-oqXS7wtzhoQHrocOSvts/edit?usp=sharing" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet w/ Solutions: <a href="../Files/Workshops_24_25/STATSRFUN3/Visualizations_Solutions.ipynb" target="_blank">[Data Visualization]</a> (Click to download) <br>
+</details>
