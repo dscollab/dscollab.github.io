@@ -11,7 +11,7 @@ css: "../styles.css"
 <div class="staff-grid">
   <!-- Cyrus Navasca -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Cyrus.jpg" class="img-fluid rounded-circle" alt="Cyrus Navasca">
+  <img src="../Images/Staff/2425Staff/Cyrus.png" class="img-fluid rounded-circle" alt="Cyrus Navasca">
   <div class="staff-name">Cyrus Navasca</div>
   <p>President</p>
   <p>3rd Year - Statistics & Data Science + Math</p>
@@ -20,7 +20,7 @@ css: "../styles.css"
 
   <!-- Owen Feng -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Owen.JPG" class="img-fluid rounded-circle" alt="Owen Feng">
+  <img src="../Images/Staff/2425Staff/Owen.png" class="img-fluid rounded-circle" alt="Owen Feng">
   <div class="staff-name">Owen Feng</div>
   <p>Vice President</p>
   <p>3rd Year - Statistics & Data Science</p>
@@ -29,7 +29,7 @@ css: "../styles.css"
 
   <!-- Pramukh Shankar -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Pramukh.jpg" class="img-fluid rounded-circle" alt="Pramukh Shankar">
+  <img src="../Images/Staff/2425Staff/Pramukh.png" class="img-fluid rounded-circle" alt="Pramukh Shankar">
   <div class="staff-name">Pramukh Shankar</div>
   <p>Treasurer</p>
   <p>4th Year - Statistics & Data Science + Economics</p>
@@ -38,7 +38,7 @@ css: "../styles.css"
 
   <!-- Alice Xu -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Alice.jpeg" class="img-fluid rounded-circle" alt="Alice Xu">
+  <img src="../Images/Staff/2425Staff/Alice.png" class="img-fluid rounded-circle" alt="Alice Xu">
   <div class="staff-name">Alice Xu</div>
   <p>Outreach Chair</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
@@ -56,7 +56,7 @@ css: "../styles.css"
 
   <!-- Bowie Chuang -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Bowie.JPEG" class="img-fluid rounded-circle" alt="Bowie Chuang">
+  <img src="../Images/Staff/2425Staff/Bowie.png" class="img-fluid rounded-circle" alt="Bowie Chuang">
   <div class="staff-name">Bowie Chuang</div>
   <p>Website Chair</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
@@ -65,7 +65,7 @@ css: "../styles.css"
 
   <!-- Alex Bloyer -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Alex.jpeg" class="img-fluid rounded-circle" alt="Alex Bloyer">
+  <img src="../Images/Staff/2425Staff/Alex.png" class="img-fluid rounded-circle" alt="Alex Bloyer">
   <div class="staff-name">Alex Bloyer</div>
   <p>Website Officer</p>
   <p>3rd Year - Statistics & Data Science</p>
@@ -74,7 +74,7 @@ css: "../styles.css"
 
   <!-- Evan Jamison -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Evan.jpg" class="img-fluid rounded-circle" alt="Evan Jamison">
+  <img src="../Images/Staff/2425Staff/Evan.png" class="img-fluid rounded-circle" alt="Evan Jamison">
   <div class="staff-name">Evan Jamison</div>
   <p>Outreach Officer</p>
   <p>2rd Year - Statistics & Data Science</p>
@@ -83,7 +83,7 @@ css: "../styles.css"
 
   <!-- Heidi Weng -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Heidi.jpg" class="img-fluid rounded-circle" alt="Heidi Weng">
+  <img src="../Images/Staff/2425Staff/Heidi.png" class="img-fluid rounded-circle" alt="Heidi Weng">
   <div class="staff-name">Heidi Weng</div>
   <p>Outreach Officer</p>
   <p>2nd Year - Statistics & Data Science</p>
@@ -92,7 +92,7 @@ css: "../styles.css"
 
   <!-- Prisha Bobde -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Prisha.JPG" class="img-fluid rounded-circle" alt="Prisha Bobde">
+  <img src="../Images/Staff/2425Staff/Prisha.png" class="img-fluid rounded-circle" alt="Prisha Bobde">
   <div class="staff-name">Prisha Bobde</div>
   <p>Events Chair</p>
   <p>2nd Year - Statistics & Data Science</p>
@@ -101,7 +101,7 @@ css: "../styles.css"
 
   <!-- Raymond Vargas -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
+  <img src="../Images/Staff/2425Staff/Raymond.png" class="img-fluid rounded-circle" alt="Raymond Vargas">
   <div class="staff-name">Raymond Vargas</div>
   <p>Events Officer</p>
   <p>2nd Year - Undeclared</p>
@@ -110,7 +110,7 @@ css: "../styles.css"
 
   <!-- Joyce De Quiros -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Joyce.jpeg" class="img-fluid rounded-circle" alt="Joyce De Quiros">
+  <img src="../Images/Staff/2425Staff/Joyce.png" class="img-fluid rounded-circle" alt="Joyce De Quiros">
   <div class="staff-name">Joyce De Quiros</div>
   <p>Graphic Design</p>
   <p>1st Year - Statistics & Data Science</p>
