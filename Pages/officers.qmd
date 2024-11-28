@@ -1,74 +1,136 @@
 ---
 title: "Meet the Officers"
-format: html
+format:
+  html:
+    anchor-links: false
 sidebar: false
 css: "../styles.css"
 ---
 
-<br>
+```{=html}
+<div class="staff-grid">
+  <!-- Cyrus Navasca -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Cyrus.jpg" class="img-fluid rounded-circle" alt="Cyrus Navasca">
+  <div class="staff-name">Cyrus Navasca</div>
+  <p>President</p>
+  <p>3rd Year - Statistics & Data Science + Math</p>
+  <p>Fun fact: Lost sense of smell after Covid</p>
+  </div>
 
+  <!-- Owen Feng -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Owen.JPG" class="img-fluid rounded-circle" alt="Owen Feng">
+  <div class="staff-name">Owen Feng</div>
+  <p>Vice President</p>
+  <p>3rd Year - Statistics & Data Science</p>
+  <p>Fun fact: Has never had a good haircut</p>
+  </div>
 
-## Executive Board {.test}
+  <!-- Pramukh Shankar -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Pramukh.jpg" class="img-fluid rounded-circle" alt="Pramukh Shankar">
+  <div class="staff-name">Pramukh Shankar</div>
+  <p>Treasurer</p>
+  <p>4th Year - Statistics & Data Science + Economics</p>
+  <p>Favorite Anime is Dr. Stone</p>
+  </div>
 
-<!--- ![](../Images/Profiles/2425executiveboard.jpeg){width=80%} 
+  <!-- Alice Xu -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Alice.jpeg" class="img-fluid rounded-circle" alt="Alice Xu">
+  <div class="staff-name">Alice Xu</div>
+  <p>Outreach Chair</p>
+  <p>3rd Year - Statistics & Data Science + Economics</p>
+  <p>Fun fact: Never had Russian food before</p>
+  </div>
 
-![](../Images/Profiles/2425executiveboard2.jpeg){width=80%} --->
+  <!-- Mollie Jiang -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/default.png" class="img-fluid rounded-circle" alt="Mollie Jiang">
+  <div class="staff-name">Mollie Jiang</div>
+  <p>Secretary</p>
+  <p>4th Year - Statistics & Data Science</p>
+  <p>Fun fact: Currently studying abroad</p>
+  </div>
 
-<img class="rborder" src="../Images/Profiles/2425executiveboard.jpeg" style="width:80%">
+  <!-- Bowie Chuang -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Bowie.JPEG" class="img-fluid rounded-circle" alt="Bowie Chuang">
+  <div class="staff-name">Bowie Chuang</div>
+  <p>Website Chair</p>
+  <p>3rd Year - Statistics & Data Science + Economics</p>
+  <p>Fun fact: Really scared of spiders</p>
+  </div>
 
-<img class="rborder" src="../Images/Profiles/2425executiveboard2.jpeg" style="width:80%">
+  <!-- Alex Bloyer -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Alex.jpeg" class="img-fluid rounded-circle" alt="Alex Bloyer">
+  <div class="staff-name">Alex Bloyer</div>
+  <p>Website Officer</p>
+  <p>3rd Year - Statistics & Data Science</p>
+  <p>Fun fact: Plays kendama</p>
+  </div>
 
+  <!-- Evan Jamison -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Evan.jpg" class="img-fluid rounded-circle" alt="Evan Jamison">
+  <div class="staff-name">Evan Jamison</div>
+  <p>Outreach Officer</p>
+  <p>2rd Year - Statistics & Data Science</p>
+  <p>Fun fact: Likes to surf, lift in the Rec Cen</p>
+  </div>
 
+  <!-- Heidi Weng -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Heidi.jpg" class="img-fluid rounded-circle" alt="Heidi Weng">
+  <div class="staff-name">Heidi Weng</div>
+  <p>Outreach Officer</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <p>Fun fact: Can speak 4 languages</p>
+  </div>
 
-## Website Development {.test}
+  <!-- Prisha Bobde -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Prisha.JPG" class="img-fluid rounded-circle" alt="Prisha Bobde">
+  <div class="staff-name">Prisha Bobde</div>
+  <p>Events Chair</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <p>Fun fact: Has been trying new soup and curry recipes</p>
+  </div>
 
-<!--- ![](../Images/Profiles/2425websitedevelopment.jpeg){width=80%} --->
+  <!-- Raymond Vargas -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
+  <div class="staff-name">Raymond Vargas</div>
+  <p>Events Officer</p>
+  <p>2nd Year - Undeclared</p>
+  <p>Fun fact: Has been crocheting a sweater since 2021</p>
+  </div>
 
-<img class="rborder" src="../Images/Profiles/2425websitedevelopment.jpeg" style="width:80%">
+  <!-- Joyce De Quiros -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Joyce.jpeg" class="img-fluid rounded-circle" alt="Joyce De Quiros">
+  <div class="staff-name">Joyce De Quiros</div>
+  <p>Graphic Design</p>
+  <p>1st Year - Statistics & Data Science</p>
+  <p>Fun fact: Loves to make flan</p>
+  </div>
 
+  <!-- Ethan Marzban -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Ethan.jpg" class="img-fluid rounded-circle" alt="Ethan Marzban">
+  <div class="staff-name">Ethan Marzban</div>
+  <p>Graduate Advisor</p>
+  <p>PhD - Statistics & Applied Probability</p>
+  <p>Fun fact: Will gladly talk your ear off about cats</p>
+  </div>
 
-
-## Outreach Committee {.test}
-
-<!--- ![](../Images/Profiles/2425outreachcommittee.jpeg){width=80%} --->
-
-<img class="rborder" src="../Images/Profiles/2425outreachcommittee.jpeg" style="width:80%">
-
-
-
-## Events Committee {.test}
-
-<!--- ![](../Images/Profiles/2425eventscommittee.jpeg){width=80%} --->
-
-<img class="rborder" src="../Images/Profiles/2425eventscommittee.jpeg" style="width:80%">
-
-
-
-## Departmental Advisors {.test}
-
-<!--- ![](../Images/Profiles/2425advisors.jpeg){width=80%} --->
-
-<img class="rborder" src="../Images/Profiles/2425advisors.jpeg" style="width:80%">
-
-
-
-<!-- ::::{columns} -->
-
-<!-- :::{.column width="50%"} -->
-<!-- ![](../Images/Profiles/Kris2023.png) -->
-<!-- ::: -->
-
-<!-- :::{.column width="50%"} -->
-<!-- ![](../Images/Profiles/Colton2023.png) -->
-<!-- ::: -->
-
-<!-- :::: -->
-
-<!-- <div class="row"> -->
-<!--   <div class="column"> -->
-<!--     <img src="../Images/Profiles/Kris2023.png" style="width:100%"> -->
-<!--   </div> -->
-<!-- </div> -->
-
-
-
+  <!-- Dr. Uma Ravat -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Ravat.jpeg" class="img-fluid rounded-circle" alt="Dr. Uma Ravat">
+  <div class="staff-name">Dr. Uma Ravat</div>
+  <p>Faculty Advisor</p>
+  </div>
+</div>
+```

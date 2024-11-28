@@ -10,6 +10,18 @@ format: html
 </div>
 
 <h2>2024</h2>
+<!--- Stats R Fun #3 --->
+<div class="post">
+<h3>Stats R Fun #3</h3>
+<h5>Wednesday, November 13, 2024 @ Psychology 1924</h5>
+<img src="../Images/2425Workshops/STATSRFUN3/IMG_7244.JPG">
+<img src="../Images/2425Workshops/STATSRFUN3/IMG_7247.JPG">
+<p>
+On November 30, 2024, DSCollab hosted its third workshop of the academic year. Our graduate advisor, Ethan Marzban, presented an introduction to data visualization as a broad topic, and led a walkthrough of the popular Python library Altair! Thanks so much to everyone who showed up; the interactive worksheet and answers can be found on the meetings page!
+</p>
+</div>
+
+<h2>2024</h2>
 <!--- Stats R Fun #2 --->
 <div class="post">
 <h3>Stats R Fun #2</h3>
