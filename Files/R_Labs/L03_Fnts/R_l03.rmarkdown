@@ -1,0 +1,92 @@
+---
+title: "Programming in R"
+subtitle: "Part 3: Functions"
+institute: "DS Collab"
+author: "Ethan Marzban"
+format: html
+# title-block-banner: "#4144a6"
+title-block-banner: logo.png
+css: styles.scss
+---
+
+
+<style>
+/*-- scss:defaults --*/
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(logo.png);
+  background-size: 11.2vw;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10vw;
+  background-origin: content-box;
+}
+</style>
+
+
+## Prerequisites
+
+- Please make sure you have downloaded both `R` and `RStudio`, as outlined in the previous lab.
+
+- Please make sure you are familiar with the concepts of **data types**, **data structures**, and **packages**, along with the basics of programming outlined in Part 1.
+
+## Pre-Existing `R` Functions
+
+Recall, from Part 1, that functions in `R` behave much like functions in mathematics. . 
+
+Given a function `f()` that has been defined in `R`, we **call** the function on **inputs** (aka **arguments**) `arg1`, `arg2`, ... using the syntax
+
+```{r, eval = F}
+f(arg1, arg2, ...)
+```
+
+Keep in mind that each of the arguments could potentially be of different data types and/or structures, depending on how the function has been defined. 
+
+We have actually already seen and utilized several functions in `R`! For example, we used the `print()` function to print outputs; we also used the `data.frame()` function to create a data frame.
+
+:::{.callout-tip}
+Remember that you can always access the help file for a function with name `function_name` using the syntax `?function_name`. 
+:::
+
+
+## User-Defined Functions
+
+To define a function with the name `function_name`, we use the syntax:
+
+
+```{r, eval = F}
+function_name <- function(arg1, arg2, ...) {
+  <body of function>
+}
+```
+
+
+For example,
+
+
+```{r}
+sum_sq <- function(x) {
+  return(sum(x^2))
+}
+```
+
+defined a function `sum_sq` that returns the sum of the squared elements in a vector `x`.
+
+### Vectorization
+
+One of the key features of `R` is that, by default, the vast majority of functions are **vectorized**. This means that functions, most of the time, are applied element-wise to vectors. For example, given a vector `x`, we can add `2` to every element in `x` by simply writing `x + 2`:
+
+```{r}
+x <- c(1, 2, 3)
+x + 2
+```
+
+If you want to vectorize a user-defined function, you can use the wrapper `Vectorize()`. 
+
+
+:::{.callout}
+## Exercise 1
+
+Take a look at the help file for the `Vectorize()` function.
+:::
+

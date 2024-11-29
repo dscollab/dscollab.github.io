@@ -2,9 +2,9 @@
 title: "Meet the Officers"
 format:
   html:
+    css: "../styles.css"
     anchor-links: false
 sidebar: false
-css: "../styles.css"
 ---
 
 ```{=html}
@@ -15,7 +15,7 @@ css: "../styles.css"
   <div class="staff-name">Cyrus Navasca</div>
   <p>President</p>
   <p>3rd Year - Statistics & Data Science + Math</p>
-  <p>Fun fact: Lost sense of smell after Covid</p>
+  <div class="fun-fact">Fun fact: Lost sense of smell after Covid</div>
   </div>
 
   <!-- Owen Feng -->
@@ -24,7 +24,7 @@ css: "../styles.css"
   <div class="staff-name">Owen Feng</div>
   <p>Vice President</p>
   <p>3rd Year - Statistics & Data Science</p>
-  <p>Fun fact: Has never had a good haircut</p>
+  <div class="fun-fact">Fun fact: Has never had a good haircut</div>
   </div>
 
   <!-- Pramukh Shankar -->
@@ -33,7 +33,7 @@ css: "../styles.css"
   <div class="staff-name">Pramukh Shankar</div>
   <p>Treasurer</p>
   <p>4th Year - Statistics & Data Science + Economics</p>
-  <p>Favorite Anime is Dr. Stone</p>
+  <div class="fun-fact">Fun fact: Favorite Anime is Dr. Stone</div>
   </div>
 
   <!-- Alice Xu -->
@@ -42,7 +42,7 @@ css: "../styles.css"
   <div class="staff-name">Alice Xu</div>
   <p>Outreach Chair</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
-  <p>Fun fact: Never had Russian food before</p>
+  <div class="fun-fact">Fun fact: Never had Russian food before</div>
   </div>
 
   <!-- Mollie Jiang -->
@@ -51,7 +51,7 @@ css: "../styles.css"
   <div class="staff-name">Mollie Jiang</div>
   <p>Secretary</p>
   <p>4th Year - Statistics & Data Science</p>
-  <p>Fun fact: Currently studying abroad</p>
+  <div class="fun-fact">Fun fact: Currently studying abroad</div>
   </div>
 
   <!-- Bowie Chuang -->
@@ -60,7 +60,7 @@ css: "../styles.css"
   <div class="staff-name">Bowie Chuang</div>
   <p>Website Chair</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
-  <p>Fun fact: Really scared of spiders</p>
+  <div class="fun-fact">Fun fact: Really scared of spiders</div>
   </div>
 
   <!-- Alex Bloyer -->
@@ -69,7 +69,7 @@ css: "../styles.css"
   <div class="staff-name">Alex Bloyer</div>
   <p>Website Officer</p>
   <p>3rd Year - Statistics & Data Science</p>
-  <p>Fun fact: Plays kendama</p>
+  <div class="fun-fact">Fun fact: Plays kendama</div>
   </div>
 
   <!-- Evan Jamison -->
@@ -78,7 +78,7 @@ css: "../styles.css"
   <div class="staff-name">Evan Jamison</div>
   <p>Outreach Officer</p>
   <p>2rd Year - Statistics & Data Science</p>
-  <p>Fun fact: Likes to surf, lift in the Rec Cen</p>
+  <div class="fun-fact">Fun fact: Likes to surf & lift in the rec cen</div>
   </div>
 
   <!-- Heidi Weng -->
@@ -87,7 +87,7 @@ css: "../styles.css"
   <div class="staff-name">Heidi Weng</div>
   <p>Outreach Officer</p>
   <p>2nd Year - Statistics & Data Science</p>
-  <p>Fun fact: Can speak 4 languages</p>
+  <div class="fun-fact">Fun fact: Can speak 4 languages</div>
   </div>
 
   <!-- Prisha Bobde -->
@@ -96,7 +96,7 @@ css: "../styles.css"
   <div class="staff-name">Prisha Bobde</div>
   <p>Events Chair</p>
   <p>2nd Year - Statistics & Data Science</p>
-  <p>Fun fact: Has been trying new soup and curry recipes</p>
+  <div class="fun-fact">Fun fact: Trying new soup/curry recipes</div>
   </div>
 
   <!-- Raymond Vargas -->
@@ -105,7 +105,7 @@ css: "../styles.css"
   <div class="staff-name">Raymond Vargas</div>
   <p>Events Officer</p>
   <p>2nd Year - Undeclared</p>
-  <p>Fun fact: Has been crocheting a sweater since 2021</p>
+  <div class="fun-fact">Fun fact: Crocheting a sweater since 2021</div>
   </div>
 
   <!-- Joyce De Quiros -->
@@ -114,7 +114,7 @@ css: "../styles.css"
   <div class="staff-name">Joyce De Quiros</div>
   <p>Graphic Design</p>
   <p>1st Year - Statistics & Data Science</p>
-  <p>Fun fact: Loves to make flan</p>
+  <div class="fun-fact">Fun fact: Loves to make flan</div>
   </div>
 
   <!-- Ethan Marzban -->
@@ -123,7 +123,7 @@ css: "../styles.css"
   <div class="staff-name">Ethan Marzban</div>
   <p>Graduate Advisor</p>
   <p>PhD - Statistics & Applied Probability</p>
-  <p>Fun fact: Will gladly talk your ear off about cats</p>
+  <div class="fun-fact">Fun fact: Loves to talk about cats</div>
   </div>
 
   <!-- Dr. Uma Ravat -->
@@ -131,6 +131,7 @@ css: "../styles.css"
   <img src="../Images/Staff/2425Staff/Ravat.jpeg" class="img-fluid rounded-circle" alt="Dr. Uma Ravat">
   <div class="staff-name">Dr. Uma Ravat</div>
   <p>Faculty Advisor</p>
+  <div class="fun-fact">Assistant Teaching Professor for the Department of Statistics & Applied Probability</div>
   </div>
 </div>
 ```

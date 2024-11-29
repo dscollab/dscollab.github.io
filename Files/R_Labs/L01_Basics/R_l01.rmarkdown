@@ -1,0 +1,248 @@
+---
+title: "Programming in R"
+subtitle: "Part 1: Fundamentals"
+institute: "DS Collab"
+author: "Ethan Marzban"
+format: html
+# title-block-banner: "#4144a6"
+title-block-banner: logo.png
+css: styles.scss
+---
+
+
+<style>
+/*-- scss:defaults --*/
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(logo.png);
+  background-size: 11.2vw;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10vw;
+  background-origin: content-box;
+}
+</style>
+
+## Prerequisites
+
+- Please make sure you have downloaded both `R` and `RStudio`, as outlined in the previous lab.
+
+## What Is Programming?
+
+Computers are an incredibly useful tool in a Data Scientist's arsenal. They are, however, also incredibly complex and can be difficult to communicate with. As such, **programming languages** are used to help us communicate with computers and provide them with instructions on what we want them to do. There are several different programming languages: the two most often used in Data Science circles are **`R`** and **`Python`**, though other popular languages include **`Julia`**, **`MatLab`**, and **`C+`**. 
+
+Computer programs can be written in a variety of different environments and **editors**; for example, Python can be written in `Jupyter` Notebooks, VS Code, and several others. `R` is most commonly run in **`RStudio`**, which can be downloaded for free (along with the programming language `R`). Please see the previous lab for further instructions on how to download `R` and `RStudio`.
+
+## Programming Quick Start
+
+There is a reason we use the word "language" to describe programming languages- that is because they function quite like a human language. This means, among other things, that they each have their own **syntax** (i.e. set of grammar rules). 
+
+Programs are made up of **expressions**, like `2 + 2`. We **evaluate** expressions by **running** (or **executing**) them in a programming language. Expressions are like the sentences of programming- they contain complex pieces of information that are conveyed between the user and the computer.
+
+Much like sentences in other languages, expressions must obey a rigid syntax. For example, when we want to perform addition in `R` we must use the `+` symbol; we can't, for example, say `2 plus 2` and expect `R` to know what to do.
+
+Speaking of addition, one of the easiest ways to start using `R` is to use it as a calculator! `R`, much like many other programming languages, obeys the standard **order of operations** when evaluating expressions:
+
+- **P**arentheses
+- **E**xponents
+- **M**ultiplication
+- **D**ivision
+- **A**ddition
+- **S**ubtraction
+
+Here is a list of mathematical operators and their corresponding `R` syntax:
+
+| **Operation** | **`R` Operator** | **Example** | **Result** |
+|:--------|:--------|:---------|:--------|
+| Addition | `+` | `2 + 2` | `4` |
+| Subtraction | `-` | `2 - 2` | `0` |
+| Multiplication | `*` | `2 * 2` | `4` |
+| Division | `/` | `2 / 2` | `1` |
+| Exponentiation | `^` | `2 ^ 2` | `4` |
+
+
+:::{.callout}
+## **Exercise 1**
+
+Evaluate $\displaystyle \left(\frac{2 + 3^{3/2}}{4}\right)^{2}$ using `R`.
+:::
+
+## Variable Assignment
+
+Let's talk a bit about **variables**. Just like in math, variables in a programming language function as a sort of placeholder for a particular piece of information (be it a function, value, etc.) The act of storing information in a variable is called **assignment**, and in `R` variable assignment is performed using the `<-` symbol.
+
+
+```{r, eval = F}
+<variable name> <- <what you want to associate with the variable>
+```
+
+
+For example, after running
+
+```{r}
+x <- 2
+```
+
+the quantity `x` will always be synonymous with the quantity `2`, and running `x + 2` will return a value of `4` (as 2 + 2 = 4).
+
+`R` affords a lot of flexibility when it comes to variable names- that is, we can pick almost anything we want to be a variable name! There are, however, some exceptions:
+
+- Variable names cannot start with a number
+- Variable names cannot include a space
+
+:::{.callout-tip}
+It is a good programming practice to give your variables names that are descriptive, but not overly long.
+:::
+
+If we want to view the value stored in a variable, we have two options: we could simply type the name of the variable, and run the cell:
+
+
+
+```{r}
+x
+```
+
+
+or we could pass the variable name into a call to the `print()` function (we'll talk more about functions in a future workshop):
+
+
+```{r}
+print(x)
+```
+
+
+:::{.callout-caution}
+Variable names in `R` are case sensitive.
+:::
+
+For example, if you run
+
+```{r}
+my_variable <- 25
+```
+
+`R` will *not* know what to do with the variable `My_variable`!
+
+```{r, error = T}
+My_variable
+```
+
+
+
+:::{.callout-tip}
+The errors `R` outputs often contain useful information- be sure to read them!
+:::
+
+Sometimes it will be necessary to **update** or **re-assign** a new value to an existing variable. For example, let’s examine the structure of the following code:
+
+```{r}
+x = 2
+x = x + 3
+```
+
+
+
+What do you think running `x` will return? If you said `5`, you’d be correct! The key point of this is:
+
+:::{.callout-note}
+## Important
+When performing variable assignment, `R` reads from right to left.
+:::
+
+So, in code example above, `R` first executed `x + 3` (which is equivalent to `2 + 3`; i.e. `5`), and then re-assigned `x` the value `5`.
+
+
+:::{.callout}
+## **Exercise 2**
+
+a) Define a variable called `num_sections`, and assign it the value of `3`.
+b) Define another variable called `section_capacity`, and assign it the value of `25`.
+c) Update the value of `num_sections` to be one higher than it originally was.
+d) Compute the product of `num_sections` and `section_capacity`.
+:::
+
+
+## Comments
+
+Code scripts can get long and complicated, pretty quickly. As such, it is often a good idea to add **comments** to your code. Comments are pretty much exactly what they sound like- they are short words or phrases that do *not* get executed, but can help the reader understand the code better.
+
+In `R`, comments are created using the hashtag (`#`). For example:
+
+```{r}
+x <- 1      # define x
+x <- x + 1  # increment x by 1
+```
+
+Again, the phrases `define x` and `increment x by 1` are never executed by `R`; they exist solely to help the reader understand what each line of code is doing.
+
+## Functions
+
+Functions in `R` behave much like functions in mathematics. 
+
+Given a function `f()` that has been defined in `R` (we will talk about how to define functions in a future workshop), we **call** the function on **inputs** (aka **arguments**) `arg1`, `arg2`, ... using the syntax
+
+```{r, eval = F}
+f(arg1, arg2, ...)
+```
+
+
+For example, as we saw previously, the `print()` function can be called on an argument to simply *print* the output:
+
+```{r}
+print("hello")
+```
+
+
+## Help Files
+
+`R` is an **open-source** software, meaning there are continually contributions being made. This means that there is no way to know *everything* about `R`! Rather, we must rely on the extensive **documentation** that is provided with most `R` packages and functions. 
+
+To access the **help file** on a particular function, you can use the syntax `?<function name>`. For example, `?plot` pulls up the help file for the `plot()` function in `R`.
+
+:::{.callout}
+## **Exercise 3**
+
+Look up the help file for the `sin()` function.
+:::
+
+Sometimes, we may want to look up the help file for function whose name we don't know exactly. To look up help files containing a word, we can use `??<name>`. 
+
+:::{.callout}
+## **Exercise 4**
+
+Run `??exponent`, and find out how to perform exponentiation in `R`. Use this to compute $e^{4.2}$.
+:::
+
+
+## Packages
+
+In `R`, **packages** can be thought of as bundles containing several functions and/or structures. By default, `R` loads (i.e. includes) what is known as the **base `R`** package, which comes equipped with several useful functions. 
+
+We can access help files for particular packages using the same syntax as we used to look up the help files for functions: `?<package name>`. 
+
+:::{.callout}
+## **Exercise 5**
+
+Look up the help file for the `base` package. Then, run code to display a list of *all* functions included in the `base` package.
+:::
+
+:::{.callout-tip}
+Help files for packages are often referred to as **vignettes** by programmers who routinely use `R`.
+:::
+
+With a few exceptions, we always need to **install** a package before using it for the first time. The syntax we use to install a package with the name `package_name` is
+
+```{r, eval = F}
+install.packages(package_name)
+```
+
+
+:::{.callout-caution}
+You only need to install a package **once**.
+:::
+
+After installing a package, we need to **load** or **import** it.  The syntax we use to load a package with the name `package_name` is
+
+```{r, eval = F}
+library(package_name)
+```

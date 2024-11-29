@@ -17,6 +17,10 @@ table {
 
 p {font-family: 'Poppins';}
 
+h1.title {
+  text-align: center;
+}
+
 .img-gallery{
   width: 80%;
   margin: 50px auto 50px;
@@ -130,12 +134,20 @@ div.column {
 .staff-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin: 20px 0;
+  gap: 80px;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .staff-card {
+  color: #f4f4f4;
   text-align: center;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .staff-card img {
@@ -155,4 +167,8 @@ div.column {
   padding: 20px;
   border-radius: 10px;
   color: black;
+}
+
+.fun-fact {
+  font-size: 0.75rem;
 }
