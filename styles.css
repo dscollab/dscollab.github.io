@@ -135,7 +135,8 @@ div.column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
-  width: auto;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -171,4 +172,24 @@ div.column {
 
 .fun-fact {
   font-size: 0.75rem;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .staff-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .staff-grid {
+    grid-template-columns: 1fr; /* 1 column for smaller screens */
+  }
+  .staff-card img {
+    max-width: 120px; /* Adjust image size for small screens */
+  }
 }
