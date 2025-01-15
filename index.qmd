@@ -88,7 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Stats R Fun #4 | TBD | TBD |
+| Board Game Social | January 17th, 2025 | SRB 3rd Floor Forum |
 
 <!-- : {.striped .hover} -->
 
