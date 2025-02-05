@@ -88,7 +88,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Board Game Social | January 17th, 2025 | SRB 3rd Floor Forum |
+| Machine Learning Workshop | February 6th @ 7pm | Psychology #1924 |
+| Project Group Social | February 7th @ 1pm | SRB MPR |
+| AppFolio Tour | February 21st @ 1pm | 70 Castilian Dr, Goleta |
 
 <!-- : {.striped .hover} -->
 
