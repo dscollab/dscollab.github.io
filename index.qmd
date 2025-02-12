@@ -88,9 +88,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Machine Learning Workshop | February 6th @ 7pm | Psychology #1924 |
-| Project Group Social | February 7th @ 1pm | SRB MPR |
-| AppFolio Tour | February 21st @ 1pm | 70 Castilian Dr, Goleta |
+| Valentines Day Social | February 13th @ 7pm | Phelps Hall #1440 |
+| AppFolio Trip | February 21st @ 1pm | 70 Castilian Dr, Goleta |
 
 <!-- : {.striped .hover} -->
 
