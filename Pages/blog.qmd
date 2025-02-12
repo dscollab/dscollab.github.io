@@ -18,7 +18,7 @@ format: html
 <img src="../Images/2425Workshops/STATSRFUN5/IMG_4927.jpg">
 <img src="../Images/2425Workshops/STATSRFUN5/IMG_4924.jpg">
 <p>
-On February 6, 2025, DSCollab hosted the fifth workshop of the year. Our graduate advisor, Ethan Marzban, guided us through an intuitive yet thorough introduction to machine learning. We explored the topics of model fitting, testing, and validation, supervised and unsupervised learning, and discussion of implementation for projects. We hope to see you all at future workshops and events!
+On February 6, 2025, DSCollab hosted the fifth workshop of the year! Our graduate advisor, Ethan Marzban, guided us through an intuitive yet thorough introduction to machine learning. We explored the topics of model fitting, testing, and validation, supervised and unsupervised learning, and discussion of implementation for projects. We hope to see you all at future workshops and events!
 </p>
 </div>
 
