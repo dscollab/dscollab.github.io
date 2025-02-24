@@ -37,8 +37,15 @@ title: "2024-2025 Meetings"
 
 <!--- Stats R Fun #4 --->
 <details>
-  <summary> <p> Stats R Fun #4 (01/21/25) </p> </summary>
+  <summary> <p> Stats R Fun #4 (1/21/25) </p> </summary>
   - Slides: <a href="../Files/Workshops_24_25/STATSRFUN4/statsrfun4.pdf" target="_blank">[statsrfun4.pdf]</a> (Click to download) <br>
   - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_Workshop.ipynb" target="_blank">[Data Cleaning Workshop]</a> (Click to download) <br>
   - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_ANSWERS.ipynb" target="_blank">[Data Cleaning Answers]</a> (Click to download) <br>
+</details>
+
+<!--- Stats R Fun #5 --->
+<details>
+  <summary> <p> Stats R Fun #5 (2/6/25) </p> </summary>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN5/statsrfun5.pdf" target="_blank">[statsrfun4.pdf]</a> (Click to download) <br>
+  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN5/Modeling.ipynb" target="_blank">[Modeling Workshop]</a> (Click to download) <br>
 </details>

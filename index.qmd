@@ -88,8 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Valentines Day Social | February 13th @ 7pm | Phelps Hall #1440 |
-| AppFolio Trip | February 21st @ 1pm | 70 Castilian Dr, Goleta |
+| Resume Workshop w/ WiCS | February 27th, 7-8pm | Phelps 1160 |
 
 <!-- : {.striped .hover} -->
 
