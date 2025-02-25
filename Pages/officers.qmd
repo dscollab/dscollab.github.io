@@ -126,6 +126,24 @@ sidebar: false
   <div class="fun-fact">Fun fact: Getting SUCBA certified in Spring</div>
   </div>
 
+  <!-- Shashin Gupta -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Shashin.png" class="img-fluid rounded-circle" alt="Shashin Gupta">
+  <div class="staff-name">Shashin Gupta</div>
+  <p>Intern</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Name means Photo in Japanese</div>
+  </div>
+
+  <!-- Christopher Santiago -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2425Staff/Chris.png" class="img-fluid rounded-circle" alt="Christopher Santiago">
+  <div class="staff-name">Christopher Santiago</div>
+  <p>Intern</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Has a black belt in taekwondo</div>
+  </div>
+
   <!-- Ethan Marzban -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2425Staff/Ethan.jpg" class="img-fluid rounded-circle" alt="Ethan Marzban">
