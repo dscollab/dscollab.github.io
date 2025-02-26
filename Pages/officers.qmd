@@ -113,7 +113,7 @@ sidebar: false
   <img src="../Images/Staff/2425Staff/Raymond.png" class="img-fluid rounded-circle" alt="Raymond Vargas">
   <div class="staff-name">Raymond Vargas</div>
   <p>Events Officer</p>
-  <p>2nd Year - Undeclared</p>
+  <p>2nd Year - History w/ minor in Statistics</p>
   <div class="fun-fact">Fun fact: Crocheting a sweater since 2021</div>
   </div>
 

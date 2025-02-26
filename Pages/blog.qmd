@@ -12,6 +12,18 @@ format: html
 <h2>2025</h2>
 
 <div class="post">
+<h3>AppFolio Tour</h3>
+<h5>Friday, February 21, 2025 @ AppFolio</h5>
+<img src="../Images/Blog/AppFolio/IMG_8818.JPG">
+<img src="../Images/Blog/AppFolio/IMG_8800.JPG">
+<img src="../Images/Blog/AppFolio/IMG_8817.JPG">
+<p>
+On Friday, February 21st, about 30 staff and club members attended the AppFolio Goleta Office for a tour of the premises ending in a presentation and Q&A! We learned about the structure of the company, as well as the many ways that data science plays a key role in AppFolio's success. AppFolio is a company that offers SaaS (Software as a Service), across 12 distinct products. These products are made possible by the diverse teams that maintain them which are comprised of data analysts, operations-oriented data scientists, data engineers, and software engineers to name a few. This was an eye-opening experience that demonstrated the impact of a data-driven business model. Stay tuned for future workshops & events!
+</p>
+</div>
+
+
+<div class="post">
 <h3>Stats R Fun #5</h3>
 <h5>Thursday, February 6, 2025 @ Psych #1924</h5>
 <img src="../Images/2425Workshops/STATSRFUN5/IMG_4896.jpg">

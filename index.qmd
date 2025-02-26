@@ -57,8 +57,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="Images/Mainpage_Slideshow/2425gm16.JPG" style="width:100%">
-  <div class="text">A lovely picture from our first 24-25 General Meeting!</div>
+  <img src="Images/Mainpage_Slideshow/IMG_8798.JPG" style="width:100%">
+  <div class="text">Nova: the purple cow</div>
 </div>
 
 </div>
@@ -88,7 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Resume Workshop w/ WiCS | February 27th, 7-8pm | Phelps #1160 |
+| Resume Workshop | February 27th, 7-8pm | Phelps #1160 |
 
 <!-- : {.striped .hover} -->
 

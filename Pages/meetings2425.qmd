@@ -15,37 +15,36 @@ title: "2024-2025 Meetings"
 <!--- Stats R Fun #1 --->
 <details>
   <summary> <p> Stats R Fun #1 (10/17/24) </p> </summary>
-  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN1/Stats_R_Fun_1.pdf" target="_blank">[StatsRFun1.pdf]</a> (Click to download) <br>
-  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN1/Intro_to_Python_+_Data.ipynb" target="_blank">[IntrotoPython.pdf]</a> (Click to download) <br>
-  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN1/ANSWERS_Intro_to_Python_+_Data.ipynb" target="_blank">[IntrotoPythonAnswers.pdf]</a> (Click to download) <br>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN1/Stats_R_Fun_1.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN1/Intro_to_Python_+_Data.ipynb" download="IntroToPython.ipynb" target="_blank">[IntroToPython.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN1/ANSWERS_Intro_to_Python_+_Data.ipynb" download="IntroAnswers.ipynb"target="_blank">[IntroAnswers.ipynb]</a> (Click to download) <br>
 </details>
 
 <!--- Stats R Fun #2 --->
 <details>
   <summary> <p> Stats R Fun #2 (10/30/24) </p> </summary>
-  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN2/Stats_R_Fun_2.pdf" target="_blank">[StatsRFun2.pdf]</a> (Click to download) <br>
-  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN2/Intro_to_NumPy_and_Pandas.ipynb" target="_blank">[NumpyAndPandas.pdf]</a> (Click to download) <br>
-  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN2/ANSWERS_Intro_to_NumPy_and_Pandas.ipynb" target="_blank">[NumpyAndPandasAnswers.pdf]</a> (Click to download) <br>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN2/Stats_R_Fun_2.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN2/Intro_to_NumPy_and_Pandas.ipynb" download="NumpyPandas.ipynb" target="_blank">[NumpyPandas.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN2/ANSWERS_Intro_to_NumPy_and_Pandas.ipynb" download="NumpyPandasAnswers.ipynb" target="_blank">[NumpyPandasAnswers.ipynb]</a> (Click to download) <br>
 </details>
 
 <!--- Stats R Fun #3 --->
 <details>
   <summary> <p> Stats R Fun #3 (11/14/24) </p> </summary>
-  - Slides: <a href="https://docs.google.com/presentation/d/1vVLo4vMJTt4NX_7otyviiV-oqXS7wtzhoQHrocOSvts/edit?usp=sharing" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
-  - Worksheet w/ Solutions: <a href="../Files/Workshops_24_25/STATSRFUN3/Visualizations_Solutions.ipynb" target="_blank">[Data Visualization]</a> (Click to download) <br>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN3/statsrfun3.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet w/ Solutions: <a href="../Files/Workshops_24_25/STATSRFUN3/Visualizations_Solutions.ipynb" download="DataVisualizationWithSolutions.ipynb" target="_blank">[DataVisualizationWithSolutions.ipynb]</a> (Click to download) <br>
 </details>
 
 <!--- Stats R Fun #4 --->
 <details>
   <summary> <p> Stats R Fun #4 (1/21/25) </p> </summary>
-  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN4/statsrfun4.pdf" target="_blank">[statsrfun4.pdf]</a> (Click to download) <br>
-  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_Workshop.ipynb" target="_blank">[Data Cleaning Workshop]</a> (Click to download) <br>
-  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_ANSWERS.ipynb" target="_blank">[Data Cleaning Answers]</a> (Click to download) <br>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN4/statsrfun4.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_Workshop.ipynb" download="DataCleaningWorkshop.ipynb" target="_blank">[DataCleaningWorkshop.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN4/Data_Cleaning_ANSWERS.ipynb" download="DataCleaningANSWERS.ipynb" target="_blank">[DataCleaningANSWERS.ipynb]</a> (Click to download) <br>
 </details>
 
 <!--- Stats R Fun #5 --->
 <details>
   <summary> <p> Stats R Fun #5 (2/6/25) </p> </summary>
-  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN5/statsrfun5.pdf" target="_blank">[statsrfun4.pdf]</a> (Click to download) <br>
-  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN5/Modeling.ipynb" target="_blank">[Modeling Workshop]</a> (Click to download) <br>
+  - Slides: <a href="../Files/Workshops_24_25/STATSRFUN5/statsrfun5.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
 </details>
