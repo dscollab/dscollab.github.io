@@ -88,7 +88,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Resume Workshop | February 27th, 7-8pm | Phelps #1160 |
+| Resume Workshop | February 27th, 7-8pm | Phelps #1444 |
+| Resume Workshop | February 27th, 7-8pm | Phelps #1444 |
 
 <!-- : {.striped .hover} -->
 
