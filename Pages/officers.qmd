@@ -117,13 +117,13 @@ sidebar: false
   <div class="fun-fact">Fun fact: Crocheting a sweater since 2021</div>
   </div>
 
-  <!-- Ella Emberger -->
+  <!-- Sabrina Nguyen -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2425Staff/Ella.png" class="img-fluid rounded-circle" alt="Ella Emberger">
-  <div class="staff-name">Ella Emberger</div>
+  <img src="../Images/Staff/2425Staff/Sabrina.jpg" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
+  <div class="staff-name">Sabrina Ngyuen</div>
   <p>Intern</p>
-  <p>1st Year - Financial Math & Statistics</p>
-  <div class="fun-fact">Fun fact: Getting SCUBA certified in Spring</div>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Was bitten in the face by a dog at age 4 and paid off 3/4 of a school year with government money</div>
   </div>
 
   <!-- Shashin Gupta -->
