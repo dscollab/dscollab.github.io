@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: G-PBFWYVSBYV
   title: ""
   navbar:
     logo: Images/Logos_Icons/main_logo3.png
