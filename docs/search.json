@@ -389,11 +389,7 @@
     "href": "Pages/projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Past projects from our club members!",
-    "crumbs": [
-      "Projects",
-      "Past Projects"
-    ]
+    "text": "Past projects from our club members!"
   },
   {
     "objectID": "Pages/past.html",
