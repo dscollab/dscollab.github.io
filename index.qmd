@@ -88,7 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Matcha Study Jam | March 13th, 7-10pm | Phelps #1444 |
+| Tetris Social | April 10th, 6:30pm | HSSB #1211 |
 
 <!-- : {.striped .hover} -->
 
