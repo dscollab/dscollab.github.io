@@ -88,7 +88,6 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Project Jam | April 16th, 7:30pm | SRB Chicano/Latinx Resource Center |
 | Project Showcase | May 30th | TBD |
 
 <!-- : {.striped .hover} -->
