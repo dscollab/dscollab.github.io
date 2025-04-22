@@ -88,7 +88,9 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Project Showcase | May 30th | TBD |
+| Project Jam | 4/23, 7:30pm | SRB American Indian Resource Center |
+| Project Building Walkthrough | 4/24, 6:30 pm | HSSB #1227 |
+| Project Office Hours | 5/2, 1:30pm | Zoom |
 
 <!-- : {.striped .hover} -->
 
