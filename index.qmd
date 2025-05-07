@@ -88,9 +88,8 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Project Jam | 4/30, 7:30pm | SRB African Diaspora Resource Center |
-| Project Deliverables Workshop | 5/1, 6:30 pm | HSSB #1174 |
-| Project Office Hours | 5/2, 1:30pm | Zoom |
+| Project Jam | 5/7, 7:30pm | SRB |
+| Project Office Hours | 5/9, 1:30pm | Zoom |
 
 <!-- : {.striped .hover} -->
 
