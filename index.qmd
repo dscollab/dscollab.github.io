@@ -88,7 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Project Jam | 5/14, 7:30pm | SRB Chican/x Resource Room |
+| Project Jam | 5/14, 7:30pm | SRB 3rd Floor Forum |
 | Project Office Hours | 5/16, 1:30pm | Zoom |
 | EOY Project Showcase | 5/30 | TBD |
 
