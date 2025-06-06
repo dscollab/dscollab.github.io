@@ -88,8 +88,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| Project Jam | 5/21, 7:30pm | SRB 3rd Floor Forum |
-| EOY Project Showcase | 5/30 | TBD |
+| TBA | TBA | TBA |
 
 <!-- : {.striped .hover} -->
 

@@ -10,7 +10,7 @@ website:
     left:
       - href: Pages/calendar.qmd
         text: Calendar
-      - href: Pages/projects2324.qmd
+      - href: Pages/projects2425.qmd
         text: Projects
       - href: Pages/meetings2425.qmd
         text: Meetings
@@ -31,6 +31,7 @@ website:
       style: "docked"
       collapse-level: 2
       contents:
+        - Pages/projects2425.qmd
         - Pages/projects2324.qmd
         - Pages/projects2223.qmd
     - id: about

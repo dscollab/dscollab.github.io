@@ -1,5 +1,5 @@
 ---
-title: "2023-2024"
+title: "2023-2024 Projects"
 ---
 
 <!-- PROJECT 1 -->
@@ -95,3 +95,28 @@ Using MediaPipe, a Raspberry Pi, and a webcam, the image data collected by the c
 :::
   
 :::
+
+<body>
+
+  <div class="full-img" id="fullImgBox">
+  <html>
+    <img src="../Images/Project_Showcase/2024/socializing.jpg" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+  </html>
+  </div>
+  
+<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+  
+  function openFullImg(pic){
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic
+  }
+  
+  function closeFullImg(){
+  fullImgBox.style.display = "none";
+  }
+</script>
+
+</body>

@@ -1,0 +1,138 @@
+---
+title: "2024-2025 Projects"
+---
+
+<!-- Spotify Audio Analysis & Predictive Modeling -->
+:::{.callout-note collapse="false"}
+## Spotify Audio Analysis & Predictive Modeling
+
+<h3>Spotify Audio Analysis & Predictive Modeling</h3>
+
+project 1 description
+
+**Group Member(s):** Wonyoung Hur, Jack Zhang, Joaquin Wong, Jerry Zheng, Chenghuan Ge, Darren Dai
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2025/spotify1.png" onclick="openFullImg(this.src)" style="width:30%"> 
+<img src="../Images/Project_Showcase/2025/spotify2.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/spotify3.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/spotify4.png" onclick="openFullImg(this.src)" style="width:30%">
+:::
+  
+:::
+
+
+
+<!-- NBA Subreddit Sentiment Analysis -->
+:::{.callout-note collapse="false"}
+## NBA Subreddit Sentiment Analysis
+
+<h3>NBA Subreddit Sentiment Analysis</h3>
+
+project 2 description
+
+**Group Member(s):** Alexander Bloyer
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2025/nbasa1.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/nbasa3.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/nbasa6.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/nbasa8.png" onclick="openFullImg(this.src)" style="width:30%">
+:::
+  
+:::
+
+
+
+<!-- Sex & ADHD Prediction -->
+:::{.callout-note collapse="false"}
+## Sex & ADHD Prediction
+
+<h3>Sex & ADHD Prediction</h3>
+
+project 3 description
+
+**Group Members:** Alice Xu & Ashlyn Lin
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2025/sexadhd1.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/sexadhd4.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/sexadhd5.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/sexadhd7.png" onclick="openFullImg(this.src)" style="width:30%">
+:::
+  
+:::
+
+
+
+<!-- Diabetic Retinopathy Classification -->
+:::{.callout-note collapse="false"}
+## Diabetic Retinopathy Classification
+
+<h3>Diabetic Retinopathy Classification</h3>
+
+project 4 description
+
+**Group Members:** Cyrus Navasca, Owen Feng, Shashin Gupta, Nikhil Gupta
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2025/imgnn4.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/imgnn3.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/imgnn7.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/imgnn9.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/imgnn13.png" onclick="openFullImg(this.src)" style="width:30%">
+
+:::
+  
+:::
+
+<!-- Raccoon Analysis of UCSB -->
+:::{.callout-note collapse="false"}
+## Raccoon Analysis of UCSB
+
+<h3>Raccoon Analysis of UCSB</h3>
+
+project 5 description
+
+**Group Members:** Katherine Hung, Sabrina Nguyen, Brendan Chung, Dylan Acosta, Joseph Cancio
+
+:::{.img-gallery}
+<img src="../Images/Project_Showcase/2025/ra1.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/ra4.png" onclick="openFullImg(this.src)" style="width:30%">
+<img src="../Images/Project_Showcase/2025/ra5.png" onclick="openFullImg(this.src)" style="width:30%">
+:::
+  
+:::
+
+<body>
+
+  <div class="full-img" id="fullImgBox">
+  <html>
+    <img src="../Images/Project_Showcase/2025/kris4.png" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+  </html>
+  </div>
+  
+  <div class="img-gallery">
+  <html>
+    <img src="../Images/Project_Showcase/2025/anya1.png" onclick="openFullImg(this.src)">
+    <img src="../Images/Project_Showcase/2025/anya4.png" onclick="openFullImg(this.src)">
+    <img src="../Images/Project_Showcase/2025/kris5.png" onclick="openFullImg(this.src)">
+  </html>
+  </div>
+  
+<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+  
+  function openFullImg(pic){
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic
+  }
+  
+  function closeFullImg(){
+  fullImgBox.style.display = "none";
+  }
+</script>
+
+</body>
