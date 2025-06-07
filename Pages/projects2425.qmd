@@ -8,7 +8,7 @@ title: "2024-2025 Projects"
 
 <h3>Spotify Audio Analysis & Predictive Modeling</h3>
 
-project 1 description
+What's your favorite song? This project explored a Spotify dataset and built a predictive model for recommendations.
 
 **Group Member(s):** Wonyoung Hur, Jack Zhang, Joaquin Wong, Jerry Zheng, Chenghuan Ge, Darren Dai
 
@@ -29,7 +29,7 @@ project 1 description
 
 <h3>NBA Subreddit Sentiment Analysis</h3>
 
-project 2 description
+What is the attitude towards your favorite NBA team? In this project, we find out through the sentiment analysis of NBA subreddit post comments. This project utilized APIs to access Reddit comment data and perform EDA, sentiment analysis, and predictive modeling.
 
 **Group Member(s):** Alexander Bloyer
 
@@ -50,7 +50,7 @@ project 2 description
 
 <h3>Sex & ADHD Prediction</h3>
 
-project 3 description
+How does your sex affect the likelihood you have ADHD? This project develops a variety of predictive models to assess and aid in ADHD diagnosis.
 
 **Group Members:** Alice Xu & Ashlyn Lin
 
@@ -71,7 +71,7 @@ project 3 description
 
 <h3>Diabetic Retinopathy Classification</h3>
 
-project 4 description
+Diabetic Retinopathy is a serious condition that affects 200,000 US residents annually. This group trained a convolutional neural network on a dataset of images of patients eyes.
 
 **Group Members:** Cyrus Navasca, Owen Feng, Shashin Gupta, Nikhil Gupta
 
@@ -92,7 +92,7 @@ project 4 description
 
 <h3>Raccoon Analysis of UCSB</h3>
 
-project 5 description
+Have you seen this raccoon?! This group collected and analyzed data from UCSB students about their encounters with the local raccoon population.
 
 **Group Members:** Katherine Hung, Sabrina Nguyen, Brendan Chung, Dylan Acosta, Joseph Cancio
 
