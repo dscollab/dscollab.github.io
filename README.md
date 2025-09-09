@@ -4,7 +4,7 @@ editor:
     wrap: 72
 ---
 
-# sdsw-ucsb.github.io
+# dscollab-ucsb.github.io
 
 (https://dscollab.github.io/)
 
