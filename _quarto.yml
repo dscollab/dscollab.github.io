@@ -12,9 +12,9 @@ website:
         text: Calendar
       - href: Pages/projects2425.qmd
         text: Projects
-      - href: Pages/meetings2425.qmd
+      - href: Pages/meetings2526.qmd
         text: Meetings
-      - href: Pages/blog.qmd
+      - href: Pages/blog2526.qmd
         text: Blog
       - sidebar:about
   sidebar:
@@ -27,7 +27,13 @@ website:
         - Pages/meetings.qmd
         - Pages/past.qmd
 
-        
+    - title: "Blog"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - Pages/blog2526.qmd
+        - Pages/blog2425.qmd
+
     - title: "Projects"
       style: "docked"
       collapse-level: 2
