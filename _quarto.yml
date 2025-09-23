@@ -22,6 +22,7 @@ website:
       style: "docked"
       collapse-level: 2
       contents:
+        - Pages/meetings2526.qmd
         - Pages/meetings2425.qmd
         - Pages/meetings.qmd
         - Pages/past.qmd
