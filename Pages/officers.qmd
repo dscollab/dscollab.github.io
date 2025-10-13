@@ -8,6 +8,12 @@ sidebar: false
 ---
 
 ```{=html}
+<p style="text-align:center;margin-top:1rem;">
+  <a class="button" href="officers2526.html">Officers 2025–2026</a>
+  &nbsp;&nbsp;
+  <a class="button" href="officers2425.html">Officers 2024–2025</a>
+</p>
+
 <div class="staff-grid">
   <!-- Cyrus Navasca -->
   <div class="staff-card text-center translucent-background">
@@ -161,4 +167,43 @@ sidebar: false
   <div class="fun-fact">Assistant Teaching Professor for the Department of Statistics & Applied Probability</div>
   </div>
 </div>
+
+
+
+<hr class="section-divider" style="margin:60px 0; opacity:0.25;">
+<section id="alumni-officers">
+  <h2 class="section-title" style="text-align:center;margin:40px 0 24px;">
+    Alumni Officers
+  </h2>
+
+  <div class="staff-grid">
+    <!-- Pramukh Shankar -->
+    <div class="staff-card text-center translucent-background">
+      <img src="../Images/Staff/2425Staff/Pramukh.png" class="img-fluid rounded-circle" alt="Pramukh Shankar">
+      <div class="staff-name">Pramukh Shankar</div>
+      <p>Treasurer (2024-2025)</p>
+      <p>Statistics & Data Science + Economics</p>
+      <div class="fun-fact">Fun fact: Favorite Anime is Dr. Stone</div>
+    </div>
+
+    <!-- Mollie Jiang -->
+    <div class="staff-card text-center translucent-background">
+      <img src="../Images/Staff/2425Staff/Mollie.png" class="img-fluid rounded-circle" alt="Mollie Jiang">
+      <div class="staff-name">Mollie Jiang</div>
+      <p>Secretary (2024-2025)</p>
+      <p>Statistics & Data Science</p>
+      <div class="fun-fact">Fun fact: Currently studying abroad</div>
+    </div>
+
+    <!-- Alex Bloyer -->
+      <div class="staff-card text-center translucent-background">
+      <img src="../Images/Staff/2425Staff/Alex.png" class="img-fluid rounded-circle" alt="Alex Bloyer">
+      <div class="staff-name">Alex Bloyer</div>
+      <p>Website Officer (2024-2025)</p>
+      <p>Statistics & Data Science</p>
+      <div class="fun-fact">Fun fact: Plays kendama</div>
+    </div>
+
+  </div>
+</section>
 ```
