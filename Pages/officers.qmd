@@ -8,12 +8,6 @@ sidebar: false
 ---
 
 ```{=html}
-<p style="text-align:center;margin-top:1rem;">
-  <a class="button" href="officers2526.html">Officers 2025–2026</a>
-  &nbsp;&nbsp;
-  <a class="button" href="officers2425.html">Officers 2024–2025</a>
-</p>
-
 <div class="staff-grid">
   <!-- Cyrus Navasca -->
   <div class="staff-card text-center translucent-background">
@@ -53,7 +47,7 @@ sidebar: false
 
   <!-- Alice Xu -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Alice.png" class="img-fluid rounded-circle" alt="Alice Xu">
+  <img src="../Images/Staff/2526Staff/Alice.HEIC" class="img-fluid rounded-circle" alt="Alice Xu">
   <div class="staff-name">Alice Xu</div>
   <p>Website Chair</p>
   <p>4th Year - Statistics & Data Science + Economics</p>
@@ -116,7 +110,7 @@ sidebar: false
 
   <!-- Sabrina Nguyen -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Sabrina.jpg" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
+  <img src="../Images/Staff/2526Staff/Sabrina.png" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
   <div class="staff-name">Sabrina Ngyuen</div>
   <p>Intern</p>
   <p>3rd Year - Statistics & Data Science</p>
