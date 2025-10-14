@@ -50,13 +50,13 @@ sidebar: false
   <img src="../Images/Staff/2526Staff/Prisha.png" class="img-fluid rounded-circle" alt="Prisha Bobde">
   <div class="staff-name">Prisha Bobde</div>
   <p>Secretary</p>
-  <p>3rd Year - Statistics & Data Science</p>
+  <p>3rd Year - Statistics & Data Science + Computer Science</p>
   <div class="fun-fact">Fun fact: Pet a capybara at UCSB 😍</div>
   </div>
 
   <!-- Bowie Chuang -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Bowie.png" class="img-fluid rounded-circle" alt="Bowie Chuang">
+  <img src="../Images/Staff/2526Staff/Bowie.jpg" class="img-fluid rounded-circle" alt="Bowie Chuang">
   <div class="staff-name">Bowie Chuang</div>
   <p>Website Chair</p>
   <p>4rd Year - Statistics & Data Science + Economics</p>
@@ -95,7 +95,7 @@ sidebar: false
   <img src="../Images/Staff/2526Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
   <div class="staff-name">Raymond Vargas</div>
   <p>Event Chair</p>
-  <p>3rd Year - History & Statistics</p>
+  <p>3rd Year - History</p>
   <div class="fun-fact">Fun fact: Is a sl*t for citrus 🍋</div>
   </div>
 
@@ -113,7 +113,7 @@ sidebar: false
   <img src="../Images/Staff/2526Staff/Sabrina.png" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
   <div class="staff-name">Sabrina Ngyuen</div>
   <p>Outreach Officer</p>
-  <p>3rd Year - Statistics & Data Science</p>
+  <p>3rd Year - Financial Math & Statistics</p>
   <div class="fun-fact">Fun fact: Got bit in the face by a dog at age 4, paid for ¾ year of tuition 🤑</div>
   </div>
 
