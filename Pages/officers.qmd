@@ -112,7 +112,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Sabrina.png" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
   <div class="staff-name">Sabrina Ngyuen</div>
-  <p>Outreach Officer</p>
+  <p>Event Officer</p>
   <p>3rd Year - Financial Math & Statistics</p>
   <div class="fun-fact">Fun fact: Got bit in the face by a dog at age 4, paid for ¾ year of tuition 🤑</div>
   </div>
