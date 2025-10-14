@@ -140,7 +140,7 @@ sidebar: false
 <hr class="section-divider" style="margin:60px 0; opacity:0.25;">
 <section id="alumni-officers">
   <h2 class="section-title" style="text-align:center;margin:40px 0 24px;">
-    Alumni Officers
+    DS Collab Alumni
   </h2>
 
   <div class="staff-grid">
