@@ -6,8 +6,6 @@ title: "2025-2026 Meetings"
 
 <!--- GM #1 --->
 <details>
-<summary>GM 1 – Fall Kickoff! (10/xx/25)</summary>
-
-- Slides: _TBD_
-- Recording: _TBD_
-- Notes: _TBD_
+  <summary> <p> GM 1 - DS Collab Info Night (10/07/25) </p> </summary>
+  - Slides: <a href="../Files/GM_25_26/info_night.pdf" target="_blank">[info_night.pdf]</a> (Click to download) <br>
+</details>
