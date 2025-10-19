@@ -4,5 +4,62 @@ format: html
 sidebar: blog 
 ---
 
-## 2025–2026
-_TBD_
+<div class="blogheader">
+  <h1>Snapshots the Moments that Mattered</h1>
+  <h5>Delve into our 2025-2026 highlights!</h5>
+</div>
+
+<h2>2025</h2>
+
+<!--
+<div class="post">
+<h3>DS Collab Study Jam 1</h3>
+<h5>Friday, October 17th, 2025 @ SRB 2nd Floor Conference Room</h5>
+<img src="../Images/2526Workshops/INFONIGHT/infonight1.jpg">
+<img src="../Images/2526Workshops/INFONIGHT/infonight2.jpg">
+<img src="../Images/2526Workshops/INFONIGHT/infonight3.jpg">
+<p>
+Thanks to everyone who showed up to form groups and start on projects. We can't wait to see the results of each groups' efforts at the project showcase! Contact any officer if you have questions about group formation, or your projects, and stay tuned over the coming weeks for future project jams!
+</p>
+</div>
+-->
+
+<div class="post">
+<h3>Data 4 Dummies - Learn basics in Python</h3>
+<h5>Thursday, October 9th, 2025 @ Chem #1171</h5>
+<img src="../Images/2526Workshops/DATA4DUMMIES/1.jpg">
+<img src="../Images/2526Workshops/DATA4DUMMIES/2.jpg">
+<img src="../Images/2526Workshops/DATA4DUMMIES/3.jpg">
+<p>
+Our first technical workshop of the year helped members get hands-on with the basics of Python programming, which is one of the core tools in data science. Attendees learned how to write simple scripts, explored basic syntax, data structures, and libraries. Whether you were new to coding or just brushing up, this session was a great intro to the kind of practical, project-driven learning DS Collab is all about.  
+
+Big thanks to everyone who joined us, and stay tuned for more upcoming workshops and project jams!
+</p>
+</div>
+
+<div class="post">
+<h3>DS Collab Info Night</h3>
+<h5>Tuesday, October 7th, 2025 @ Psych #1924</h5>
+<img src="../Images/2526Workshops/INFONIGHT/infonight1.jpg">
+<img src="../Images/2526Workshops/INFONIGHT/infonight2.jpg">
+<img src="../Images/2526Workshops/INFONIGHT/infonight3.jpg">
+<p>
+Our first event of the year kicked off with the annual DS Collab Info Night! 
+
+We introduced our 2025–2026 officer team, shared the club’s mission, and gave new members an overview of the exciting events planned for the year — from technical workshops and project jams to socials. It was an awesome opportunity for students to learn how to get involved, form teams, and explore what data science at UCSB is all about.  
+
+Thanks to everyone who came by to chat and connect — we can’t wait to see you all at our upcoming events!
+</p>
+</div>
+
+<!--
+<div class="post">
+<h3>Ice Cream Social</h3>
+<h5>Friday, October 3rd, 2025 @ SRB lawn</h5>
+<img src="../Images/Blog/ProjectJam/projectjam.jpeg">
+<img src="../Images/Blog/ProjectJam/welcomesign.jpeg">
+<p>
+Thanks to everyone who showed up to form groups and start on projects. We can't wait to see the results of each groups' efforts at the project showcase! Contact any officer if you have questions about group formation, or your projects, and stay tuned over the coming weeks for future project jams!
+</p>
+</div>
+-->
