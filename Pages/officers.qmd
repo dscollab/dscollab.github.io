@@ -60,7 +60,7 @@ sidebar: false
   <div class="staff-name">Bowie Chuang</div>
   <p>Website Developer</p>
   <p>4rd Year - Statistics & Data Science + Economics</p>
-  <div class="fun-fact">Fun fact: Really scared of spiders</div>
+  <div class="fun-fact">Fun fact: Really scared of spiders 🕷️</div>
   </div>
 
   <!-- Joyce De Quiros -->

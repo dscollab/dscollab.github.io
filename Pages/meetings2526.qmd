@@ -25,8 +25,8 @@ title: "2025-2026 Meetings"
 <details>
   <summary> <p> Data Analysis - Pandas & NumPy (10/22/25) </p> </summary>
   - Slides: <a href="../Files/Workshops_25_26/DUMMIES2/data_analysis_slide.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
-  - Worksheet: <a href="../Files/Workshops_25_26/DUMMIES2/Data 4 Dummies #2_ Intro to NumPy and Pandas.ipynb" download="IntroToPython.ipynb" target="_blank">[IntroToPython.ipynb]</a> (Click to download) <br>
-  - Answer Key: <a href="../Files/Workshops_25_26/DUMMIES2/(ANSWERS) Data 4 Dummies #2_ Intro to NumPy and Pandas.ipynb" download="IntroAnswers.ipynb"target="_blank">[IntroAnswers.ipynb]</a> (Click to download) <br>
+  - Worksheet: <a href="../Files/Workshops_25_26/DUMMIES2/Data_4_Dummies_2_Intro_to_NumPy_and_Pandas.ipynb" download="IntroToPython.ipynb" target="_blank">[DataAnalysis.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_25_26/DUMMIES2/ANSWERS_Data_4_Dummies_2_Intro_to_NumPy_and_Pandas.ipynb" download="IntroAnswers.ipynb"target="_blank">[AnalysisAnswers.ipynb]</a> (Click to download) <br>
 </details>
 
 
