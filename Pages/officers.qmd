@@ -31,7 +31,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Shashin.jpg" class="img-fluid rounded-circle" alt="Shashin Gupta">
   <div class="staff-name">Shashin Gupta</div>
-  <p>Finance Chair</p>
+  <p>Treasurer</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
   <div class="fun-fact">Fun fact: Name means “photo” in Japanese 🌇</div>
   </div>
@@ -40,7 +40,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Alice.jpg" class="img-fluid rounded-circle" alt="Alice Xu">
   <div class="staff-name">Alice Xu</div>
-  <p>Website Chair</p>
+  <p>Website Development Officer</p>
   <p>4th Year - Statistics & Data Science + Economics</p>
   <div class="fun-fact">Fun fact: Got first ever buzz cut this year ✂️</div>
   </div>
@@ -58,7 +58,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Bowie.jpg" class="img-fluid rounded-circle" alt="Bowie Chuang">
   <div class="staff-name">Bowie Chuang</div>
-  <p>Website Chair</p>
+  <p>Website Developer</p>
   <p>4rd Year - Statistics & Data Science + Economics</p>
   <div class="fun-fact">Fun fact: Really scared of spiders</div>
   </div>
@@ -67,7 +67,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Joyce.jpg" class="img-fluid rounded-circle" alt="Joyce De Quiros">
   <div class="staff-name">Joyce De Quiros</div>
-  <p>Graphic Design</p>
+  <p>Graphic Designer</p>
   <p>2nd Year - Statistics & Data Science</p>
   <div class="fun-fact">Fun fact: Favorite word to say is tokneneng 💬</div>
   </div>
@@ -94,7 +94,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
   <div class="staff-name">Raymond Vargas</div>
-  <p>Event Chair</p>
+  <p>Events Chair</p>
   <p>3rd Year - History</p>
   <div class="fun-fact">Fun fact: Is a sl*t for citrus 🍋</div>
   </div>
@@ -103,7 +103,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Heidi.jpg" class="img-fluid rounded-circle" alt="Heidi Weng">
   <div class="staff-name">Heidi Weng</div>
-  <p>Event Officer</p>
+  <p>Events Officer</p>
   <p>3rd Year - Statistics & Data Science</p>
   <div class="fun-fact">Fun fact: Met an NBA on the way back from China 🏀</div>
   </div>
@@ -112,7 +112,7 @@ sidebar: false
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Sabrina.png" class="img-fluid rounded-circle" alt="Sabrina Nguyen">
   <div class="staff-name">Sabrina Ngyuen</div>
-  <p>Event Officer</p>
+  <p>Events Officer</p>
   <p>3rd Year - Financial Math & Statistics</p>
   <div class="fun-fact">Fun fact: Got bit in the face by a dog at age 4, paid for ¾ year of tuition 🤑</div>
   </div>
@@ -122,8 +122,8 @@ sidebar: false
   <img src="../Images/Staff/2526Staff/Avery.jpg" class="img-fluid rounded-circle" alt="Avery Anderson">
   <div class="staff-name">Avery Anderson</div>
   <p>Finance Intern</p>
-  <p>2nd Year - Stats & Data Science</p>
-  <div class="fun-fact">Fun fact: I’m currently learning how to DJ!</div>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Currently learning how to DJ 🎧</div>
   </div>
 
 <!-- Lucinda Zheng -->
@@ -132,16 +132,16 @@ sidebar: false
   <div class="staff-name">Lucinda Zheng</div>
   <p>Media Intern</p>
   <p>2nd Year - Actuarial Science</p>
-  <div class="fun-fact">Fun fact: I shit twice a day </div>
+  <div class="fun-fact">Fun fact: Takes a sh*t twice a day 💩</div>
   </div>
 
   <!-- Cristian Michael Bajo -->
   <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Cristian.jpg" class="img-fluid rounded-circle" alt="Cristian Michael Bajo">
-  <div class="staff-name">Cristian Michael Bajo</div>
+  <img src="../Images/Staff/2526Staff/Cristian.jpg" class="img-fluid rounded-circle" alt="Cristian Bajo">
+  <div class="staff-name">Cristian Bajo</div>
   <p>Outreach Intern </p>
-  <p>2nd Year - Stats & data science + Applied Math</p>
-  <div class="fun-fact">Fun fact: I have 5 dogs</div>
+  <p>2nd Year - Statistics & Data science + Applied Math</p>
+  <div class="fun-fact">Fun fact: Has 5 dogs 🐶</div>
   </div>
 
   <!-- Dylan Acosta -->
@@ -150,25 +150,25 @@ sidebar: false
   <div class="staff-name">Dylan Acosta</div>
   <p>Outreach Intern</p>
   <p>3rd Year - Statistics & Data Science + Economics</p>
-  <div class="fun-fact">Fun fact: I like spreadsheets.</div>
+  <div class="fun-fact">Fun fact: Likes spreadsheets 🤓</div>
   </div>
 
   <!-- Angelica Abueg -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Angelica.jpg" class="img-fluid rounded-circle" alt="Angelica Abueg">
   <div class="staff-name">Angelica Abueg</div>
-  <p>Event Intern</p>
-  <p>2nd Year - Stats & Data Science</p>
-  <div class="fun-fact">Fun fact: I have a twin sister and our family still mixes us up</div>
+  <p>Events Intern</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Has a twin sister and is still mixed up by family 👯‍♀️</div>
   </div>
 
   <!-- Varun Sardana -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Varun.jpg" class="img-fluid rounded-circle" alt="Varun Sardana">
   <div class="staff-name">Varun Sardana</div>
-  <p>Event Intern</p>
-  <p>2nd Year - Stats & Data Science</p>
-  <div class="fun-fact">Fun fact: I am a state-level table tennis player!</div>
+  <p>Events Intern</p>
+  <p>2nd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Is a state-level table tennis player 🎾</div>
   </div>
 
   <!-- Ethan Marzban -->
@@ -177,7 +177,7 @@ sidebar: false
   <div class="staff-name">Ethan Marzban</div>
   <p>Graduate Advisor</p>
   <p>PhD - Statistics & Applied Probability</p>
-  <div class="fun-fact">Fun fact: Loves to talk about cats</div>
+  <div class="fun-fact">Fun fact: Loves to talk about cats 🐱</div>
   </div>
 
   <!-- Dr. Uma Ravat -->
