@@ -9,3 +9,24 @@ title: "2025-2026 Meetings"
   <summary> <p> GM 1 - DS Collab Info Night (10/07/25) </p> </summary>
   - Slides: <a href="../Files/GM_25_26/info_night.pdf" target="_blank">[info_night.pdf]</a> (Click to download) <br>
 </details>
+
+
+## Data 4 Dummies
+
+<!--- Data 4 Dummies #1 --->
+<details>
+  <summary> <p> Intro to Python (10/09/25) </p> </summary>
+  - Slides: <a href="../Files/Workshops_25_26/DUMMIES1/Data 4 Dummies #1_ Intro to Python + Data.pptx" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="../Files/Workshops_25_26/DUMMIES1/Intro to Python + Data.ipynb" download="IntroToPython.ipynb" target="_blank">[IntroToPython.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_25_26/DUMMIES1/ANSWERS Intro to Python + Data.ipynb" download="IntroAnswers.ipynb"target="_blank">[IntroAnswers.ipynb]</a> (Click to download) <br>
+</details>
+
+<!--- Data 4 Dummies #2 --->
+<!-- <details>
+  <summary> <p> Data Analysis - Pandas & NumPy (10/22/25) </p> </summary>
+  - Slides: <a href="../Files/Workshops_25_26/STATSRFUN1/Stats_R_Fun_1.pdf" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="../Files/Workshops_24_25/STATSRFUN1/Intro_to_Python_+_Data.ipynb" download="IntroToPython.ipynb" target="_blank">[IntroToPython.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="../Files/Workshops_24_25/STATSRFUN1/ANSWERS_Intro_to_Python_+_Data.ipynb" download="IntroAnswers.ipynb"target="_blank">[IntroAnswers.ipynb]</a> (Click to download) <br>
+</details> -->
+
+
