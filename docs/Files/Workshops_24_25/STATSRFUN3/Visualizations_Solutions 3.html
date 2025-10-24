@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Visualization: Stats R. Fun, #3</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../Images/Logos_Icons/main_logo3.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../Images/Logos_Icons/main_logo3.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Pages/calendar.html"> 
+<span class="menu-text">Calendar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Pages/projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Pages/meetings2425.html"> 
+<span class="menu-text">Meetings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Pages/blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../../Pages/about.html">
+ <span class="dropdown-text">About</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../Pages/officers.html">
+ <span class="dropdown-text">Meet the Officers</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><strong>Data Visualization: Stats R. Fun, #3</strong></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>DS Collaborative, Fall 2024. Presented by: Ethan P. Marzban</strong></p>
+<div id="cell-2" class="cell" data-outputid="d93a2616-a4ac-43f1-be7a-dba904e217e9">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">## DO NOT EDIT</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.stats <span class="im">as</span> sps</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> vega_datasets <span class="im">import</span> data</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>alt.renderers.enable(<span class="st">'html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<pre><code>RendererRegistry.enable('html')</code></pre>
+</div>
+</div>
+<section id="part-1-basic-visualizations-in-altair" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-basic-visualizations-in-altair">Part 1: Basic Visualizations in Altair</h2>
+<p>As mentioned during the workshop lecture, today’s workshop will primarily make use of the plotting library “Altair”. You can read more about Altair at https://altair-viz.github.io/.</p>
+<p>Let’s start by making a simple scatterplot. First, we need data! Create a pandas dataframe consisting of two columns, called <code>x</code> and <code>y</code>. Populate the <code>x</code> column with all integers between -3 and 3 (inclusive), and populate the <code>y</code> column with the squares of the corresponding <code>x</code> values. Assign the data frame to a variable (pick the name yourself!) The first few rows of your data frame should look like</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>x</strong></th>
+<th style="text-align: center;"><strong>y</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">-3</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">-2</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<div id="cell-5" class="cell" data-outputid="69c495a6-9d37-42d9-9672-1cbfff1a6068">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>my_df <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'x'</span>: np.arange(<span class="op">-</span><span class="dv">3</span>, <span class="dv">4</span>),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'y'</span>: np.arange(<span class="op">-</span><span class="dv">3</span>, <span class="dv">4</span>) <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>my_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="8">
+<div>
+
+  <div id="df-f58f73af-fe07-4cc2-8094-e556fa048d16" class="colab-df-container">
+    <div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">x</th>
+<th data-quarto-table-cell-role="th">y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>-3</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>-2</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>-1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>3</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f58f73af-fe07-4cc2-8094-e556fa048d16')" title="Convert this dataframe to an interactive table." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-f58f73af-fe07-4cc2-8094-e556fa048d16 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-f58f73af-fe07-4cc2-8094-e556fa048d16');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-92b8a575-8752-42ca-8409-c975ae915b51">
+  <button class="colab-df-quickchart" onclick="quickchart('df-92b8a575-8752-42ca-8409-c975ae915b51')" title="Suggest charts" style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-92b8a575-8752-42ca-8409-c975ae915b51 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_e5ee5a26-0f45-4231-b2bf-95d42ee67587">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('my_df')" title="Generate code using this dataframe." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"></path>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_e5ee5a26-0f45-4231-b2bf-95d42ee67587 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('my_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<p>Now that we have data, we can make a graph! Remember that Altair follows the Grammar of Graphics, which posits that visualizations can be broken down into: - <strong>Axes</strong>: the axes (or axis) of the plot - <strong>Geoms</strong>: the shapes/objects that comprise the plot (e.g.&nbsp;points for scatterplots, bars for bargraphs and histograms, etc.) - <strong>Aesthetics</strong>: mappings from the data to the geoms (e.g.&nbsp;coordinates for the points in the scatterplot, length of bars in a bargraph, etc.)</p>
+<p>Further recall that different variable types best correspond to different plot types. Given that our data frame from above consists of two numerical variables, what type of plot is most appropriate to visualize the data? Once you’ve answered this question, use Altair to generate the appropriate plot. Don’t worry about formatting too much yet.</p>
+<div id="cell-7" class="cell" data-outputid="c079dd5d-8044-4096-c25f-9b319aa501a0">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>alt.Chart(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    my_df</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>).mark_point().encode(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">'x'</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">'y'</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="17">
+
+<div id="altair-viz-a406abfb07f843b09e15b18751c0f34c"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-a406abfb07f843b09e15b18751c0f34c") {
+      outputDiv = document.getElementById("altair-viz-a406abfb07f843b09e15b18751c0f34c");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-f0fec2564791abb1cf8a4588cc049cd5"}, "mark": "point", "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-f0fec2564791abb1cf8a4588cc049cd5": [{"x": -3, "y": 9}, {"x": -2, "y": 4}, {"x": -1, "y": 1}, {"x": 0, "y": 0}, {"x": 1, "y": 1}, {"x": 2, "y": 4}, {"x": 3, "y": 9}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+<p>Though this is a nice enough plot, perhaps we want to highlight the fact that these points lie along a parabola. As such, let’s work toward adding a parabolic curve to our plot that passes through all the points.</p>
+<p>There are several ways to do this; let’s work through one together. First, let’s focus on generating the graph of the function <span class="math inline">\(f(x) = x^2\)</span> on the interval <span class="math inline">\([-3, 3]\)</span>. One way to do this is to create a very fine set of points between <span class="math inline">\(-3\)</span> and <span class="math inline">\(3\)</span>, square each, and then create a line graph of the resulting plot. Because the <code>x</code>-values are so close together, the line segments will appear smooth when viewed holistically.</p>
+<div id="cell-9" class="cell" data-outputid="4e740a78-226c-4131-8ded-6a26b15e722c">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>temp_df <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'x'</span>: np.linspace(<span class="op">-</span><span class="dv">3</span>, <span class="dv">3</span>, num <span class="op">=</span> <span class="dv">100</span>),</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'y'</span>:  np.linspace(<span class="op">-</span><span class="dv">3</span>, <span class="dv">3</span>, num <span class="op">=</span> <span class="dv">100</span>) <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>parabola1 <span class="op">=</span> alt.Chart(temp_df).encode(x <span class="op">=</span> <span class="st">'x'</span>, y <span class="op">=</span> <span class="st">'y'</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>parabola1.mark_line()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="14">
+
+<div id="altair-viz-ac9fe7ec0e9142699ef120e399de5052"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-ac9fe7ec0e9142699ef120e399de5052") {
+      outputDiv = document.getElementById("altair-viz-ac9fe7ec0e9142699ef120e399de5052");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-6ea41c0ac19ba986b618891cf2119ef1"}, "mark": "line", "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-6ea41c0ac19ba986b618891cf2119ef1": [{"x": -3.0, "y": 9.0}, {"x": -2.9393939393939394, "y": 8.640036730945821}, {"x": -2.878787878787879, "y": 8.287419651056016}, {"x": -2.8181818181818183, "y": 7.942148760330579}, {"x": -2.757575757575758, "y": 7.604224058769515}, {"x": -2.696969696969697, "y": 7.273645546372818}, {"x": -2.6363636363636362, "y": 6.950413223140496}, {"x": -2.5757575757575757, "y": 6.634527089072543}, {"x": -2.515151515151515, "y": 6.325987144168963}, {"x": -2.4545454545454546, "y": 6.024793388429752}, {"x": -2.393939393939394, "y": 5.730945821854913}, {"x": -2.333333333333333, "y": 5.444444444444443}, {"x": -2.2727272727272725, "y": 5.165289256198346}, {"x": -2.212121212121212, "y": 4.89348025711662}, {"x": -2.1515151515151514, "y": 4.6290174471992644}, {"x": -2.090909090909091, "y": 4.37190082644628}, {"x": -2.0303030303030303, "y": 4.122130394857668}, {"x": -1.9696969696969697, "y": 3.879706152433425}, {"x": -1.9090909090909092, "y": 3.6446280991735542}, {"x": -1.8484848484848484, "y": 3.416896235078053}, {"x": -1.7878787878787878, "y": 3.1965105601469235}, {"x": -1.7272727272727273, "y": 2.9834710743801653}, {"x": -1.6666666666666665, "y": 2.7777777777777772}, {"x": -1.606060606060606, "y": 2.579430670339761}, {"x": -1.5454545454545454, "y": 2.3884297520661155}, {"x": -1.4848484848484849, "y": 2.204775022956841}, {"x": -1.4242424242424243, "y": 2.028466483011938}, {"x": -1.3636363636363635, "y": 1.8595041322314048}, {"x": -1.303030303030303, "y": 1.6978879706152432}, {"x": -1.2424242424242424, "y": 1.5436179981634528}, {"x": -1.1818181818181817, "y": 1.3966942148760326}, {"x": -1.121212121212121, "y": 1.2571166207529842}, {"x": -1.0606060606060606, "y": 1.1248852157943066}, {"x": -1.0, "y": 1.0}, {"x": -0.9393939393939394, "y": 0.8824609733700643}, {"x": -0.8787878787878789, "y": 0.7722681359044997}, {"x": -0.8181818181818183, "y": 0.669421487603306}, {"x": -0.7575757575757573, "y": 0.5739210284664826}, {"x": -0.6969696969696968, "y": 0.485766758494031}, {"x": -0.6363636363636362, "y": 0.4049586776859503}, {"x": -0.5757575757575757, "y": 0.33149678604224053}, {"x": -0.5151515151515151, "y": 0.26538108356290174}, {"x": -0.4545454545454546, "y": 0.20661157024793392}, {"x": -0.39393939393939403, "y": 0.15518824609733708}, {"x": -0.33333333333333304, "y": 0.11111111111111091}, {"x": -0.2727272727272725, "y": 0.07438016528925606}, {"x": -0.21212121212121193, "y": 0.04499540863177219}, {"x": -0.15151515151515138, "y": 0.02295684113865928}, {"x": -0.09090909090909083, "y": 0.00826446280991734}, {"x": -0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.09090909090909083, "y": 0.00826446280991734}, {"x": 0.15151515151515138, "y": 0.02295684113865928}, {"x": 0.21212121212121238, "y": 0.04499540863177238}, {"x": 0.27272727272727293, "y": 0.07438016528925631}, {"x": 0.3333333333333335, "y": 0.11111111111111122}, {"x": 0.39393939393939403, "y": 0.15518824609733708}, {"x": 0.4545454545454546, "y": 0.20661157024793392}, {"x": 0.5151515151515151, "y": 0.26538108356290174}, {"x": 0.5757575757575757, "y": 0.33149678604224053}, {"x": 0.6363636363636367, "y": 0.40495867768595084}, {"x": 0.6969696969696972, "y": 0.4857667584940316}, {"x": 0.7575757575757578, "y": 0.5739210284664833}, {"x": 0.8181818181818183, "y": 0.669421487603306}, {"x": 0.8787878787878789, "y": 0.7722681359044997}, {"x": 0.9393939393939394, "y": 0.8824609733700643}, {"x": 1.0, "y": 1.0}, {"x": 1.0606060606060606, "y": 1.1248852157943066}, {"x": 1.121212121212121, "y": 1.2571166207529842}, {"x": 1.1818181818181817, "y": 1.3966942148760326}, {"x": 1.2424242424242422, "y": 1.5436179981634521}, {"x": 1.3030303030303028, "y": 1.6978879706152425}, {"x": 1.3636363636363633, "y": 1.859504132231404}, {"x": 1.4242424242424248, "y": 2.028466483011939}, {"x": 1.4848484848484853, "y": 2.2047750229568424}, {"x": 1.5454545454545459, "y": 2.388429752066117}, {"x": 1.6060606060606064, "y": 2.5794306703397623}, {"x": 1.666666666666667, "y": 2.7777777777777786}, {"x": 1.7272727272727275, "y": 2.9834710743801662}, {"x": 1.787878787878788, "y": 3.1965105601469244}, {"x": 1.8484848484848486, "y": 3.416896235078054}, {"x": 1.9090909090909092, "y": 3.6446280991735542}, {"x": 1.9696969696969697, "y": 3.879706152433425}, {"x": 2.0303030303030303, "y": 4.122130394857668}, {"x": 2.090909090909091, "y": 4.37190082644628}, {"x": 2.1515151515151514, "y": 4.6290174471992644}, {"x": 2.212121212121212, "y": 4.89348025711662}, {"x": 2.2727272727272725, "y": 5.165289256198346}, {"x": 2.333333333333334, "y": 5.444444444444447}, {"x": 2.3939393939393945, "y": 5.730945821854915}, {"x": 2.454545454545455, "y": 6.024793388429755}, {"x": 2.5151515151515156, "y": 6.325987144168964}, {"x": 2.575757575757576, "y": 6.634527089072545}, {"x": 2.6363636363636367, "y": 6.950413223140497}, {"x": 2.6969696969696972, "y": 7.273645546372821}, {"x": 2.757575757575758, "y": 7.604224058769515}, {"x": 2.8181818181818183, "y": 7.942148760330579}, {"x": 2.878787878787879, "y": 8.287419651056016}, {"x": 2.9393939393939394, "y": 8.640036730945821}, {"x": 3.0, "y": 9.0}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+<p>Finally, we can <strong>layer</strong> our parabola onto our initial plot. Though we could use the <code>alt.layer()</code> function, we can actually also use the <code>+</code> operator!</p>
+<div id="cell-11" class="cell" data-outputid="aef83fa0-575f-4813-a180-f696596290ed">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>scatter1 <span class="op">=</span> alt.Chart(my_df).encode(</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">'x'</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">'y'</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>scatter1.mark_point(size <span class="op">=</span> <span class="dv">100</span>, filled <span class="op">=</span> <span class="va">True</span>) <span class="op">+</span> parabola1.mark_line()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
+
+<div id="altair-viz-c848908e6684415891c0a41f32431b3f"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-c848908e6684415891c0a41f32431b3f") {
+      outputDiv = document.getElementById("altair-viz-c848908e6684415891c0a41f32431b3f");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-f0fec2564791abb1cf8a4588cc049cd5"}, "mark": {"type": "point", "filled": true, "size": 100}, "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}, {"data": {"name": "data-6ea41c0ac19ba986b618891cf2119ef1"}, "mark": "line", "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-f0fec2564791abb1cf8a4588cc049cd5": [{"x": -3, "y": 9}, {"x": -2, "y": 4}, {"x": -1, "y": 1}, {"x": 0, "y": 0}, {"x": 1, "y": 1}, {"x": 2, "y": 4}, {"x": 3, "y": 9}], "data-6ea41c0ac19ba986b618891cf2119ef1": [{"x": -3.0, "y": 9.0}, {"x": -2.9393939393939394, "y": 8.640036730945821}, {"x": -2.878787878787879, "y": 8.287419651056016}, {"x": -2.8181818181818183, "y": 7.942148760330579}, {"x": -2.757575757575758, "y": 7.604224058769515}, {"x": -2.696969696969697, "y": 7.273645546372818}, {"x": -2.6363636363636362, "y": 6.950413223140496}, {"x": -2.5757575757575757, "y": 6.634527089072543}, {"x": -2.515151515151515, "y": 6.325987144168963}, {"x": -2.4545454545454546, "y": 6.024793388429752}, {"x": -2.393939393939394, "y": 5.730945821854913}, {"x": -2.333333333333333, "y": 5.444444444444443}, {"x": -2.2727272727272725, "y": 5.165289256198346}, {"x": -2.212121212121212, "y": 4.89348025711662}, {"x": -2.1515151515151514, "y": 4.6290174471992644}, {"x": -2.090909090909091, "y": 4.37190082644628}, {"x": -2.0303030303030303, "y": 4.122130394857668}, {"x": -1.9696969696969697, "y": 3.879706152433425}, {"x": -1.9090909090909092, "y": 3.6446280991735542}, {"x": -1.8484848484848484, "y": 3.416896235078053}, {"x": -1.7878787878787878, "y": 3.1965105601469235}, {"x": -1.7272727272727273, "y": 2.9834710743801653}, {"x": -1.6666666666666665, "y": 2.7777777777777772}, {"x": -1.606060606060606, "y": 2.579430670339761}, {"x": -1.5454545454545454, "y": 2.3884297520661155}, {"x": -1.4848484848484849, "y": 2.204775022956841}, {"x": -1.4242424242424243, "y": 2.028466483011938}, {"x": -1.3636363636363635, "y": 1.8595041322314048}, {"x": -1.303030303030303, "y": 1.6978879706152432}, {"x": -1.2424242424242424, "y": 1.5436179981634528}, {"x": -1.1818181818181817, "y": 1.3966942148760326}, {"x": -1.121212121212121, "y": 1.2571166207529842}, {"x": -1.0606060606060606, "y": 1.1248852157943066}, {"x": -1.0, "y": 1.0}, {"x": -0.9393939393939394, "y": 0.8824609733700643}, {"x": -0.8787878787878789, "y": 0.7722681359044997}, {"x": -0.8181818181818183, "y": 0.669421487603306}, {"x": -0.7575757575757573, "y": 0.5739210284664826}, {"x": -0.6969696969696968, "y": 0.485766758494031}, {"x": -0.6363636363636362, "y": 0.4049586776859503}, {"x": -0.5757575757575757, "y": 0.33149678604224053}, {"x": -0.5151515151515151, "y": 0.26538108356290174}, {"x": -0.4545454545454546, "y": 0.20661157024793392}, {"x": -0.39393939393939403, "y": 0.15518824609733708}, {"x": -0.33333333333333304, "y": 0.11111111111111091}, {"x": -0.2727272727272725, "y": 0.07438016528925606}, {"x": -0.21212121212121193, "y": 0.04499540863177219}, {"x": -0.15151515151515138, "y": 0.02295684113865928}, {"x": -0.09090909090909083, "y": 0.00826446280991734}, {"x": -0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.09090909090909083, "y": 0.00826446280991734}, {"x": 0.15151515151515138, "y": 0.02295684113865928}, {"x": 0.21212121212121238, "y": 0.04499540863177238}, {"x": 0.27272727272727293, "y": 0.07438016528925631}, {"x": 0.3333333333333335, "y": 0.11111111111111122}, {"x": 0.39393939393939403, "y": 0.15518824609733708}, {"x": 0.4545454545454546, "y": 0.20661157024793392}, {"x": 0.5151515151515151, "y": 0.26538108356290174}, {"x": 0.5757575757575757, "y": 0.33149678604224053}, {"x": 0.6363636363636367, "y": 0.40495867768595084}, {"x": 0.6969696969696972, "y": 0.4857667584940316}, {"x": 0.7575757575757578, "y": 0.5739210284664833}, {"x": 0.8181818181818183, "y": 0.669421487603306}, {"x": 0.8787878787878789, "y": 0.7722681359044997}, {"x": 0.9393939393939394, "y": 0.8824609733700643}, {"x": 1.0, "y": 1.0}, {"x": 1.0606060606060606, "y": 1.1248852157943066}, {"x": 1.121212121212121, "y": 1.2571166207529842}, {"x": 1.1818181818181817, "y": 1.3966942148760326}, {"x": 1.2424242424242422, "y": 1.5436179981634521}, {"x": 1.3030303030303028, "y": 1.6978879706152425}, {"x": 1.3636363636363633, "y": 1.859504132231404}, {"x": 1.4242424242424248, "y": 2.028466483011939}, {"x": 1.4848484848484853, "y": 2.2047750229568424}, {"x": 1.5454545454545459, "y": 2.388429752066117}, {"x": 1.6060606060606064, "y": 2.5794306703397623}, {"x": 1.666666666666667, "y": 2.7777777777777786}, {"x": 1.7272727272727275, "y": 2.9834710743801662}, {"x": 1.787878787878788, "y": 3.1965105601469244}, {"x": 1.8484848484848486, "y": 3.416896235078054}, {"x": 1.9090909090909092, "y": 3.6446280991735542}, {"x": 1.9696969696969697, "y": 3.879706152433425}, {"x": 2.0303030303030303, "y": 4.122130394857668}, {"x": 2.090909090909091, "y": 4.37190082644628}, {"x": 2.1515151515151514, "y": 4.6290174471992644}, {"x": 2.212121212121212, "y": 4.89348025711662}, {"x": 2.2727272727272725, "y": 5.165289256198346}, {"x": 2.333333333333334, "y": 5.444444444444447}, {"x": 2.3939393939393945, "y": 5.730945821854915}, {"x": 2.454545454545455, "y": 6.024793388429755}, {"x": 2.5151515151515156, "y": 6.325987144168964}, {"x": 2.575757575757576, "y": 6.634527089072545}, {"x": 2.6363636363636367, "y": 6.950413223140497}, {"x": 2.6969696969696972, "y": 7.273645546372821}, {"x": 2.757575757575758, "y": 7.604224058769515}, {"x": 2.8181818181818183, "y": 7.942148760330579}, {"x": 2.878787878787879, "y": 8.287419651056016}, {"x": 2.9393939393939394, "y": 8.640036730945821}, {"x": 3.0, "y": 9.0}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+<p>Finally, let’s add some formatting to this plot (and a title)!</p>
+<div id="cell-13" class="cell" data-outputid="62802da9-d128-4dd0-f772-e01bf641ecdb">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plot1 <span class="op">=</span> scatter1.mark_point(size <span class="op">=</span> <span class="dv">100</span>, filled <span class="op">=</span> <span class="va">True</span>) <span class="op">+</span> parabola1.mark_line()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plot1.properties(title <span class="op">=</span> <span class="st">"My First Plot"</span>).configure_axis(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    labelFontSize <span class="op">=</span> <span class="dv">14</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    titleFontSize <span class="op">=</span> <span class="dv">16</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>).configure_title(</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    fontSize <span class="op">=</span> <span class="dv">18</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="24">
+
+<div id="altair-viz-8ee757e45b504c758f03ca6de12d0384"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-8ee757e45b504c758f03ca6de12d0384") {
+      outputDiv = document.getElementById("altair-viz-8ee757e45b504c758f03ca6de12d0384");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"labelFontSize": 14, "titleFontSize": 16}, "title": {"fontSize": 18}}, "layer": [{"data": {"name": "data-f0fec2564791abb1cf8a4588cc049cd5"}, "mark": {"type": "point", "filled": true, "size": 100}, "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}, {"data": {"name": "data-6ea41c0ac19ba986b618891cf2119ef1"}, "mark": "line", "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}], "title": "My First Plot", "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-f0fec2564791abb1cf8a4588cc049cd5": [{"x": -3, "y": 9}, {"x": -2, "y": 4}, {"x": -1, "y": 1}, {"x": 0, "y": 0}, {"x": 1, "y": 1}, {"x": 2, "y": 4}, {"x": 3, "y": 9}], "data-6ea41c0ac19ba986b618891cf2119ef1": [{"x": -3.0, "y": 9.0}, {"x": -2.9393939393939394, "y": 8.640036730945821}, {"x": -2.878787878787879, "y": 8.287419651056016}, {"x": -2.8181818181818183, "y": 7.942148760330579}, {"x": -2.757575757575758, "y": 7.604224058769515}, {"x": -2.696969696969697, "y": 7.273645546372818}, {"x": -2.6363636363636362, "y": 6.950413223140496}, {"x": -2.5757575757575757, "y": 6.634527089072543}, {"x": -2.515151515151515, "y": 6.325987144168963}, {"x": -2.4545454545454546, "y": 6.024793388429752}, {"x": -2.393939393939394, "y": 5.730945821854913}, {"x": -2.333333333333333, "y": 5.444444444444443}, {"x": -2.2727272727272725, "y": 5.165289256198346}, {"x": -2.212121212121212, "y": 4.89348025711662}, {"x": -2.1515151515151514, "y": 4.6290174471992644}, {"x": -2.090909090909091, "y": 4.37190082644628}, {"x": -2.0303030303030303, "y": 4.122130394857668}, {"x": -1.9696969696969697, "y": 3.879706152433425}, {"x": -1.9090909090909092, "y": 3.6446280991735542}, {"x": -1.8484848484848484, "y": 3.416896235078053}, {"x": -1.7878787878787878, "y": 3.1965105601469235}, {"x": -1.7272727272727273, "y": 2.9834710743801653}, {"x": -1.6666666666666665, "y": 2.7777777777777772}, {"x": -1.606060606060606, "y": 2.579430670339761}, {"x": -1.5454545454545454, "y": 2.3884297520661155}, {"x": -1.4848484848484849, "y": 2.204775022956841}, {"x": -1.4242424242424243, "y": 2.028466483011938}, {"x": -1.3636363636363635, "y": 1.8595041322314048}, {"x": -1.303030303030303, "y": 1.6978879706152432}, {"x": -1.2424242424242424, "y": 1.5436179981634528}, {"x": -1.1818181818181817, "y": 1.3966942148760326}, {"x": -1.121212121212121, "y": 1.2571166207529842}, {"x": -1.0606060606060606, "y": 1.1248852157943066}, {"x": -1.0, "y": 1.0}, {"x": -0.9393939393939394, "y": 0.8824609733700643}, {"x": -0.8787878787878789, "y": 0.7722681359044997}, {"x": -0.8181818181818183, "y": 0.669421487603306}, {"x": -0.7575757575757573, "y": 0.5739210284664826}, {"x": -0.6969696969696968, "y": 0.485766758494031}, {"x": -0.6363636363636362, "y": 0.4049586776859503}, {"x": -0.5757575757575757, "y": 0.33149678604224053}, {"x": -0.5151515151515151, "y": 0.26538108356290174}, {"x": -0.4545454545454546, "y": 0.20661157024793392}, {"x": -0.39393939393939403, "y": 0.15518824609733708}, {"x": -0.33333333333333304, "y": 0.11111111111111091}, {"x": -0.2727272727272725, "y": 0.07438016528925606}, {"x": -0.21212121212121193, "y": 0.04499540863177219}, {"x": -0.15151515151515138, "y": 0.02295684113865928}, {"x": -0.09090909090909083, "y": 0.00826446280991734}, {"x": -0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.030303030303030276, "y": 0.0009182736455463712}, {"x": 0.09090909090909083, "y": 0.00826446280991734}, {"x": 0.15151515151515138, "y": 0.02295684113865928}, {"x": 0.21212121212121238, "y": 0.04499540863177238}, {"x": 0.27272727272727293, "y": 0.07438016528925631}, {"x": 0.3333333333333335, "y": 0.11111111111111122}, {"x": 0.39393939393939403, "y": 0.15518824609733708}, {"x": 0.4545454545454546, "y": 0.20661157024793392}, {"x": 0.5151515151515151, "y": 0.26538108356290174}, {"x": 0.5757575757575757, "y": 0.33149678604224053}, {"x": 0.6363636363636367, "y": 0.40495867768595084}, {"x": 0.6969696969696972, "y": 0.4857667584940316}, {"x": 0.7575757575757578, "y": 0.5739210284664833}, {"x": 0.8181818181818183, "y": 0.669421487603306}, {"x": 0.8787878787878789, "y": 0.7722681359044997}, {"x": 0.9393939393939394, "y": 0.8824609733700643}, {"x": 1.0, "y": 1.0}, {"x": 1.0606060606060606, "y": 1.1248852157943066}, {"x": 1.121212121212121, "y": 1.2571166207529842}, {"x": 1.1818181818181817, "y": 1.3966942148760326}, {"x": 1.2424242424242422, "y": 1.5436179981634521}, {"x": 1.3030303030303028, "y": 1.6978879706152425}, {"x": 1.3636363636363633, "y": 1.859504132231404}, {"x": 1.4242424242424248, "y": 2.028466483011939}, {"x": 1.4848484848484853, "y": 2.2047750229568424}, {"x": 1.5454545454545459, "y": 2.388429752066117}, {"x": 1.6060606060606064, "y": 2.5794306703397623}, {"x": 1.666666666666667, "y": 2.7777777777777786}, {"x": 1.7272727272727275, "y": 2.9834710743801662}, {"x": 1.787878787878788, "y": 3.1965105601469244}, {"x": 1.8484848484848486, "y": 3.416896235078054}, {"x": 1.9090909090909092, "y": 3.6446280991735542}, {"x": 1.9696969696969697, "y": 3.879706152433425}, {"x": 2.0303030303030303, "y": 4.122130394857668}, {"x": 2.090909090909091, "y": 4.37190082644628}, {"x": 2.1515151515151514, "y": 4.6290174471992644}, {"x": 2.212121212121212, "y": 4.89348025711662}, {"x": 2.2727272727272725, "y": 5.165289256198346}, {"x": 2.333333333333334, "y": 5.444444444444447}, {"x": 2.3939393939393945, "y": 5.730945821854915}, {"x": 2.454545454545455, "y": 6.024793388429755}, {"x": 2.5151515151515156, "y": 6.325987144168964}, {"x": 2.575757575757576, "y": 6.634527089072545}, {"x": 2.6363636363636367, "y": 6.950413223140497}, {"x": 2.6969696969696972, "y": 7.273645546372821}, {"x": 2.757575757575758, "y": 7.604224058769515}, {"x": 2.8181818181818183, "y": 7.942148760330579}, {"x": 2.878787878787879, "y": 8.287419651056016}, {"x": 2.9393939393939394, "y": 8.640036730945821}, {"x": 3.0, "y": 9.0}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+</section>
+<section id="part-2-iowa-electricity-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-iowa-electricity-dataset">Part 2: Iowa Electricity Dataset</h2>
+<p>Let’s now work with some real data! To avoid having to worry about downloading and uploading data from external sources, we’ll be working with one of the built-in datasets from the <code>vega_datasets</code> module.</p>
+<p>Our specific dataset contains annual net generation of electricity in the state of Iowa by source in thousand megawatthours, between 2001 and 2017. To import and save the dataframe as a variable called <code>iowa</code>, run the following cell:</p>
+<div id="cell-15" class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>iowa <span class="op">=</span> data.iowa_electricity()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now, display the first 10 rows of the dataframe. (Yes, this is a bit of a review from previous workshops!)</p>
+<div id="cell-17" class="cell" data-outputid="f17eb2ed-40d2-4782-d2fb-5efe0307cae7">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>iowa.head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="26">
+<div>
+
+  <div id="df-64a0b6cd-8dc7-4f6a-b3eb-8a7006165bf7" class="colab-df-container">
+    <div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">year</th>
+<th data-quarto-table-cell-role="th">source</th>
+<th data-quarto-table-cell-role="th">net_generation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>2001-01-01</td>
+<td>Fossil Fuels</td>
+<td>35361</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>2002-01-01</td>
+<td>Fossil Fuels</td>
+<td>35991</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>2003-01-01</td>
+<td>Fossil Fuels</td>
+<td>36234</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>2004-01-01</td>
+<td>Fossil Fuels</td>
+<td>36205</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>2005-01-01</td>
+<td>Fossil Fuels</td>
+<td>36883</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>2006-01-01</td>
+<td>Fossil Fuels</td>
+<td>37014</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>2007-01-01</td>
+<td>Fossil Fuels</td>
+<td>41389</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>2008-01-01</td>
+<td>Fossil Fuels</td>
+<td>42734</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>2009-01-01</td>
+<td>Fossil Fuels</td>
+<td>38620</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>2010-01-01</td>
+<td>Fossil Fuels</td>
+<td>42750</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-64a0b6cd-8dc7-4f6a-b3eb-8a7006165bf7')" title="Convert this dataframe to an interactive table." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-64a0b6cd-8dc7-4f6a-b3eb-8a7006165bf7 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-64a0b6cd-8dc7-4f6a-b3eb-8a7006165bf7');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-1d693a85-7032-479d-ba4d-2e19a3923dda">
+  <button class="colab-df-quickchart" onclick="quickchart('df-1d693a85-7032-479d-ba4d-2e19a3923dda')" title="Suggest charts" style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-1d693a85-7032-479d-ba4d-2e19a3923dda button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<section id="aggregating-across-years-comparing-across-sectors" class="level3">
+<h3 class="anchored" data-anchor-id="aggregating-across-years-comparing-across-sectors">Aggregating Across Years; Comparing Across Sectors</h3>
+<p>Let’s work toward visualizing the net generation across the three sources (Fossil Fuels, Nuclear Energy, and Renewables), aggregated across all 17 years invluded in the dataset.</p>
+<p>First, what type of plot do you think would be most appropriate?</p>
+<p>Now, what we would like to do is aggregate across years, but within each source. We’ll talk more about how to do this in the next workshop (on Data Tidying) - for now, I’ll just mention that we can achieve our result by <strong>grouping</strong> the dataframe using the <code>pd.groupby()</code> method.</p>
+<div id="cell-21" class="cell" data-outputid="4a5d7d7d-dd23-42f0-8b2c-70ed4cd668a4">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>aggregate_gen <span class="op">=</span> iowa.groupby(<span class="st">'source'</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">sum</span>(<span class="st">'net_generation'</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>aggregate_gen</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="29">
+<div>
+
+  <div id="df-1032af30-259e-447e-a866-885507a1abbd" class="colab-df-container">
+    <div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">source</th>
+<th data-quarto-table-cell-role="th">net_generation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Fossil Fuels</td>
+<td>620129</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Nuclear Energy</td>
+<td>80103</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Renewables</td>
+<td>164220</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1032af30-259e-447e-a866-885507a1abbd')" title="Convert this dataframe to an interactive table." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1032af30-259e-447e-a866-885507a1abbd button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1032af30-259e-447e-a866-885507a1abbd');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-a8ab1ed1-4808-48a1-839c-5c51d2448a5b">
+  <button class="colab-df-quickchart" onclick="quickchart('df-a8ab1ed1-4808-48a1-839c-5c51d2448a5b')" title="Suggest charts" style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-a8ab1ed1-4808-48a1-839c-5c51d2448a5b button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_1bc8466d-e16e-45b4-b134-f3737724e3f8">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('aggregate_gen')" title="Generate code using this dataframe." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"></path>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_1bc8466d-e16e-45b4-b134-f3737724e3f8 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('aggregate_gen');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<p>Finally, use this dataframe to generate the desired plot. Adjust the plot to have appropriate font sizes and dimensions - also include a title.</p>
+<div id="cell-23" class="cell" data-outputid="c2539411-a766-4f7a-a5b4-223c5abc9338">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>alt.Chart(</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    aggregate_gen,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    title <span class="op">=</span> <span class="st">"Aggregated Generation Across Sectors"</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>).mark_bar().encode(</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">'source'</span>,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">'net_generation'</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> <span class="dv">500</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>).configure_axis(</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>    labelFontSize <span class="op">=</span> <span class="dv">16</span>,</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    titleFontSize <span class="op">=</span> <span class="dv">18</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>).configure_title(</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    fontSize <span class="op">=</span> <span class="dv">18</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/altair/utils/core.py:384: FutureWarning: the convert_dtype parameter is deprecated and will be removed in a future version.  Do ``ser.astype(object).apply()`` instead if you want ``convert_dtype=False``.
+  col = df[col_name].apply(to_list_if_array, convert_dtype=False)</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="35">
+
+<div id="altair-viz-da32fdf0064a459797a8019f8e2503c1"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-da32fdf0064a459797a8019f8e2503c1") {
+      outputDiv = document.getElementById("altair-viz-da32fdf0064a459797a8019f8e2503c1");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"labelFontSize": 16, "titleFontSize": 18}, "title": {"fontSize": 18}}, "data": {"name": "data-f8618c4be127c2cab33b85643d51c526"}, "mark": "bar", "encoding": {"x": {"field": "source", "type": "nominal"}, "y": {"field": "net_generation", "type": "quantitative"}}, "title": "Aggregated Generation Across Sectors", "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-f8618c4be127c2cab33b85643d51c526": [{"source": "Fossil Fuels", "net_generation": 620129}, {"source": "Nuclear Energy", "net_generation": 80103}, {"source": "Renewables", "net_generation": 164220}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+</section>
+<section id="changes-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="changes-over-time">Changes Over Time</h3>
+<p>It may be interesting to view the annual expenditures changes over time. Produce an appropriate graphic, and interpret.</p>
+<div id="cell-26" class="cell" data-outputid="1c30d3be-4cbb-42f8-db59-11597f6e1ec8">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Replace this cell with your answers</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>alt.Chart(</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    iowa,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    title <span class="op">=</span> <span class="st">"Expenditure Over Time"</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>).mark_line(point <span class="op">=</span> <span class="va">True</span>).encode(</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">'year'</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">'net_generation'</span>,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    color <span class="op">=</span> <span class="st">'source'</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> <span class="dv">500</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>).configure_axis(</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    labelFontSize <span class="op">=</span> <span class="dv">16</span>,</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    titleFontSize <span class="op">=</span> <span class="dv">18</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>).configure_title(</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    fontSize <span class="op">=</span> <span class="dv">18</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/altair/utils/core.py:384: FutureWarning: the convert_dtype parameter is deprecated and will be removed in a future version.  Do ``ser.astype(object).apply()`` instead if you want ``convert_dtype=False``.
+  col = df[col_name].apply(to_list_if_array, convert_dtype=False)</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="39">
+
+<div id="altair-viz-88e0585190a34ca3b054ed1545da8cf4"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-88e0585190a34ca3b054ed1545da8cf4") {
+      outputDiv = document.getElementById("altair-viz-88e0585190a34ca3b054ed1545da8cf4");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "axis": {"labelFontSize": 16, "titleFontSize": 18}, "title": {"fontSize": 18}}, "data": {"name": "data-bb61008ba0c766c5601afa5323d12ad4"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "source", "type": "nominal"}, "x": {"field": "year", "type": "temporal"}, "y": {"field": "net_generation", "type": "quantitative"}}, "title": "Expenditure Over Time", "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-bb61008ba0c766c5601afa5323d12ad4": [{"year": "2001-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 35361}, {"year": "2002-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 35991}, {"year": "2003-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 36234}, {"year": "2004-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 36205}, {"year": "2005-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 36883}, {"year": "2006-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 37014}, {"year": "2007-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 41389}, {"year": "2008-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 42734}, {"year": "2009-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 38620}, {"year": "2010-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 42750}, {"year": "2011-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 39361}, {"year": "2012-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 37379}, {"year": "2013-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 34873}, {"year": "2014-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 35250}, {"year": "2015-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 32319}, {"year": "2016-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 28437}, {"year": "2017-01-01T00:00:00", "source": "Fossil Fuels", "net_generation": 29329}, {"year": "2001-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 3853}, {"year": "2002-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4574}, {"year": "2003-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 3988}, {"year": "2004-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4929}, {"year": "2005-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4538}, {"year": "2006-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5095}, {"year": "2007-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4519}, {"year": "2008-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5282}, {"year": "2009-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4679}, {"year": "2010-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4451}, {"year": "2011-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5215}, {"year": "2012-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4347}, {"year": "2013-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5321}, {"year": "2014-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4152}, {"year": "2015-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5243}, {"year": "2016-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 4703}, {"year": "2017-01-01T00:00:00", "source": "Nuclear Energy", "net_generation": 5214}, {"year": "2001-01-01T00:00:00", "source": "Renewables", "net_generation": 1437}, {"year": "2002-01-01T00:00:00", "source": "Renewables", "net_generation": 1963}, {"year": "2003-01-01T00:00:00", "source": "Renewables", "net_generation": 1885}, {"year": "2004-01-01T00:00:00", "source": "Renewables", "net_generation": 2102}, {"year": "2005-01-01T00:00:00", "source": "Renewables", "net_generation": 2724}, {"year": "2006-01-01T00:00:00", "source": "Renewables", "net_generation": 3364}, {"year": "2007-01-01T00:00:00", "source": "Renewables", "net_generation": 3870}, {"year": "2008-01-01T00:00:00", "source": "Renewables", "net_generation": 5070}, {"year": "2009-01-01T00:00:00", "source": "Renewables", "net_generation": 8560}, {"year": "2010-01-01T00:00:00", "source": "Renewables", "net_generation": 10308}, {"year": "2011-01-01T00:00:00", "source": "Renewables", "net_generation": 11795}, {"year": "2012-01-01T00:00:00", "source": "Renewables", "net_generation": 14949}, {"year": "2013-01-01T00:00:00", "source": "Renewables", "net_generation": 16476}, {"year": "2014-01-01T00:00:00", "source": "Renewables", "net_generation": 17452}, {"year": "2015-01-01T00:00:00", "source": "Renewables", "net_generation": 19091}, {"year": "2016-01-01T00:00:00", "source": "Renewables", "net_generation": 21241}, {"year": "2017-01-01T00:00:00", "source": "Renewables", "net_generation": 21933}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Site Originally Designed by Ethan Marzban using Quarto; ©2023</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
