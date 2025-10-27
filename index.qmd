@@ -16,7 +16,7 @@ Welcome to the official website of the Statistics and Data Science Workshop, hos
 \
 
 :::{style="text-align:center"}
-<a href="https://forms.gle/tNmwnQ3jjGJMscTbA" target="_blank"><button type="button" class="btn btn-warning" style="font-size:23px">Click Here to Join as a Member!</button></a>
+<a href="https://shoreline.ucsb.edu/DCOL/club_signup" target="_blank"><button type="button" class="btn btn-warning" style="font-size:23px">Click Here to Join as a Member!</button></a>
 :::
 
 \

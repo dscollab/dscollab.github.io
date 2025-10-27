@@ -36,6 +36,33 @@ sidebar: false
   <div class="fun-fact">Fun fact: Name means “photo” in Japanese 🌇</div>
   </div>
 
+    <!-- Bowie Chuang -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2526Staff/Bowie.jpg" class="img-fluid rounded-circle" alt="Bowie Chuang">
+  <div class="staff-name">Bowie Chuang</div>
+  <p>Website Chair</p>
+  <p>4rd Year - Statistics & Data Science + Economics</p>
+  <div class="fun-fact">Fun fact: In Texas Right Now 🤠</div>
+  </div>
+
+  <!-- Evan Jamison -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2526Staff/Evan.png" class="img-fluid rounded-circle" alt="Evan Jamison">
+  <div class="staff-name">Evan Jamison</div>
+  <p>Outreach Chair</p>
+  <p>3rd Year - Statistics & Data Science</p>
+  <div class="fun-fact">Fun fact: Has over 3k hours in Rocket League 🎮</div>
+  </div>
+
+  <!-- Raymond Vargas -->
+  <div class="staff-card text-center translucent-background">
+  <img src="../Images/Staff/2526Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
+  <div class="staff-name">Raymond Vargas</div>
+  <p>Events Chair</p>
+  <p>3rd Year - History</p>
+  <div class="fun-fact">Fun fact: Is a sl*t for citrus 🍋</div>
+  </div>
+
   <!-- Alice Xu -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Alice.jpg" class="img-fluid rounded-circle" alt="Alice Xu">
@@ -54,15 +81,6 @@ sidebar: false
   <div class="fun-fact">Fun fact: Pet a capybara at UCSB 😍</div>
   </div>
 
-  <!-- Bowie Chuang -->
-  <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Bowie.jpg" class="img-fluid rounded-circle" alt="Bowie Chuang">
-  <div class="staff-name">Bowie Chuang</div>
-  <p>Website Developer</p>
-  <p>4rd Year - Statistics & Data Science + Economics</p>
-  <div class="fun-fact">Fun fact: Really scared of spiders 🕷️</div>
-  </div>
-
   <!-- Joyce De Quiros -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Joyce.jpg" class="img-fluid rounded-circle" alt="Joyce De Quiros">
@@ -72,15 +90,6 @@ sidebar: false
   <div class="fun-fact">Fun fact: Favorite word to say is tokneneng 💬</div>
   </div>
 
-  <!-- Evan Jamison -->
-  <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Evan.png" class="img-fluid rounded-circle" alt="Evan Jamison">
-  <div class="staff-name">Evan Jamison</div>
-  <p>Outreach Chair</p>
-  <p>3rd Year - Statistics & Data Science</p>
-  <div class="fun-fact">Fun fact: Has over 3k hours in Rocket League 🎮</div>
-  </div>
-
     <!-- Christopher Santiago -->
   <div class="staff-card text-center translucent-background">
   <img src="../Images/Staff/2526Staff/Chris.jpg" class="img-fluid rounded-circle" alt="Christopher Santiago">
@@ -88,15 +97,6 @@ sidebar: false
   <p>Outreach Officer</p>
   <p>3rd Year - Statistics & Data Science</p>
   <div class="fun-fact">Fun fact: Loves Rubix cubes 🧠</div>
-  </div>
-
-  <!-- Raymond Vargas -->
-  <div class="staff-card text-center translucent-background">
-  <img src="../Images/Staff/2526Staff/Raymond.jpg" class="img-fluid rounded-circle" alt="Raymond Vargas">
-  <div class="staff-name">Raymond Vargas</div>
-  <p>Events Chair</p>
-  <p>3rd Year - History</p>
-  <div class="fun-fact">Fun fact: Is a sl*t for citrus 🍋</div>
   </div>
 
   <!-- Heidi Weng -->
