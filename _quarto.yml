@@ -19,7 +19,11 @@ website:
         text: Meetings
       - href: Pages/blog2526.qmd
         text: Blog
-      - sidebar:about
+      - href: Pages/officers.qmd
+        text: Officers
+      - href: Pages/about.qmd
+        text: About
+        
   sidebar:
     - title: "Meetings"
       style: "docked"
