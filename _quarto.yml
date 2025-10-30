@@ -48,12 +48,6 @@ website:
         - Pages/projects2425.qmd
         - Pages/projects2324.qmd
         - Pages/projects2223.qmd
-    
-    - title: "Officers"
-      href: Pages/officers.qmd
-
-    - title: "About"
-      href: Pages/about.qmd
 
   favicon: "Images/Logos_Icons/main_logo3.png"
   page-footer: "Site Originally Designed by Ethan Marzban using Quarto; ©2023"
