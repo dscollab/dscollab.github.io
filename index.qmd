@@ -44,21 +44,27 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="Images/Mainpage_Slideshow/socializing.jpg" style="width:100%">
-  <div class="text">A photo from our 2023-2024 Final Project Showcase</div>
+  <div class="numbertext">1 / 4</div>
+  <img src="Images/Mainpage_Slideshow/workshop.jpg" style="width:100%">
+  <div class="text">Intro to Data Analysis Workshop</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="Images/Mainpage_Slideshow/studyjam2.jpeg" style="width:100%">
-  <div class="text">DSCollab Study Session!</div>
+  <div class="numbertext">2 / 4</div>
+  <img src="Images/Mainpage_Slideshow/social.jpg" style="width:100%">
+  <div class="text">Pumpkin Painting Social!</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="Images/Mainpage_Slideshow/staffbonding.jpg" style="width:100%">
-  <div class="text">Staff Bonding!</div>
+  <div class="numbertext">3 / 4</div>
+  <img src="Images/Mainpage_Slideshow/resume.jpg" style="width:100%">
+  <div class="text">Resume Workshop w/ AppleOne</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Images/Mainpage_Slideshow/2425staff.jpg" style="width:100%">
+  <div class="text">2024-25 Staff Picture!</div>
 </div>
 
 </div>
