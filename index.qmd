@@ -73,6 +73,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 <div style="text-align:center">
   <span class="dot"></span> 
   <span class="dot"></span> 
+  <span class="dot"></span>
   <span class="dot"></span> 
 </div>
 
