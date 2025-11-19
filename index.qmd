@@ -95,7 +95,7 @@ At the Data Science Collaborative (DS Collab for short), our goal is to make dat
 
 | Event  | Date/Time  | Location |
 |--------|------------|----------|
-| TBA | TBA | TBA |
+| Data4Dummies - Data Cleaning | Nov.19 Wed / 7-8pm | African Diasporic Resource Center |
 
 <!-- Event Name, Sept. 9th, 2025 / 13:00-15:00, On Zoom>
 
