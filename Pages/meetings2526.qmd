@@ -30,10 +30,21 @@ title: "2025-2026 Meetings"
 </details>
 <!--- Data 4 Dummies #4 ---> <!--- I don't know where #3 is--->
 <details>
-  <summary> <p> Intro to ML (01/22/26) </p> </summary>
+  <summary> <p> Data Cleaning (11/19/25) </p> </summary>
   - Slides: <a href="https://docs.google.com/presentation/d/1uUrpj6d4KFhGeSovW1wYBMnA5JDUtkQr/edit?slide=id.g385c68bc2bb_1_57#slide=id.g385c68bc2bb_1_57" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
-  - Worksheet:[TBD]</a> (Click to download) <br>
-  <!--- <a href="../Files/Workshops_25_26/DUMMIES2/NumPyPandas.ipynb" download="DataAnalysis.ipynb" target="_blank"> --->
+  - Worksheet: <a href="https://colab.research.google.com/drive/1ILhDoNIJvMF7oyJlHr_01fW3GqzOIlpv" download="DataCleaning.ipynb" target="_blank">[DataCleaning.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="https://colab.research.google.com/drive/1BO_UvJy3QXHew09stq7CPzEIZa_A4HGG" target="_blank">[DataCleaningAnswers.ipynb]</a> (Click to download) <br>
 </details>
+<!--- Data 4 Dummies #5 --->
+<details>
+  <summary> <p> Intro to ML (01/22/26) </p> </summary>
+  - Slides: <a href="../Files/Workshops_25_26/IntroToML/IntroToML.pptx" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
+  - Worksheet: <a href="https://colab.research.google.com/drive/1sgB2HCWNSvHJ6h_yu4yBwWSH90zU7XwV" download="DataCleaning.ipynb" target="_blank">[IntroToML.ipynb]</a> (Click to download) <br>
+  - Answer Key: <a href="https://colab.research.google.com/drive/1ZkKiYohmZlP-_71bPZRvlytejn4wDYww?usp=sharing" download="DataCleaningAnswers.ipynb" target="_blank">[IntroToMLAnswers.ipynb]</a> (Click to download) <br>
+</details>
+<!--- Data 4 Dummies #6 --->
+<details>
+  <summary> <p> Data Cleaning (02/05/26) </p> </summary>
+  - Slides: <a href="../Files/Workshops_25_26/ML_Algorithms/ML_Algorithms.pptx" target="_blank">[Click Here]</a> (Opens in a New Tab) <br>
 
-
+</details>
